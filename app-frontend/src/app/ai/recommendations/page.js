@@ -1,5 +1,5 @@
-"use client"
-import { useState } from "react";
+"use client";
+import { useState, useEffect } from "react";
 import AppLayout from "@/components/AppLayout";
 import { fetchApi } from "@/lib/api";
 import { Loader2, Search, BrainCircuit, Sparkles } from "lucide-react";
@@ -8,16 +8,43 @@ export default function AIRecommendations() {
   const [loading, setLoading] = useState(false);
   const [results, setResults] = useState([]);
   const [error, setError] = useState("");
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const [formData, setFormData] = useState({
-    genres: "Jazz, Soul",
+    genres: ["Jazz", "Soul"],
     location: "London",
     top_n: 6,
   });
 
+  const availableGenres = [
+    'Acoustic', 'Blues', 'Classical', 'Country', 'Electronic', 
+    'Folk', 'Funk', 'Hip Hop', 'Indie', 'Jazz', 'Latin', 
+    'Metal', 'Pop', 'Punk', 'R&B', 'Reggae', 'Rock', 'Soul'
+  ];
+
   const handleChange = (e) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
+
+  const toggleGenre = (genre) => {
+    setFormData(prev => {
+      const genres = prev.genres.includes(genre)
+        ? prev.genres.filter(g => g !== genre)
+        : [...prev.genres, genre];
+      return { ...prev, genres };
+    });
+  };
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (isDropdownOpen && !event.target.closest('.multi-select-container')) {
+        setIsDropdownOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [isDropdownOpen]);
 
   const handleSearch = async (e) => {
     e.preventDefault();
@@ -25,7 +52,11 @@ export default function AIRecommendations() {
     setError("");
 
     try {
-      const qs = new URLSearchParams(formData).toString();
+      const payload = {
+        ...formData,
+        genres: formData.genres.join(", ")
+      };
+      const qs = new URLSearchParams(payload).toString();
       const data = await fetchApi(`/ai/recommendations?${qs}`);
       setResults(data);
     } catch (err) {
@@ -48,20 +79,50 @@ export default function AIRecommendations() {
         </div>
 
         <div className="glass-card animate-fade-in" style={{ marginBottom: '40px', padding: '20px' }}>
-          <form onSubmit={handleSearch} style={{ display: 'flex', gap: '16px', alignItems: 'flex-end' }}>
-            <div className="form-group" style={{ marginBottom: 0, flex: 2 }}>
-              <label className="form-label">Musical Needs (Genres, Style, Vibe)</label>
-              <input 
-                type="text" 
-                name="genres" 
-                value={formData.genres} 
-                onChange={handleChange} 
-                className="form-input" 
-                placeholder="e.g. Upbeat pop band for dancing"
-              />
+          <form onSubmit={handleSearch} style={{ display: 'flex', gap: '16px', alignItems: 'flex-end', flexWrap: 'wrap' }}>
+            
+            <div className="form-group" style={{ marginBottom: 0, flex: '2 1 400px' }}>
+              <label className="form-label">Musical Genres</label>
+              <div className="multi-select-container">
+                <div 
+                  className="selected-genres" 
+                  onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                >
+                  {formData.genres.length === 0 ? (
+                    <span className="text-muted" style={{ fontSize: '14px' }}>Select genres...</span>
+                  ) : (
+                    formData.genres.map(genre => (
+                      <span key={genre} className="genre-pill">
+                        {genre}
+                        <button 
+                          type="button" 
+                          onClick={(e) => { e.stopPropagation(); toggleGenre(genre); }}
+                        >
+                          ×
+                        </button>
+                      </span>
+                    ))
+                  )}
+                </div>
+
+                {isDropdownOpen && (
+                  <div className="genre-dropdown glass-card animate-fade-in" style={{ padding: '8px' }}>
+                    {availableGenres.map(genre => (
+                      <div 
+                        key={genre} 
+                        className={`genre-option ${formData.genres.includes(genre) ? 'selected' : ''}`}
+                        onClick={() => toggleGenre(genre)}
+                      >
+                        {genre}
+                        {formData.genres.includes(genre) && <Sparkles size={12} />}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
             </div>
             
-            <div className="form-group" style={{ marginBottom: 0, flex: 1 }}>
+            <div className="form-group" style={{ marginBottom: 0, flex: '1 1 200px' }}>
               <label className="form-label">Location</label>
               <input 
                 type="text" 
@@ -73,7 +134,7 @@ export default function AIRecommendations() {
               />
             </div>
 
-            <button type="submit" disabled={loading} className="btn btn-primary" style={{ height: '45px', padding: '0 30px' }}>
+            <button type="submit" disabled={loading} className="btn btn-primary" style={{ height: '45px', padding: '0 30px', minWidth: '140px' }}>
               {loading ? <Loader2 className="animate-spin" /> : <><Search size={18} style={{ marginRight: '8px' }}/> Search</>}
             </button>
           </form>
