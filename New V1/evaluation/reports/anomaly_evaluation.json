@@ -1,0 +1,15 @@
+{
+  "total_reviews": 600,
+  "flagged_anomalies": 48,
+  "normal_reviews": 552,
+  "flagged_pct": 8.0,
+  "avg_anomaly_score": 0.1298,
+  "anom_score_mean": -0.0343,
+  "normal_score_mean": 0.144,
+  "vs_synthetic_gt": {
+    "precision": 0.4583,
+    "recall": 0.5946,
+    "f1": 0.5176,
+    "roc_auc": 0.9582
+  }
+}

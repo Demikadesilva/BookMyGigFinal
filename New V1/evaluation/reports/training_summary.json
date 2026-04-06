@@ -1,0 +1,140 @@
+{
+  "completed_at": "2026-04-05T16:03:24.328715",
+  "total_time_s": 12.5,
+  "results": {
+    "cleaning": {
+      "musicians": "    Musician_ID          Musician_Name Musician_Type  ... Years_Experience Base_Price Social_Links\n0          M001    The Electric Echoes       Quartet  ...                5        630         True\n1          M002          Sean Williams          Solo  ...               20        590         True\n2          M003         Lucas & Rachel           Duo  ...               23       1400         True\n3          M004       The Royal Dreams          Band  ...               12       1160         True\n4          M005  The Electric Ensemble          Trio  ...               20       1600         True\n..          ...                    ...           ...  ...              ...        ...          ...\n495        M496     The Burning Dreams          Band  ...                8        860         True\n496        M497  The Scarlet Orchestra          Trio  ...               22       1710         True\n497        M498         The Neon Waves       Quartet  ...                3        560         True\n498        M499         Sophie Johnson          Solo  ...                7        230         True\n499        M500     The Arctic Revival          Band  ...                1        220         True\n\n[500 rows x 9 columns]",
+      "clients": "    Client_ID            Client_Name    Client_Type                          Client_Contact\n0        C001              The Manor          Venue                    bookings@manor.co.uk\n1        C002            The Terrace          Venue                  bookings@terrace.co.uk\n2        C003     Megan Adams Events  Event Planner        megan.adams.events@hotmail.co.uk\n3        C004          The Palladium          Venue                bookings@palladium.co.uk\n4        C005          The Warehouse          Venue                bookings@warehouse.co.uk\n..        ...                    ...            ...                                     ...\n295      C296          Sophie Morris     Individual               sophie.morris@gmail.co.uk\n296      C297   Williams & Evans Ltd      Corporate              events@williamsevans.co.uk\n297      C298  Mitchell & Lawson Ltd      Corporate             events@mitchelllawson.co.uk\n298      C299  Olivia Roberts Events  Event Planner  olivia.roberts.events@freemail.com.com\n299      C300              The Forum          Venue                    bookings@forum.co.uk\n\n[300 rows x 4 columns]",
+      "events": "    Event_ID Client_ID         City         Date_Time  Expected_Pax       Event_Type  Budget\n0       E001      C063    Liverpool  2026-02-14 21:00           445     Charity Gala   11200\n1       E002      C220       Oxford  2025-10-27 18:00           489          Concert    9950\n2       E003      C078  Southampton  2025-11-25 20:30           552          Wedding   21700\n3       E004      C177      Belfast  2024-12-05 22:30           328          Pub Gig    1250\n4       E005      C156       Oxford  2025-02-28 20:00           133  University Ball    2350\n..       ...       ...          ...               ...           ...              ...     ...\n795     E796      C069    Cambridge  2026-04-10 19:30           167      Bar Mitzvah    6750\n796     E797      C278    Cambridge  2026-03-18 19:00           585          Wedding   12900\n797     E798      C232    Liverpool  2025-04-16 19:30           546     Charity Gala   15850\n798     E799      C106    Leicester  2024-09-29 21:00           179          Wedding    7000\n799     E800      C291      Reading  2024-11-18 14:00           416  University Ball    8950\n\n[800 rows x 7 columns]",
+      "bookings": "    Booking_ID Musician_ID Client_ID Event_ID         Date_Time  Duration  Price_Charged  Rating\n0         B001        M385      C285     E493  2025-08-25 16:30         2           5380       5\n1         B002        M150      C262     E230  2025-10-04 18:30         4          17320       5\n2         B003        M449      C024     E623  2025-04-25 17:30         2           1360       4\n3         B004        M243      C212     E336  2025-12-09 21:00         5          18600       5\n4         B005        M183      C229     E196  2026-01-21 22:30         1           1040       4\n..         ...         ...       ...      ...               ...       ...            ...     ...\n595       B596        M199      C245     E622  2025-07-18 13:00         4           6680       5\n596       B597        M288      C012     E457  2024-10-17 20:30         4          13140       3\n597       B598        M034      C248     E517  2025-01-02 14:30         3           2200       5\n598       B599        M183      C052     E170  2024-07-17 21:00         3           2570       5\n599       B600        M377      C265     E690  2026-02-02 13:30         4           3370       5\n\n[600 rows x 8 columns]",
+      "reviews": "    Review_ID Booking_ID                                        Review_Text  Rating  Created_At\n0        R001       B001  Fantastic night! They interacted warmly with g...       5  2025-09-01\n1        R002       B002  Perfect in every way. Every single technical e...       5  2025-10-06\n2        R003       B003  Very impressed overall. The lighting rig they ...       4  2025-05-01\n3        R004       B004  Wow. Just wow. The vocalist has an exceptional...       5  2025-12-23\n4        R005       B005  Good performance and good attitude. Incredibly...       4  2026-02-04\n..        ...        ...                                                ...     ...         ...\n595      R596       B596  Wow. Just wow. They interacted warmly with gue...       5  2025-07-23\n596      R597       B597  Average overall. Communication before the even...       3  2024-10-21\n597      R598       B598  They interacted warmly with guests of all ages...       5  2025-01-15\n598      R599       B599  Ignored our pre-agreed setlist and played enti...       5  2024-07-24\n599      R600       B600  Outstanding! We were blown away by how well th...       5  2026-02-16\n\n[600 rows x 5 columns]",
+      "social": "     Musician_ID   Platform  Followers  Likes   Views Date_Collected\n0           M236    YouTube      10338  13878  453979     2026-03-01\n1           M113     TikTok       2197   4644   23998     2026-03-01\n2           M118  Instagram        266    123    6850     2026-03-01\n3           M117    YouTube       7328   7788  320120     2026-03-01\n4           M117     TikTok      19223  38328  460810     2026-03-01\n...          ...        ...        ...    ...     ...            ...\n1495        M129    YouTube        213    305    3014     2025-06-01\n1496        M141  Instagram       2712   5062   55902     2025-06-01\n1497        M407    YouTube       4518   8140   96147     2025-06-01\n1498        M407     TikTok      12494   9185  641669     2025-06-01\n1499        M309    YouTube       6879   4350  262589     2025-06-01\n\n[1500 rows x 6 columns]"
+    },
+    "validation": "ValidationReport(generated_at='2026-04-05T16:03:11.981718', tables=[TableValidationResult(table_name='musicians', row_count=500, column_count=9, issues=[], score=100.0), TableValidationResult(table_name='clients', row_count=300, column_count=4, issues=[], score=100.0), TableValidationResult(table_name='events', row_count=800, column_count=7, issues=[], score=100.0), TableValidationResult(table_name='bookings', row_count=600, column_count=8, issues=[], score=100.0), TableValidationResult(table_name='reviews', row_count=600, column_count=5, issues=[], score=100.0), TableValidationResult(table_name='social_media_metrics', row_count=1500, column_count=6, issues=[], score=100.0)])",
+    "sentiment": {
+      "vader_metrics": {
+        "accuracy": 0.8,
+        "classification_report": {
+          "POSITIVE": {
+            "precision": 0.8884381338742393,
+            "recall": 0.8975409836065574,
+            "f1-score": 0.8929663608562691,
+            "support": 488.0
+          },
+          "NEUTRAL": {
+            "precision": 0.375,
+            "recall": 0.19672131147540983,
+            "f1-score": 0.25806451612903225,
+            "support": 61.0
+          },
+          "NEGATIVE": {
+            "precision": 0.4,
+            "recall": 0.5882352941176471,
+            "f1-score": 0.47619047619047616,
+            "support": 51.0
+          },
+          "accuracy": 0.8,
+          "macro avg": {
+            "precision": 0.5544793779580798,
+            "recall": 0.5608325297332049,
+            "f1-score": 0.5424071177252592,
+            "support": 600.0
+          },
+          "weighted avg": {
+            "precision": 0.7947213488843813,
+            "recall": 0.8,
+            "f1-score": 0.792992056445741,
+            "support": 600.0
+          }
+        },
+        "avg_sentiment_score": 0.7968,
+        "sentiment_distribution": {
+          "POSITIVE": 493,
+          "NEGATIVE": 75,
+          "NEUTRAL": 32
+        }
+      },
+      "bert_metrics": {
+        "accuracy": 0.824,
+        "classification_report": {
+          "POSITIVE": {
+            "precision": 0.9207920792079208,
+            "recall": 0.9253731343283582,
+            "f1-score": 0.9230769230769231,
+            "support": 402.0
+          },
+          "NEUTRAL": {
+            "precision": 0.3333333333333333,
+            "recall": 0.03636363636363636,
+            "f1-score": 0.06557377049180328,
+            "support": 55.0
+          },
+          "NEGATIVE": {
+            "precision": 0.4222222222222222,
+            "recall": 0.8837209302325582,
+            "f1-score": 0.5714285714285714,
+            "support": 43.0
+          },
+          "accuracy": 0.824,
+          "macro avg": {
+            "precision": 0.5587825449211589,
+            "recall": 0.6151525669748509,
+            "f1-score": 0.520026421665766,
+            "support": 500.0
+          },
+          "weighted avg": {
+            "precision": 0.8132946094609461,
+            "recall": 0.824,
+            "f1-score": 0.7985098180508017,
+            "support": 500.0
+          }
+        },
+        "avg_sentiment_score": 0.8051,
+        "sentiment_distribution": {
+          "POSITIVE": 404,
+          "NEGATIVE": 90,
+          "NEUTRAL": 6
+        }
+      },
+      "use_bert": true,
+      "total_reviews": 600,
+      "sentiment_dist": {
+        "POSITIVE": 493,
+        "NEGATIVE": 75,
+        "NEUTRAL": 32
+      }
+    },
+    "anomaly": {
+      "total_reviews": 600,
+      "flagged_anomalies": 48,
+      "flagged_pct": 8.0,
+      "avg_anomaly_score": 0.1298
+    },
+    "recommendation": {
+      "precision_at_10": 0.032,
+      "recall_at_10": 0.32,
+      "evaluated_clients": 50
+    },
+    "pricing": {
+      "linear_regression": {
+        "model": "linear_regression",
+        "RMSE": 2228.43,
+        "MAE": 1754.03,
+        "R2": 0.7807
+      },
+      "lightgbm": {
+        "model": "lightgbm",
+        "RMSE": 2156.76,
+        "MAE": 1601.55,
+        "R2": 0.7946
+      }
+    },
+    "demand": {
+      "rmse": 1.116,
+      "mae": 0.896,
+      "r2": 0.7507,
+      "cv_rmse_mean": 2.347,
+      "cv_rmse_std": 0.662
+    }
+  }
+}

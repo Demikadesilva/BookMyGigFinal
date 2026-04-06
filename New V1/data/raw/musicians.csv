@@ -1,0 +1,501 @@
+Musician_ID,Musician_Name,Musician_Type,Musician_Contact,Location,Genres,Years_Experience,Base_Price,Social_Links
+M001,The Electric Echoes,Quartet,booking@theelectricechoes.co.uk,Reading,Classical,5,630,True
+M002,Sean Williams,Solo,booking@seanwilliams.co.uk,Reading,Electronic,20,590,True
+M003,Lucas & Rachel,Duo,booking@lucasrachel.co.uk,Birmingham,"Indie, Country",23,1400,True
+M004,The Royal Dreams,Band,booking@theroyaldreams.co.uk,Cambridge,Rock,12,1160,True
+M005,The Electric Ensemble,Trio,booking@theelectricensemble.co.uk,Glasgow,Blues,20,1600,True
+M006,Dylan Clark,Solo,booking@dylanclark.co.uk,Sheffield,"Soul, Funk, Pop",15,630,True
+M007,The Thunder Lights,Band,booking@thethunderlights.co.uk,Reading,"Folk, R&B",6,760,True
+M008,The Royal Strings,Band,booking@theroyalstrings.co.uk,Southampton,Pop,13,1250,False
+M009,The Royal Waves,Quartet,booking@theroyalwaves.co.uk,Birmingham,Classical,21,2610,True
+M010,The Burning Circuit,Band,booking@theburningcircuit.co.uk,Birmingham,Funk,13,1300,True
+M011,The Rising Lights,Trio,booking@therisinglights.co.uk,Belfast,"Rock, Jazz",22,1780,True
+M012,Sarah & Zara,Duo,booking@sarahzara.co.uk,Brighton,"Indie, Acoustic, Hip-Hop",0,148,False
+M013,The Ember Junction,Quartet,booking@theemberjunction.co.uk,Bristol,R&B,25,2910,True
+M014,The Ember Union,Quartet,booking@theemberunion.co.uk,Leicester,Classical,25,2900,True
+M015,Sam Carter,Solo,booking@samcarter.co.uk,Southampton,Hip-Hop,10,420,False
+M016,Poppy Phillips,Solo,booking@poppyphillips.co.uk,Reading,"Jazz, Country",5,220,True
+M017,The Thunder Union,Band,booking@thethunderunion.co.uk,Belfast,"Funk, Rock, R&B",23,2050,True
+M018,The Scarlet Revival,Quartet,booking@thescarletrevival.co.uk,London,Classical,8,1030,False
+M019,The Burning Project,Trio,booking@theburningproject.co.uk,Manchester,"Indie, Pop",2,280,False
+M020,DJ Freddie,DJ,booking@djfreddie.co.uk,Southampton,DJ,16,620,True
+M021,The Rising Project,Trio,booking@therisingproject.co.uk,Sheffield,"Funk, Rock",0,135,False
+M022,Hugo & Sarah,Duo,booking@hugosarah.co.uk,Newcastle,"Pop, Acoustic, Reggae",4,250,True
+M023,Nathan Walker,Solo,booking@nathanwalker.co.uk,Glasgow,Reggae,6,330,True
+M024,Olivia & Charlie,Duo,booking@oliviacharlie.co.uk,Nottingham,"Indie, Pop",8,510,True
+M025,The Violet Strings,Band,booking@thevioletstrings.co.uk,Reading,Indie,9,1010,True
+M026,The Rising Beats,Quartet,booking@therisingbeats.co.uk,Manchester,Pop,18,2070,True
+M027,Amy Parker,Solo,booking@amyparker.co.uk,Glasgow,"Folk, Indie, R&B",0,103,False
+M028,The Neon Project,Trio,booking@theneonproject.co.uk,Southampton,"Soul, Blues",20,1460,True
+M029,The Falling Sound,Trio,booking@thefallingsound.co.uk,Cardiff,"Electronic, Acoustic, Hip-Hop",9,850,True
+M030,Tom & Freddie,Duo,booking@tomfreddie.co.uk,Leicester,Rock,0,107,False
+M031,DJ Jessica,DJ,booking@djjessica.co.uk,Cambridge,DJ,8,460,True
+M032,The Midnight Circuit,Trio,booking@themidnightcircuit.co.uk,Bristol,Rock,5,500,True
+M033,The Burning Beats,Quartet,booking@theburningbeats.co.uk,Manchester,"Acoustic, Rock",9,1290,True
+M034,Sean Harris,Solo,booking@seanharris.co.uk,Cambridge,Acoustic,21,740,True
+M035,The Arctic Circuit,Trio,booking@thearcticcircuit.co.uk,Sheffield,Jazz,23,1710,True
+M036,The Arctic Beats,Trio,booking@thearcticbeats.co.uk,Leeds,Hip-Hop,2,340,True
+M037,The Electric Orchestra,Quartet,booking@theelectricorchestra.co.uk,Leeds,Classical,14,1670,True
+M038,The Golden Junction,Band,booking@thegoldenjunction.co.uk,Bristol,Acoustic,14,1320,True
+M039,George & Kate,Duo,booking@georgekate.co.uk,Liverpool,Reggae,8,540,False
+M040,Alex & Priya,Duo,booking@alexpriya.co.uk,Bristol,"R&B, Folk, Acoustic",22,1300,True
+M041,DJ Isabella,DJ,booking@djisabella.co.uk,Sheffield,DJ,2,140,True
+M042,The Royal Junction,Quartet,booking@theroyaljunction.co.uk,Oxford,Classical,13,1570,True
+M043,Ethan Wright,Solo,booking@ethanwright.co.uk,Oxford,"Acoustic, Blues",4,280,True
+M044,DJ Finn,DJ,booking@djfinn.co.uk,Belfast,DJ,7,450,True
+M045,The Golden Society,Quartet,booking@thegoldensociety.co.uk,Cambridge,"Indie, Classical",14,1750,True
+M046,The Crystal Union,Quartet,booking@thecrystalunion.co.uk,Cardiff,Classical,24,2790,True
+M047,The Echoing Sound,Trio,booking@theechoingsound.co.uk,Manchester,Soul,8,680,True
+M048,The Broken Junction,Band,booking@thebrokenjunction.co.uk,London,"Electronic, Hip-Hop, Reggae",13,1240,True
+M049,Sean White,Solo,booking@seanwhite.co.uk,Bristol,Reggae,0,111,False
+M050,Ella & Sarah,Duo,booking@ellasarah.co.uk,Reading,"Acoustic, Country",20,1290,True
+M051,Emma & Kate,Duo,booking@emmakate.co.uk,Brighton,"Soul, Funk",25,1530,True
+M052,Freddie & Aisha,Duo,booking@freddieaisha.co.uk,Leeds,Acoustic,18,970,True
+M053,Mia & Aiden,Duo,booking@miaaiden.co.uk,Oxford,Funk,15,990,False
+M054,Harry & Leon,Duo,booking@harryleon.co.uk,Brighton,"Hip-Hop, Classical",14,840,True
+M055,Anna & Jack,Duo,booking@annajack.co.uk,Reading,"Country, Hip-Hop",15,840,True
+M056,Oscar Cook,Solo,booking@oscarcook.co.uk,Brighton,"Indie, Pop",5,400,True
+M057,Sam & Aiden,Duo,booking@samaiden.co.uk,Glasgow,"Acoustic, Country",9,690,True
+M058,Harry & Charlie,Duo,booking@harrycharlie.co.uk,London,"Hip-Hop, Rock, Acoustic",0,85,False
+M059,The Crystal Echoes,Band,booking@thecrystalechoes.co.uk,Brighton,"Soul, Jazz",4,470,True
+M060,DJ Hannah,DJ,booking@djhannah.co.uk,Edinburgh,DJ,23,790,True
+M061,DJ Sophie,DJ,booking@djsophie.co.uk,Liverpool,DJ,19,800,True
+M062,Nathan Evans,Solo,booking@nathanevans.co.uk,Oxford,"Blues, Funk",4,150,True
+M063,The Scarlet Lights,Quartet,booking@thescarletlights.co.uk,Sheffield,Classical,14,1840,True
+M064,The Broken Beats,Quartet,booking@thebrokenbeats.co.uk,Reading,Classical,21,2510,True
+M065,Sarah & Callum,Duo,booking@sarahcallum.co.uk,Leeds,"R&B, Folk, Funk",3,310,True
+M066,Leon & Jordan,Duo,booking@leonjordan.co.uk,Newcastle,Acoustic,7,550,True
+M067,DJ Priya,DJ,booking@djpriya.co.uk,Oxford,DJ,7,280,True
+M068,Ryan & Kate,Duo,booking@ryankate.co.uk,Leeds,"Gospel, Soul",3,320,True
+M069,DJ Jamie,DJ,booking@djjamie.co.uk,Cambridge,"DJ, Electronic",14,620,True
+M070,DJ Diana,DJ,booking@djdiana.co.uk,Reading,"DJ, Electronic",7,400,True
+M071,The Golden Waves,Quartet,booking@thegoldenwaves.co.uk,Cardiff,"Blues, Pop",10,1260,True
+M072,Jessica Harris,Solo,booking@jessicaharris.co.uk,Nottingham,Pop,23,730,True
+M073,Oliver Reed,Solo,booking@oliverreed.co.uk,Nottingham,Gospel,6,210,True
+M074,Alfie Turner,Solo,booking@alfieturner.co.uk,Leeds,"Pop, Jazz",19,710,True
+M075,Rory Bailey,Solo,booking@rorybailey.co.uk,Southampton,"Soul, Country",15,670,True
+M076,Diana & Jacob,Duo,booking@dianajacob.co.uk,Edinburgh,"Rock, Country",7,510,True
+M077,The Golden Circuit,Band,booking@thegoldencircuit.co.uk,Leeds,Indie,23,2190,True
+M078,DJ Aisha,DJ,booking@djaisha.co.uk,Southampton,DJ,22,820,True
+M079,The Crystal Junction,Quartet,booking@thecrystaljunction.co.uk,Cardiff,Classical,5,620,False
+M080,The Dancing Collective,Trio,booking@thedancingcollective.co.uk,Nottingham,"Reggae, Hip-Hop",13,1070,True
+M081,Poppy & Noah,Duo,booking@poppynoah.co.uk,Southampton,"Acoustic, Blues, Classical",0,109,False
+M082,The Midnight Band,Trio,booking@themidnightband.co.uk,Southampton,"Folk, Soul",15,1210,True
+M083,Anna & Emily,Duo,booking@annaemily.co.uk,Nottingham,"Funk, Folk",4,300,True
+M084,DJ George,DJ,booking@djgeorge.co.uk,Belfast,"DJ, Electronic",11,420,True
+M085,The Velvet Waves,Trio,booking@thevelvetwaves.co.uk,Birmingham,"Gospel, Acoustic",2,260,True
+M086,DJ Megan,DJ,booking@djmegan.co.uk,Cardiff,DJ,1,170,True
+M087,The Arctic Lights,Trio,booking@thearcticlights.co.uk,Cardiff,Rock,4,380,True
+M088,The Thunder Junction,Trio,booking@thethunderjunction.co.uk,Leicester,"Gospel, Rock, Soul",13,1030,True
+M089,The Silver Lights,Quartet,booking@thesilverlights.co.uk,Cardiff,"Funk, Folk",17,2060,True
+M090,The Ember Society,Quartet,booking@theembersociety.co.uk,Sheffield,Classical,5,810,True
+M091,DJ Leon,DJ,booking@djleon.co.uk,Leeds,"DJ, Electronic",7,360,True
+M092,Noah & Tom,Duo,booking@noahtom.co.uk,Manchester,"Country, Electronic",21,1160,True
+M093,The Falling Society,Band,booking@thefallingsociety.co.uk,Cambridge,Rock,15,1330,True
+M094,Grace Hill,Solo,booking@gracehill.co.uk,Belfast,"Classical, Pop, Soul",9,440,True
+M095,The Neon Sound,Quartet,booking@theneonsound.co.uk,Nottingham,Classical,13,1640,True
+M096,The Velvet Lights,Trio,booking@thevelvetlights.co.uk,Bristol,Blues,24,1750,True
+M097,The Electric Revival,Quartet,booking@theelectricrevival.co.uk,Cardiff,Indie,0,87,False
+M098,DJ Callum,DJ,booking@djcallum.co.uk,Glasgow,"DJ, Electronic",19,700,True
+M099,The Violet Project,Trio,booking@thevioletproject.co.uk,London,"Classical, Rock",9,880,True
+M100,Aisha & Emma,Duo,booking@aishaemma.co.uk,Cambridge,Hip-Hop,10,740,True
+M101,DJ Ethan,DJ,booking@djethan.co.uk,Sheffield,DJ,4,260,True
+M102,The Ember Collective,Trio,booking@theembercollective.co.uk,Nottingham,Country,19,1380,True
+M103,DJ Dylan,DJ,booking@djdylan.co.uk,Birmingham,DJ,21,760,True
+M104,The Electric Strings,Quartet,booking@theelectricstrings.co.uk,Edinburgh,"Hip-Hop, Gospel",10,1310,True
+M105,The Silver Circuit,Band,booking@thesilvercircuit.co.uk,Nottingham,"Hip-Hop, R&B, Reggae",6,660,True
+M106,DJ Jordan,DJ,booking@djjordan.co.uk,Leeds,DJ,3,180,True
+M107,The Violet Circuit,Quartet,booking@thevioletcircuit.co.uk,Cambridge,Classical,1,270,True
+M108,DJ Leah,DJ,booking@djleah.co.uk,Nottingham,DJ,12,440,True
+M109,Sam Bell,Solo,booking@sambell.co.uk,Bristol,Jazz,15,590,True
+M110,The Velvet Strings,Band,booking@thevelvetstrings.co.uk,Reading,Gospel,0,110,False
+M111,The Violet Revival,Band,booking@thevioletrevival.co.uk,Nottingham,"Funk, Blues",5,650,True
+M112,The Arctic Band,Trio,booking@thearcticband.co.uk,Bristol,Hip-Hop,15,1190,True
+M113,The Scarlet Circuit,Quartet,booking@thescarletcircuit.co.uk,Bristol,Classical,2,450,True
+M114,Emily & Aiden,Duo,booking@emilyaiden.co.uk,Liverpool,"Indie, Gospel",8,490,True
+M115,Mason Cook,Solo,booking@masoncook.co.uk,Birmingham,Soul,5,160,True
+M116,The Burning Band,Band,booking@theburningband.co.uk,Leeds,"Rock, Acoustic",5,450,True
+M117,The Royal Echoes,Trio,booking@theroyalechoes.co.uk,Nottingham,Pop,14,1060,True
+M118,Casey & Sophie,Duo,booking@caseysophie.co.uk,Cardiff,"Soul, Blues",0,146,False
+M119,Jack & Jacob,Duo,booking@jackjacob.co.uk,Glasgow,"Country, Electronic, Acoustic",0,136,False
+M120,Sam Bailey,Solo,booking@sambailey.co.uk,York,Classical,21,770,True
+M121,The Ember Revival,Trio,booking@theemberrevival.co.uk,Leeds,"Funk, Pop",4,410,True
+M122,Jordan & Laura,Duo,booking@jordanlaura.co.uk,Birmingham,"Rock, Folk",22,1260,True
+M123,The Neon Lights,Quartet,booking@theneonlights.co.uk,Reading,Hip-Hop,18,2070,True
+M124,The Arctic Orchestra,Trio,booking@thearcticorchestra.co.uk,York,"Funk, Gospel, Hip-Hop",0,116,False
+M125,DJ Taylor,DJ,booking@djtaylor.co.uk,Bristol,"DJ, Electronic",5,420,True
+M126,DJ Lily,DJ,booking@djlily.co.uk,Brighton,DJ,14,460,True
+M127,Chloe Harris,Solo,booking@chloeharris.co.uk,Southampton,"Blues, Reggae",1,140,True
+M128,The Violet Lights,Quartet,booking@thevioletlights.co.uk,Newcastle,"Indie, Pop",7,1000,True
+M129,The Scarlet Collective,Band,booking@thescarletcollective.co.uk,York,"Jazz, Reggae",0,100,False
+M130,Poppy Harris,Solo,booking@poppyharris.co.uk,Leicester,"Funk, Soul",14,550,True
+M131,Morgan Green,Solo,booking@morgangreen.co.uk,York,Gospel,10,320,True
+M132,James Robinson,Solo,booking@jamesrobinson.co.uk,Bristol,Electronic,25,850,True
+M133,Beth Campbell,Solo,booking@bethcampbell.co.uk,Sheffield,"Classical, Electronic",8,500,True
+M134,Oscar Campbell,Solo,booking@oscarcampbell.co.uk,Southampton,Indie,3,260,True
+M135,Rory & Sofia,Duo,booking@rorysofia.co.uk,Sheffield,Indie,6,560,True
+M136,Callum Evans,Solo,booking@callumevans.co.uk,Leeds,Country,13,540,True
+M137,DJ Liam,DJ,booking@djliam.co.uk,Birmingham,DJ,24,830,True
+M138,DJ Mia,DJ,booking@djmia.co.uk,Southampton,DJ,6,460,True
+M139,The Broken Society,Trio,booking@thebrokensociety.co.uk,Nottingham,"Acoustic, Funk",11,870,True
+M140,Clara & Priya,Duo,booking@clarapriya.co.uk,Cambridge,"Hip-Hop, R&B",0,139,False
+M141,Jacob Wright,Solo,booking@jacobwright.co.uk,Southampton,"Jazz, Acoustic, Funk",3,360,True
+M142,The Velvet Revival,Trio,booking@thevelvetrevival.co.uk,Newcastle,"Electronic, Folk, Blues",5,400,True
+M143,The Neon Union,Quartet,booking@theneonunion.co.uk,Cambridge,Classical,0,136,False
+M144,The Falling Souls,Trio,booking@thefallingsouls.co.uk,Newcastle,"Blues, Electronic",11,820,True
+M145,Alex Evans,Solo,booking@alexevans.co.uk,Southampton,"Country, Classical",22,710,True
+M146,The Silver Orchestra,Quartet,booking@thesilverorchestra.co.uk,Newcastle,"Country, Jazz",3,510,True
+M147,The Falling Lights,Band,booking@thefallinglights.co.uk,Liverpool,"Funk, R&B",12,1190,True
+M148,DJ Anna,DJ,booking@djanna.co.uk,Bristol,"DJ, Electronic",5,210,True
+M149,The Burning Union,Trio,booking@theburningunion.co.uk,Birmingham,Acoustic,20,1490,True
+M150,The Golden Souls,Band,booking@thegoldensouls.co.uk,York,"Pop, Electronic",24,2160,True
+M151,DJ Rachel,DJ,booking@djrachel.co.uk,Southampton,"DJ, Electronic",16,610,True
+M152,Sarah & Aisha,Duo,booking@sarahaisha.co.uk,Manchester,"Funk, Jazz",20,1100,True
+M153,The Rising Orchestra,Quartet,booking@therisingorchestra.co.uk,Bristol,Classical,0,146,False
+M154,DJ Poppy,DJ,booking@djpoppy.co.uk,Glasgow,DJ,17,620,True
+M155,The Broken Orchestra,Band,booking@thebrokenorchestra.co.uk,Sheffield,"Funk, Indie, Electronic",8,890,True
+M156,The Midnight Sound,Band,booking@themidnightsound.co.uk,Birmingham,"Acoustic, Country, Jazz",10,1100,True
+M157,The Rising Revival,Quartet,booking@therisingrevival.co.uk,Birmingham,Classical,1,260,True
+M158,The Echoing Union,Trio,booking@theechoingunion.co.uk,York,"Blues, Rock",2,280,True
+M159,Alfie & Lily,Duo,booking@alfielily.co.uk,Southampton,"Gospel, Blues, R&B",0,145,False
+M160,The Silver Collective,Band,booking@thesilvercollective.co.uk,Sheffield,"Hip-Hop, Rock",6,570,True
+M161,Harry Mitchell,Solo,booking@harrymitchell.co.uk,Glasgow,"Pop, Acoustic, Electronic",9,280,True
+M162,DJ Ryan,DJ,booking@djryan.co.uk,Sheffield,DJ,25,960,True
+M163,The Royal Souls,Trio,booking@theroyalsouls.co.uk,Cambridge,"Reggae, Hip-Hop, Soul",5,400,True
+M164,Sofia Walker,Solo,booking@sofiawalker.co.uk,Reading,Electronic,11,490,True
+M165,Zara & George,Duo,booking@zarageorge.co.uk,Newcastle,"Electronic, Classical",25,1300,True
+M166,DJ Amelia,DJ,booking@djamelia.co.uk,Belfast,DJ,13,640,True
+M167,DJ Chloe,DJ,booking@djchloe.co.uk,Oxford,"DJ, Electronic",17,680,True
+M168,Callum Bailey,Solo,booking@callumbailey.co.uk,Cardiff,"Folk, R&B, Classical",3,270,True
+M169,Sean & Hannah,Duo,booking@seanhannah.co.uk,York,"Hip-Hop, Soul",0,125,False
+M170,Priya & Jacob,Duo,booking@priyajacob.co.uk,Birmingham,Country,24,1310,True
+M171,The Broken Strings,Trio,booking@thebrokenstrings.co.uk,Southampton,Soul,12,1040,True
+M172,Mia Cox,Solo,booking@miacox.co.uk,Belfast,"Hip-Hop, Folk",3,170,True
+M173,DJ Nathan,DJ,booking@djnathan.co.uk,Nottingham,DJ,0,103,False
+M174,The Electric Band,Trio,booking@theelectricband.co.uk,Birmingham,"Reggae, Rock",10,970,True
+M175,Rachel Lewis,Solo,booking@rachellewis.co.uk,Reading,"Reggae, Pop, Country",11,500,True
+M176,The Scarlet Union,Trio,booking@thescarletunion.co.uk,Reading,Electronic,8,830,False
+M177,The Echoing Lights,Trio,booking@theechoinglights.co.uk,Oxford,Country,24,1940,True
+M178,The Neon Beats,Trio,booking@theneonbeats.co.uk,Reading,"Jazz, Soul, Reggae",12,920,True
+M179,The Dancing Souls,Quartet,booking@thedancingsouls.co.uk,Leicester,Classical,17,1950,True
+M180,The Ember Souls,Band,booking@theembersouls.co.uk,Brighton,Soul,17,1590,True
+M181,The Echoing Circuit,Band,booking@theechoingcircuit.co.uk,York,Folk,19,1690,True
+M182,The Dancing Strings,Quartet,booking@thedancingstrings.co.uk,Southampton,Classical,0,85,False
+M183,DJ Mason,DJ,booking@djmason.co.uk,Reading,DJ,21,680,True
+M184,DJ Clara,DJ,booking@djclara.co.uk,Glasgow,"DJ, Electronic",22,900,True
+M185,The Velvet Souls,Quartet,booking@thevelvetsouls.co.uk,Newcastle,Classical,7,980,True
+M186,The Royal Orchestra,Quartet,booking@theroyalorchestra.co.uk,Cambridge,Classical,12,1420,True
+M187,Naomi Baker,Solo,booking@naomibaker.co.uk,York,Rock,0,129,False
+M188,Nathan & Emma,Duo,booking@nathanemma.co.uk,Cardiff,"Acoustic, Rock, Country",17,1120,True
+M189,Harry & Emily,Duo,booking@harryemily.co.uk,York,"Reggae, Rock, Gospel",2,140,True
+M190,The Rising Collective,Quartet,booking@therisingcollective.co.uk,Sheffield,Classical,14,1660,True
+M191,Casey & Noah,Duo,booking@caseynoah.co.uk,Reading,"Electronic, Folk",3,370,True
+M192,DJ Olivia,DJ,booking@djolivia.co.uk,Liverpool,"DJ, Electronic",11,540,True
+M193,The Falling Ensemble,Trio,booking@thefallingensemble.co.uk,Birmingham,"Pop, Indie",11,1030,True
+M194,The Falling Beats,Trio,booking@thefallingbeats.co.uk,Leicester,Acoustic,20,1570,True
+M195,The Burning Riot,Trio,booking@theburningriot.co.uk,Oxford,"Blues, Soul",12,1030,True
+M196,The Ember Echoes,Trio,booking@theemberechoes.co.uk,Southampton,"R&B, Acoustic",25,1890,True
+M197,Hannah & Leon,Duo,booking@hannahleon.co.uk,Liverpool,Soul,0,94,False
+M198,Megan Hall,Solo,booking@meganhall.co.uk,Manchester,"Funk, Hip-Hop",17,740,True
+M199,The Silver Union,Quartet,booking@thesilverunion.co.uk,Reading,Gospel,11,1340,True
+M200,DJ Amy,DJ,booking@djamy.co.uk,Cardiff,"DJ, Electronic",18,730,True
+M201,DJ Tom,DJ,booking@djtom.co.uk,Southampton,"DJ, Electronic",24,900,True
+M202,The Burning Ensemble,Quartet,booking@theburningensemble.co.uk,Cardiff,Classical,12,1440,True
+M203,The Neon Orchestra,Quartet,booking@theneonorchestra.co.uk,Reading,Classical,24,2950,True
+M204,DJ Naomi,DJ,booking@djnaomi.co.uk,Leicester,"DJ, Electronic",19,730,True
+M205,The Cosmic Strings,Band,booking@thecosmicstrings.co.uk,Reading,Acoustic,4,430,False
+M206,The Arctic Riot,Band,booking@thearcticriot.co.uk,Glasgow,"Electronic, Country",11,1090,True
+M207,The Dancing Project,Quartet,booking@thedancingproject.co.uk,Edinburgh,Classical,2,330,True
+M208,Oscar Carter,Solo,booking@oscarcarter.co.uk,Bristol,Blues,1,200,True
+M209,DJ Laura,DJ,booking@djlaura.co.uk,Cambridge,DJ,16,580,True
+M210,DJ Alex,DJ,booking@djalex.co.uk,Newcastle,"DJ, Electronic",9,390,False
+M211,DJ Sean,DJ,booking@djsean.co.uk,Edinburgh,DJ,0,92,False
+M212,The Rising Sound,Band,booking@therisingsound.co.uk,Cardiff,"Indie, Classical, Electronic",25,2260,True
+M213,The Dancing Echoes,Trio,booking@thedancingechoes.co.uk,Edinburgh,Hip-Hop,2,220,True
+M214,Diana & Amelia,Duo,booking@dianaamelia.co.uk,Cambridge,"Blues, Folk",8,490,True
+M215,The Echoing Orchestra,Quartet,booking@theechoingorchestra.co.uk,York,Classical,16,1920,True
+M216,Rachel Collins,Solo,booking@rachelcollins.co.uk,Reading,"Jazz, Reggae",2,330,True
+M217,The Golden Sound,Band,booking@thegoldensound.co.uk,Leicester,"Reggae, Pop, Acoustic",19,1870,True
+M218,Jacob & Laura,Duo,booking@jacoblaura.co.uk,Cardiff,Funk,2,360,True
+M219,The Midnight Ensemble,Quartet,booking@themidnightensemble.co.uk,Glasgow,Electronic,2,460,True
+M220,The Rising Strings,Trio,booking@therisingstrings.co.uk,Belfast,Folk,25,1980,True
+M221,Leon & Leon,Duo,booking@leonleon.co.uk,Reading,Classical,12,680,True
+M222,Jessica & Lucas,Duo,booking@jessicalucas.co.uk,Leeds,"Indie, Classical, Soul",18,1140,True
+M223,The Silver Band,Band,booking@thesilverband.co.uk,York,Rock,0,133,False
+M224,Ryan Robinson,Solo,booking@ryanrobinson.co.uk,Manchester,Pop,22,660,True
+M225,Megan & Dylan,Duo,booking@megandylan.co.uk,Southampton,"Pop, Jazz",10,640,True
+M226,DJ Sam,DJ,booking@djsam.co.uk,Brighton,"DJ, Electronic",22,810,True
+M227,Isabella Cooper,Solo,booking@isabellacooper.co.uk,Newcastle,"Gospel, Indie",21,800,True
+M228,The Arctic Junction,Quartet,booking@thearcticjunction.co.uk,Manchester,"Gospel, Rock",10,1210,True
+M229,The Silver Ensemble,Trio,booking@thesilverensemble.co.uk,Glasgow,Electronic,3,460,True
+M230,The Crystal Strings,Trio,booking@thecrystalstrings.co.uk,Newcastle,Pop,7,620,True
+M231,DJ Oliver,DJ,booking@djoliver.co.uk,Nottingham,"DJ, Electronic",24,820,True
+M232,The Echoing Waves,Band,booking@theechoingwaves.co.uk,Sheffield,"Soul, R&B",10,1050,True
+M233,DJ Casey,DJ,booking@djcasey.co.uk,Newcastle,DJ,4,380,True
+M234,The Scarlet Sound,Band,booking@thescarletsound.co.uk,Liverpool,"Soul, Hip-Hop",9,990,True
+M235,DJ Beth,DJ,booking@djbeth.co.uk,Nottingham,DJ,11,490,True
+M236,The Golden Orchestra,Quartet,booking@thegoldenorchestra.co.uk,Glasgow,"Gospel, Jazz",18,2070,True
+M237,The Velvet Echoes,Quartet,booking@thevelvetechoes.co.uk,London,Classical,8,950,True
+M238,The Falling Revival,Band,booking@thefallingrevival.co.uk,Leicester,"Gospel, Acoustic",1,310,False
+M239,The Thunder Circuit,Quartet,booking@thethundercircuit.co.uk,Edinburgh,Classical,0,135,False
+M240,Olivia Collins,Solo,booking@oliviacollins.co.uk,Belfast,Electronic,9,450,True
+M241,Jamie Turner,Solo,booking@jamieturner.co.uk,Manchester,"Soul, Hip-Hop",22,680,True
+M242,Finn Mitchell,Solo,booking@finnmitchell.co.uk,Oxford,"Gospel, Indie",23,750,True
+M243,The Royal Society,Quartet,booking@theroyalsociety.co.uk,Southampton,Classical,17,1940,True
+M244,Naomi & Noah,Duo,booking@naominoah.co.uk,Newcastle,"R&B, Reggae, Gospel",2,210,True
+M245,Grace Shaw,Solo,booking@graceshaw.co.uk,Belfast,"Country, Reggae, Pop",19,680,True
+M246,The Burning Sound,Quartet,booking@theburningsound.co.uk,Sheffield,Classical,23,2640,True
+M247,Olivia Green,Solo,booking@oliviagreen.co.uk,Newcastle,Jazz,25,920,True
+M248,Anna White,Solo,booking@annawhite.co.uk,York,"Country, Electronic",19,750,True
+M249,DJ Marcus,DJ,booking@djmarcus.co.uk,Cardiff,"DJ, Electronic",0,80,False
+M250,Casey & Naomi,Duo,booking@caseynaomi.co.uk,Glasgow,Jazz,15,980,True
+M251,DJ Emily,DJ,booking@djemily.co.uk,Belfast,DJ,13,430,True
+M252,Nathan Reed,Solo,booking@nathanreed.co.uk,Glasgow,"Country, Jazz",10,440,True
+M253,The Arctic Collective,Band,booking@thearcticcollective.co.uk,Liverpool,"Jazz, Folk",8,940,True
+M254,Sophie & Ella,Duo,booking@sophieella.co.uk,Newcastle,Country,20,1220,True
+M255,Alex & Callum,Duo,booking@alexcallum.co.uk,Edinburgh,"Classical, Gospel, Folk",23,1280,True
+M256,Tom & Sofia,Duo,booking@tomsofia.co.uk,Belfast,"Gospel, Blues",11,770,True
+M257,DJ Jack,DJ,booking@djjack.co.uk,Cardiff,DJ,23,840,True
+M258,The Neon Junction,Quartet,booking@theneonjunction.co.uk,Birmingham,Classical,10,1260,True
+M259,The Arctic Ensemble,Quartet,booking@thearcticensemble.co.uk,Sheffield,"Gospel, Blues, Electronic",23,2810,True
+M260,The Burning Lights,Quartet,booking@theburninglights.co.uk,Belfast,Hip-Hop,20,2280,True
+M261,DJ Lucas,DJ,booking@djlucas.co.uk,Belfast,DJ,19,720,True
+M262,Mia & Morgan,Duo,booking@miamorgan.co.uk,Birmingham,"Gospel, Pop, Classical",3,230,True
+M263,DJ Morgan,DJ,booking@djmorgan.co.uk,Cardiff,"DJ, Electronic",23,960,True
+M264,Lily Jones,Solo,booking@lilyjones.co.uk,Reading,"Rock, Acoustic, Country",24,820,True
+M265,The Royal Circuit,Band,booking@theroyalcircuit.co.uk,Oxford,"Reggae, Rock",21,1880,True
+M266,Jack & Ethan,Duo,booking@jackethan.co.uk,Liverpool,"Funk, Electronic",0,107,False
+M267,DJ Alfie,DJ,booking@djalfie.co.uk,Liverpool,DJ,18,670,True
+M268,Lily & Leah,Duo,booking@lilyleah.co.uk,Southampton,"Gospel, R&B",11,770,True
+M269,Morgan Scott,Solo,booking@morganscott.co.uk,Newcastle,"Folk, Funk, Acoustic",10,340,True
+M270,Ryan Young,Solo,booking@ryanyoung.co.uk,Birmingham,Hip-Hop,17,690,True
+M271,The Violet Junction,Trio,booking@thevioletjunction.co.uk,Newcastle,Folk,16,1290,True
+M272,Charlie & Taylor,Duo,booking@charlietaylor.co.uk,Oxford,"Gospel, Jazz, Rock",18,1180,True
+M273,The Rising Junction,Quartet,booking@therisingjunction.co.uk,Leeds,Classical,6,730,True
+M274,DJ Noah,DJ,booking@djnoah.co.uk,Leeds,DJ,7,450,True
+M275,DJ Ella,DJ,booking@djella.co.uk,York,DJ,2,260,True
+M276,The Dancing Band,Trio,booking@thedancingband.co.uk,Birmingham,"Rock, Jazz, Country",2,300,True
+M277,The Silver Project,Quartet,booking@thesilverproject.co.uk,Southampton,Soul,22,2680,True
+M278,The Violet Union,Quartet,booking@thevioletunion.co.uk,Newcastle,Classical,12,1600,True
+M279,The Midnight Lights,Trio,booking@themidnightlights.co.uk,Belfast,"Reggae, Acoustic",12,890,True
+M280,The Arctic Waves,Band,booking@thearcticwaves.co.uk,Nottingham,"Acoustic, Funk",18,1600,True
+M281,DJ Charlie,DJ,booking@djcharlie.co.uk,Edinburgh,"DJ, Electronic",15,490,True
+M282,Laura & James,Duo,booking@laurajames.co.uk,Brighton,"Funk, Rock, Hip-Hop",21,1230,True
+M283,Casey Martin,Solo,booking@caseymartin.co.uk,Leeds,Folk,0,119,False
+M284,Emily & Olivia,Duo,booking@emilyolivia.co.uk,Leicester,Gospel,0,108,False
+M285,The Broken Echoes,Quartet,booking@thebrokenechoes.co.uk,Leeds,Rock,14,1660,True
+M286,Emily & Sophie,Duo,booking@emilysophie.co.uk,Birmingham,Hip-Hop,5,470,True
+M287,The Midnight Souls,Quartet,booking@themidnightsouls.co.uk,York,Classical,21,2450,True
+M288,The Broken Waves,Quartet,booking@thebrokenwaves.co.uk,Newcastle,Rock,13,1660,True
+M289,The Cosmic Band,Band,booking@thecosmicband.co.uk,London,"Soul, R&B",24,2180,True
+M290,The Ember Waves,Quartet,booking@theemberwaves.co.uk,Manchester,Classical,24,2910,True
+M291,The Rising Ensemble,Band,booking@therisingensemble.co.uk,Newcastle,Gospel,3,280,True
+M292,The Violet Society,Band,booking@thevioletsociety.co.uk,Glasgow,"Folk, Country",25,2160,False
+M293,Leah Robinson,Solo,booking@leahrobinson.co.uk,Leicester,Pop,13,640,True
+M294,Sean & Finn,Duo,booking@seanfinn.co.uk,Liverpool,Classical,10,560,True
+M295,The Neon Collective,Band,booking@theneoncollective.co.uk,York,"Soul, Indie",14,1260,True
+M296,Diana Richardson,Solo,booking@dianarichardson.co.uk,London,"Folk, Pop",0,97,False
+M297,The Falling Union,Band,booking@thefallingunion.co.uk,Bristol,"R&B, Jazz",24,2170,True
+M298,Alex Green,Solo,booking@alexgreen.co.uk,Leicester,Jazz,19,590,True
+M299,DJ Jacob,DJ,booking@djjacob.co.uk,Bristol,"DJ, Electronic",12,470,True
+M300,The Electric Project,Trio,booking@theelectricproject.co.uk,Sheffield,"Indie, Gospel",1,220,False
+M301,Mia & Isabella,Duo,booking@miaisabella.co.uk,Leeds,"Pop, R&B, Country",24,1440,True
+M302,Tom & Naomi,Duo,booking@tomnaomi.co.uk,Leicester,"Hip-Hop, Pop, R&B",2,210,True
+M303,Finn Taylor,Solo,booking@finntaylor.co.uk,Liverpool,"Blues, Country, Funk",3,340,False
+M304,DJ Sarah,DJ,booking@djsarah.co.uk,Reading,"DJ, Electronic",25,890,True
+M305,The Silver Echoes,Band,booking@thesilverechoes.co.uk,London,"Indie, Rock, R&B",23,1960,True
+M306,The Violet Collective,Quartet,booking@thevioletcollective.co.uk,Glasgow,"Soul, Electronic",2,320,True
+M307,Dylan Collins,Solo,booking@dylancollins.co.uk,Belfast,"Hip-Hop, Soul",3,150,True
+M308,Jacob Green,Solo,booking@jacobgreen.co.uk,Newcastle,"Classical, Rock",11,530,True
+M309,DJ Hugo,DJ,booking@djhugo.co.uk,Cambridge,"DJ, Electronic",25,900,True
+M310,DJ Emma,DJ,booking@djemma.co.uk,Newcastle,DJ,23,750,True
+M311,The Scarlet Ensemble,Band,booking@thescarletensemble.co.uk,Cambridge,"Blues, Classical",6,540,True
+M312,The Electric Beats,Trio,booking@theelectricbeats.co.uk,Belfast,Pop,8,650,True
+M313,DJ Harry,DJ,booking@djharry.co.uk,Glasgow,DJ,21,890,True
+M314,DJ Oscar,DJ,booking@djoscar.co.uk,Edinburgh,"DJ, Electronic",14,540,True
+M315,DJ Sofia,DJ,booking@djsofia.co.uk,Belfast,"DJ, Electronic",16,540,True
+M316,The Falling Project,Band,booking@thefallingproject.co.uk,Nottingham,"Indie, Electronic",12,1270,True
+M317,DJ Kate,DJ,booking@djkate.co.uk,Leeds,DJ,8,350,True
+M318,DJ Grace,DJ,booking@djgrace.co.uk,Manchester,DJ,16,670,True
+M319,Jacob White,Solo,booking@jacobwhite.co.uk,Newcastle,"Indie, R&B",11,430,True
+M320,The Silver Society,Quartet,booking@thesilversociety.co.uk,Sheffield,Classical,4,650,True
+M321,The Electric Sound,Quartet,booking@theelectricsound.co.uk,Edinburgh,Folk,14,1840,True
+M322,The Burning Orchestra,Quartet,booking@theburningorchestra.co.uk,London,"Folk, Electronic",23,2750,True
+M323,The Dancing Ensemble,Quartet,booking@thedancingensemble.co.uk,Newcastle,Classical,19,2160,True
+M324,The Cosmic Society,Trio,booking@thecosmicsociety.co.uk,Newcastle,Gospel,24,1740,True
+M325,The Thunder Waves,Band,booking@thethunderwaves.co.uk,Cambridge,Jazz,4,360,False
+M326,The Arctic Souls,Quartet,booking@thearcticsouls.co.uk,Bristol,Classical,13,1660,True
+M327,Lucas & Emma,Duo,booking@lucasemma.co.uk,Bristol,"Pop, Classical",0,113,False
+M328,Jordan Johnson,Solo,booking@jordanjohnson.co.uk,York,"Folk, Hip-Hop, Pop",3,280,True
+M329,Jack & Callum,Duo,booking@jackcallum.co.uk,Liverpool,"Folk, Blues, Electronic",4,390,True
+M330,Leah & Aisha,Duo,booking@leahaisha.co.uk,Nottingham,Rock,0,150,False
+M331,The Velvet Orchestra,Band,booking@thevelvetorchestra.co.uk,London,Jazz,22,2110,True
+M332,The Golden Collective,Band,booking@thegoldencollective.co.uk,Brighton,"Gospel, Funk, Pop",13,1350,True
+M333,Marcus Lewis,Solo,booking@marcuslewis.co.uk,Brighton,"Country, Folk",2,210,True
+M334,The Thunder Society,Band,booking@thethundersociety.co.uk,Reading,Rock,0,124,False
+M335,Dylan & Jacob,Duo,booking@dylanjacob.co.uk,Glasgow,"Funk, R&B, Acoustic",16,950,True
+M336,George & Grace,Duo,booking@georgegrace.co.uk,Birmingham,Reggae,6,430,True
+M337,Sean Davies,Solo,booking@seandavies.co.uk,Glasgow,"Funk, Rock, Gospel",20,710,True
+M338,Marcus Morris,Solo,booking@marcusmorris.co.uk,York,"Acoustic, Funk",15,450,True
+M339,The Falling Junction,Trio,booking@thefallingjunction.co.uk,Southampton,Classical,19,1400,True
+M340,Aisha Stewart,Solo,booking@aishastewart.co.uk,Brighton,"Funk, Classical, Electronic",19,790,False
+M341,Grace & Finn,Duo,booking@gracefinn.co.uk,Sheffield,Acoustic,2,360,True
+M342,Jordan Young,Solo,booking@jordanyoung.co.uk,Leeds,Gospel,22,690,True
+M343,The Royal Band,Band,booking@theroyalband.co.uk,Sheffield,"Jazz, Rock",14,1440,True
+M344,Emma Taylor,Solo,booking@emmataylor.co.uk,Liverpool,Country,17,510,True
+M345,Nathan Williams,Solo,booking@nathanwilliams.co.uk,Bristol,"Hip-Hop, Gospel",12,590,True
+M346,The Midnight Project,Quartet,booking@themidnightproject.co.uk,Sheffield,Classical,6,930,True
+M347,DJ Aiden,DJ,booking@djaiden.co.uk,Oxford,DJ,22,800,True
+M348,The Midnight Echoes,Trio,booking@themidnightechoes.co.uk,Cardiff,"Classical, Acoustic",1,200,True
+M349,The Violet Orchestra,Quartet,booking@thevioletorchestra.co.uk,London,Classical,10,1340,True
+M350,The Echoing Collective,Trio,booking@theechoingcollective.co.uk,Brighton,Rock,11,930,True
+M351,DJ Rory,DJ,booking@djrory.co.uk,Leeds,"DJ, Electronic",19,700,True
+M352,The Burning Souls,Quartet,booking@theburningsouls.co.uk,Newcastle,"R&B, Hip-Hop",25,2910,True
+M353,The Scarlet Project,Quartet,booking@thescarletproject.co.uk,Cardiff,Classical,11,1440,True
+M354,Amelia & Kate,Duo,booking@ameliakate.co.uk,Belfast,Jazz,7,630,True
+M355,The Velvet Beats,Trio,booking@thevelvetbeats.co.uk,Edinburgh,Electronic,19,1580,True
+M356,Anna Allen,Solo,booking@annaallen.co.uk,Edinburgh,"Folk, Gospel",1,280,True
+M357,The Golden Riot,Trio,booking@thegoldenriot.co.uk,Nottingham,"Jazz, Gospel",21,1710,True
+M358,James & George,Duo,booking@jamesgeorge.co.uk,London,"Hip-Hop, Indie",25,1380,False
+M359,The Cosmic Project,Quartet,booking@thecosmicproject.co.uk,Southampton,Classical,5,630,True
+M360,DJ Zara,DJ,booking@djzara.co.uk,London,DJ,20,660,True
+M361,Lily Hill,Solo,booking@lilyhill.co.uk,London,"Rock, R&B",23,740,True
+M362,DJ James,DJ,booking@djjames.co.uk,Southampton,"DJ, Electronic",0,94,False
+M363,The Neon Dreams,Quartet,booking@theneondreams.co.uk,Manchester,Classical,15,1850,True
+M364,Isabella Williams,Solo,booking@isabellawilliams.co.uk,Manchester,"Hip-Hop, Country, Acoustic",24,750,True
+M365,Ella Richardson,Solo,booking@ellarichardson.co.uk,Glasgow,"Acoustic, Folk",20,720,True
+M366,DJ Freddie,DJ,booking@djfreddie.co.uk,Leeds,DJ,11,500,False
+M367,The Violet Ensemble,Trio,booking@thevioletensemble.co.uk,Cambridge,"Jazz, Soul, Reggae",15,1120,True
+M368,DJ Rachel,DJ,booking@djrachel.co.uk,London,"DJ, Electronic",17,610,True
+M369,The Velvet Circuit,Trio,booking@thevelvetcircuit.co.uk,Birmingham,"Gospel, Reggae, R&B",6,530,True
+M370,Marcus Richardson,Solo,booking@marcusrichardson.co.uk,Newcastle,"Acoustic, R&B",14,540,True
+M371,DJ Charlie,DJ,booking@djcharlie.co.uk,Sheffield,"DJ, Electronic",20,860,True
+M372,The Burning Waves,Trio,booking@theburningwaves.co.uk,Edinburgh,"Electronic, Classical",22,1600,True
+M373,The Falling Dreams,Quartet,booking@thefallingdreams.co.uk,Southampton,Classical,18,2170,True
+M374,DJ Sam,DJ,booking@djsam.co.uk,Liverpool,DJ,6,210,True
+M375,The Electric Waves,Quartet,booking@theelectricwaves.co.uk,Glasgow,Classical,24,2930,True
+M376,The Broken Sound,Quartet,booking@thebrokensound.co.uk,Leeds,Folk,18,2070,True
+M377,DJ Liam,DJ,booking@djliam.co.uk,Reading,"DJ, Electronic",19,630,True
+M378,Freddie & Sofia,Duo,booking@freddiesofia.co.uk,Sheffield,"R&B, Pop",19,1230,True
+M379,The Cosmic Dreams,Band,booking@thecosmicdreams.co.uk,York,Jazz,11,1190,True
+M380,The Dancing Orchestra,Quartet,booking@thedancingorchestra.co.uk,Leeds,Classical,6,690,True
+M381,The Scarlet Beats,Quartet,booking@thescarletbeats.co.uk,Cardiff,Classical,16,2050,True
+M382,Sophie & Isabella,Duo,booking@sophieisabella.co.uk,Glasgow,"Jazz, Funk",5,370,True
+M383,The Neon Echoes,Quartet,booking@theneonechoes.co.uk,Liverpool,Classical,19,2360,True
+M384,Leah Stewart,Solo,booking@leahstewart.co.uk,Southampton,"Gospel, Acoustic, Country",13,500,True
+M385,The Ember Beats,Quartet,booking@theemberbeats.co.uk,Leeds,Classical,13,1660,True
+M386,The Golden Union,Trio,booking@thegoldenunion.co.uk,Nottingham,Folk,19,1420,True
+M387,DJ Lily,DJ,booking@djlily.co.uk,Oxford,"DJ, Electronic",7,320,True
+M388,Jessica Reed,Solo,booking@jessicareed.co.uk,Brighton,"Classical, Acoustic",19,630,False
+M389,The Echoing Society,Band,booking@theechoingsociety.co.uk,Edinburgh,"Blues, Pop",20,1940,True
+M390,The Thunder Souls,Band,booking@thethundersouls.co.uk,Belfast,"Acoustic, Reggae",19,1650,True
+M391,The Silver Dreams,Band,booking@thesilverdreams.co.uk,Glasgow,Pop,18,1790,True
+M392,Jessica & James,Duo,booking@jessicajames.co.uk,Nottingham,"Funk, R&B, Electronic",2,340,True
+M393,Morgan & Olivia,Duo,booking@morganolivia.co.uk,Reading,"R&B, Soul",3,320,True
+M394,Zara & Liam,Duo,booking@zaraliam.co.uk,Liverpool,Indie,4,220,True
+M395,The Scarlet Dreams,Quartet,booking@thescarletdreams.co.uk,Belfast,"R&B, Classical",14,1780,True
+M396,The Rising Band,Band,booking@therisingband.co.uk,Cambridge,"Hip-Hop, Country, Gospel",5,500,True
+M397,The Golden Dreams,Quartet,booking@thegoldendreams.co.uk,London,"Acoustic, Country",23,2620,True
+M398,Grace Nelson,Solo,booking@gracenelson.co.uk,Belfast,"Funk, Pop, Reggae",12,400,True
+M399,Aisha & Jacob,Duo,booking@aishajacob.co.uk,York,"Folk, Acoustic, Soul",7,520,True
+M400,The Echoing Souls,Trio,booking@theechoingsouls.co.uk,Belfast,"Hip-Hop, Rock",6,480,True
+M401,DJ Jordan,DJ,booking@djjordan.co.uk,Southampton,"DJ, Electronic",16,670,True
+M402,DJ Chloe,DJ,booking@djchloe.co.uk,Nottingham,DJ,16,690,True
+M403,Mason & Rory,Duo,booking@masonrory.co.uk,Birmingham,"Hip-Hop, Folk",9,700,True
+M404,The Thunder Project,Trio,booking@thethunderproject.co.uk,London,"Country, Rock",24,1780,True
+M405,The Violet Dreams,Band,booking@thevioletdreams.co.uk,Newcastle,"Pop, Rock",16,1410,True
+M406,DJ Sophie,DJ,booking@djsophie.co.uk,Belfast,"DJ, Electronic",16,540,False
+M407,The Thunder Beats,Trio,booking@thethunderbeats.co.uk,Birmingham,Country,8,720,True
+M408,The Midnight Strings,Band,booking@themidnightstrings.co.uk,Birmingham,"Acoustic, Funk",18,1670,True
+M409,The Dancing Revival,Quartet,booking@thedancingrevival.co.uk,Reading,Classical,19,2370,True
+M410,DJ Lily,DJ,booking@djlily.co.uk,London,DJ,9,550,True
+M411,The Electric Collective,Band,booking@theelectriccollectiv.co.uk,Nottingham,Reggae,8,740,True
+M412,The Ember Riot,Band,booking@theemberriot.co.uk,Birmingham,"Reggae, Hip-Hop, Country",0,90,False
+M413,Naomi Turner,Solo,booking@naomiturner.co.uk,Bristol,Gospel,9,470,True
+M414,The Cosmic Ensemble,Quartet,booking@thecosmicensemble.co.uk,Bristol,Classical,24,2720,True
+M415,The Crystal Riot,Trio,booking@thecrystalriot.co.uk,Reading,"Blues, Reggae",21,1510,True
+M416,The Crystal Orchestra,Trio,booking@thecrystalorchestra.co.uk,Brighton,"Electronic, Pop, Rock",11,800,True
+M417,The Cosmic Echoes,Trio,booking@thecosmicechoes.co.uk,Nottingham,"Gospel, Hip-Hop, Blues",25,1820,True
+M418,Jordan Shaw,Solo,booking@jordanshaw.co.uk,Leeds,"Pop, Folk",23,720,True
+M419,DJ George,DJ,booking@djgeorge.co.uk,Belfast,"DJ, Electronic",4,160,True
+M420,The Rising Union,Quartet,booking@therisingunion.co.uk,Glasgow,Classical,2,430,True
+M421,Mason Rogers,Solo,booking@masonrogers.co.uk,Oxford,"Jazz, Soul",2,260,True
+M422,DJ Clara,DJ,booking@djclara.co.uk,Brighton,DJ,11,370,True
+M423,The Falling Circuit,Trio,booking@thefallingcircuit.co.uk,Birmingham,"Classical, Pop",0,125,False
+M424,The Thunder Orchestra,Band,booking@thethunderorchestra.co.uk,Liverpool,"Soul, Rock, Classical",3,480,True
+M425,The Rising Souls,Quartet,booking@therisingsouls.co.uk,Cardiff,Classical,23,2640,True
+M426,Leon Davies,Solo,booking@leondavies.co.uk,Bristol,"Acoustic, Folk",14,620,True
+M427,The Echoing Echoes,Band,booking@theechoingechoes.co.uk,Birmingham,"Country, Indie",2,350,True
+M428,DJ Megan,DJ,booking@djmegan.co.uk,Glasgow,"DJ, Electronic",7,430,True
+M429,Charlie Thompson,Solo,booking@charliethompson.co.uk,Bristol,"Classical, Funk, Reggae",1,220,True
+M430,DJ Taylor,DJ,booking@djtaylor.co.uk,Brighton,"DJ, Electronic",17,680,True
+M431,Jack & Priya,Duo,booking@jackpriya.co.uk,Belfast,Acoustic,22,1200,True
+M432,The Echoing Project,Trio,booking@theechoingproject.co.uk,Birmingham,"Classical, Electronic",20,1590,True
+M433,The Royal Lights,Band,booking@theroyallights.co.uk,Oxford,"Rock, Jazz",5,460,True
+M434,Clara & Megan,Duo,booking@claramegan.co.uk,York,"R&B, Jazz",4,290,True
+M435,The Falling Riot,Trio,booking@thefallingriot.co.uk,Liverpool,"Hip-Hop, Jazz",16,1380,True
+M436,The Velvet Junction,Band,booking@thevelvetjunction.co.uk,Liverpool,"Indie, Reggae",14,1310,True
+M437,The Neon Souls,Band,booking@theneonsouls.co.uk,Oxford,"Reggae, Funk, Blues",11,1180,True
+M438,Noah & Leon,Duo,booking@noahleon.co.uk,Cambridge,"Country, Blues",19,1000,True
+M439,Noah & Nathan,Duo,booking@noahnathan.co.uk,Leicester,"Country, Hip-Hop",0,129,False
+M440,The Ember Strings,Quartet,booking@theemberstrings.co.uk,Leicester,Classical,15,1930,True
+M441,Chloe Cook,Solo,booking@chloecook.co.uk,Liverpool,"Classical, Electronic, Reggae",1,140,True
+M442,Emily & Zara,Duo,booking@emilyzara.co.uk,Cambridge,Folk,4,270,True
+M443,The Dancing Beats,Quartet,booking@thedancingbeats.co.uk,Edinburgh,Pop,10,1370,True
+M444,Jessica Walker,Solo,booking@jessicawalker.co.uk,Nottingham,R&B,0,143,False
+M445,The Midnight Riot,Trio,booking@themidnightriot.co.uk,London,Gospel,15,1110,True
+M446,The Golden Beats,Band,booking@thegoldenbeats.co.uk,Southampton,Hip-Hop,0,84,False
+M447,The Ember Sound,Trio,booking@theembersound.co.uk,York,"Pop, Gospel, Electronic",6,580,True
+M448,The Scarlet Strings,Trio,booking@thescarletstrings.co.uk,Reading,Blues,13,960,True
+M449,Sofia Nelson,Solo,booking@sofianelson.co.uk,York,R&B,14,520,True
+M450,Sophie Reed,Solo,booking@sophiereed.co.uk,Newcastle,"Jazz, Soul",20,730,True
+M451,DJ Jacob,DJ,booking@djjacob.co.uk,London,DJ,24,920,True
+M452,The Dancing Sound,Band,booking@thedancingsound.co.uk,Belfast,"Hip-Hop, Pop",9,790,True
+M453,The Velvet Band,Quartet,booking@thevelvetband.co.uk,Cardiff,Classical,8,1110,True
+M454,The Falling Collective,Band,booking@thefallingcollective.co.uk,Cambridge,Hip-Hop,25,2220,True
+M455,The Crystal Sound,Trio,booking@thecrystalsound.co.uk,Manchester,"Blues, Country, Folk",4,370,True
+M456,Marcus & Lily,Duo,booking@marcuslily.co.uk,Manchester,Pop,20,1070,True
+M457,Diana Jones,Solo,booking@dianajones.co.uk,Brighton,"Blues, Acoustic",11,430,True
+M458,The Royal Revival,Trio,booking@theroyalrevival.co.uk,Reading,"R&B, Jazz",4,310,True
+M459,The Cosmic Souls,Trio,booking@thecosmicsouls.co.uk,Manchester,Acoustic,2,230,False
+M460,Marcus Brown,Solo,booking@marcusbrown.co.uk,Cardiff,Country,20,810,True
+M461,DJ Mason,DJ,booking@djmason.co.uk,Leeds,DJ,14,630,True
+M462,The Neon Society,Band,booking@theneonsociety.co.uk,Edinburgh,"Rock, Blues, Reggae",18,1580,True
+M463,DJ Liam,DJ,booking@djliam.co.uk,Birmingham,DJ,12,600,True
+M464,The Midnight Beats,Band,booking@themidnightbeats.co.uk,Oxford,"Gospel, Acoustic",5,480,True
+M465,Sean & Chloe,Duo,booking@seanchloe.co.uk,Oxford,"Funk, R&B",13,860,True
+M466,The Midnight Society,Trio,booking@themidnightsociety.co.uk,Manchester,"Soul, Hip-Hop",14,1190,False
+M467,The Electric Society,Trio,booking@theelectricsociety.co.uk,Glasgow,"Jazz, Gospel",17,1350,True
+M468,The Cosmic Riot,Trio,booking@thecosmicriot.co.uk,Newcastle,"Jazz, Acoustic",19,1510,True
+M469,The Broken Union,Trio,booking@thebrokenunion.co.uk,York,"Acoustic, Electronic, Folk",10,870,True
+M470,The Thunder Strings,Quartet,booking@thethunderstrings.co.uk,Cardiff,Classical,19,2170,True
+M471,The Thunder Band,Quartet,booking@thethunderband.co.uk,York,R&B,0,94,False
+M472,The Golden Band,Band,booking@thegoldenband.co.uk,Glasgow,"Soul, Gospel",17,1460,True
+M473,The Echoing Beats,Band,booking@theechoingbeats.co.uk,Sheffield,"Funk, Country, Electronic",15,1360,True
+M474,Leah Shaw,Solo,booking@leahshaw.co.uk,Reading,"Pop, Jazz, Soul",10,540,True
+M475,The Arctic Echoes,Band,booking@thearcticechoes.co.uk,Reading,Reggae,11,960,True
+M476,The Scarlet Junction,Quartet,booking@thescarletjunction.co.uk,Bristol,Classical,9,1200,True
+M477,DJ Jacob,DJ,booking@djjacob.co.uk,Liverpool,"DJ, Electronic",6,430,False
+M478,The Violet Souls,Trio,booking@thevioletsouls.co.uk,Bristol,"Rock, Jazz",14,1110,True
+M479,Leah & Sophie,Duo,booking@leahsophie.co.uk,Nottingham,Jazz,9,700,False
+M480,The Violet Band,Band,booking@thevioletband.co.uk,Nottingham,Acoustic,19,1620,True
+M481,Callum & Finn,Duo,booking@callumfinn.co.uk,Bristol,"Jazz, R&B, Rock",0,141,False
+M482,The Royal Collective,Trio,booking@theroyalcollective.co.uk,Cardiff,"Jazz, Folk",11,830,True
+M483,The Crystal Souls,Quartet,booking@thecrystalsouls.co.uk,Belfast,Classical,22,2580,True
+M484,Taylor Carter,Solo,booking@taylorcarter.co.uk,Southampton,Reggae,5,180,True
+M485,The Neon Circuit,Band,booking@theneoncircuit.co.uk,Manchester,"Gospel, R&B",15,1290,False
+M486,DJ Megan,DJ,booking@djmegan.co.uk,York,"DJ, Electronic",5,220,True
+M487,Emma & Harry,Duo,booking@emmaharry.co.uk,Nottingham,"Jazz, Indie, Reggae",3,320,True
+M488,The Silver Waves,Quartet,booking@thesilverwaves.co.uk,Nottingham,Reggae,6,710,True
+M489,The Cosmic Waves,Trio,booking@thecosmicwaves.co.uk,Liverpool,Rock,25,2030,True
+M490,DJ Laura,DJ,booking@djlaura.co.uk,Brighton,"DJ, Electronic",15,580,True
+M491,The Royal Beats,Band,booking@theroyalbeats.co.uk,Edinburgh,Pop,4,590,True
+M492,DJ Sarah,DJ,booking@djsarah.co.uk,Sheffield,DJ,13,510,True
+M493,The Neon Ensemble,Quartet,booking@theneonensemble.co.uk,Brighton,Classical,2,400,True
+M494,The Dancing Waves,Quartet,booking@thedancingwaves.co.uk,Manchester,Classical,0,122,False
+M495,The Echoing Strings,Trio,booking@theechoingstrings.co.uk,Newcastle,"Folk, Acoustic",3,330,True
+M496,The Burning Dreams,Band,booking@theburningdreams.co.uk,Brighton,"Electronic, Country",8,860,True
+M497,The Scarlet Orchestra,Trio,booking@thescarletorchestra.co.uk,Sheffield,"Rock, Soul",22,1710,True
+M498,The Neon Waves,Quartet,booking@theneonwaves.co.uk,Cardiff,Classical,3,560,True
+M499,Sophie Johnson,Solo,booking@sophiejohnson.co.uk,Reading,Classical,7,230,True
+M500,The Arctic Revival,Band,booking@thearcticrevival.co.uk,Leicester,"Indie, Classical",1,220,True

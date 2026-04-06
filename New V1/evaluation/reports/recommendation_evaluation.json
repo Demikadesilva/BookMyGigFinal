@@ -1,0 +1,9 @@
+{
+  "k": 10,
+  "evaluated_clients": 100,
+  "precision_at_k": 0.04,
+  "recall_at_k": 0.4,
+  "ndcg_at_k": 4.5436,
+  "map": 0.3138,
+  "catalog_coverage": 0.192
+}

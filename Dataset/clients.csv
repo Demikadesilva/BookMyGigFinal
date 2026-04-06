@@ -1,0 +1,301 @@
+Client_ID,Client_Name,Client_Type,Client_Contact
+C001,Jack Jennings,Individual,jack.jennings93@yahoo.com
+C002,Smith-Davis,Corporate,social@smith-davis.co.uk
+C003,The Nelson Academy,Venue,bookings@nelsonacademy.co.uk
+C004,Taylor Group,Corporate,social@taylor.co.uk
+C005,The Louise Bar,Venue,bookings@louisebar.co.uk
+C006,The Holden Academy,Venue,manager@holdenacademy.co.uk
+C007,Lee Coates,Individual,lee.coates18@hotmail.com
+C008,Roy Owen,Individual,roy.owen15@yahoo.com
+C009,Darren James,Individual,darren.james60@hotmail.com
+C010,"Ward, Dodd and Collins",Corporate,events@ward.co.uk
+C011,Brown-Smith,Corporate,admin@brown-smith.co.uk
+C012,Laura Sullivan,Individual,laura.sullivan68@gmail.com
+C013,Jeffrey Woodward,Individual,jeffrey.woodward74@outlook.com
+C014,Nathan Stanley,Individual,nathan.stanley1@outlook.com
+C015,The Wyatt Academy,Venue,gigs@wyattacademy.co.uk
+C016,Gillian Lee,Individual,gillian.lee44@gmail.com
+C017,Mills PLC,Corporate,events@mills.co.uk
+C018,Amelia Doyle,Individual,amelia.doyle87@gmail.com
+C019,Darren White,Individual,darren.white33@outlook.com
+C020,Ahmed LLC,Corporate,hr@ahmed.co.uk
+C021,Lindsey Stephens,Individual,lindsey.stephens9@outlook.com
+C022,"Davey, Goodwin and James",Corporate,hr@davey.co.uk
+C023,Murphy Group,Corporate,social@murphy.co.uk
+C024,Douglas Wilson,Individual,douglas.wilson31@gmail.com
+C025,Sean Young,Individual,sean.young13@outlook.com
+C026,Aimee Taylor,Individual,aimee.taylor94@gmail.com
+C027,Williams LLC,Corporate,admin@williams.co.uk
+C028,Edward Kemp,Individual,edward.kemp85@yahoo.com
+C029,The Denise Bar,Venue,gigs@denisebar.co.uk
+C030,Hazel Bryan,Individual,hazel.bryan24@hotmail.com
+C031,Alexander-Barnes,Corporate,hr@alexander-barnes.co.uk
+C032,Marian Rogers,Individual,marian.rogers27@yahoo.com
+C033,The Norman Pub,Venue,gigs@normanpub.co.uk
+C034,Baxter Planners,Event Planner,contact@baxterplanners.uk
+C035,The Iain Inn,Venue,music@iaininn.co.uk
+C036,The Richards Academy,Venue,music@richardsacademy.co.uk
+C037,Ryan LLC,Corporate,events@ryan.co.uk
+C038,The Turner Tavern,Venue,bookings@turnertavern.co.uk
+C039,French Planners,Event Planner,contact@frenchplanners.uk
+C040,The Terry Pub,Venue,live@terrypub.co.uk
+C041,Cameron Clark,Individual,cameron.clark57@hotmail.com
+C042,The Palmer Pub,Venue,live@palmerpub.co.uk
+C043,Humphries PLC,Corporate,social@humphries.co.uk
+C044,The Hazel Inn,Venue,manager@hazelinn.co.uk
+C045,The Lewis Tavern,Venue,bookings@lewistavern.co.uk
+C046,Lorraine Brown,Individual,lorraine.brown68@yahoo.com
+C047,Carter Events,Event Planner,info@carterevents.uk
+C048,Matthews Ltd,Corporate,hr@matthews.co.uk
+C049,The Hussain Pub,Venue,manager@hussainpub.co.uk
+C050,Vaughan Ltd,Corporate,social@vaughan.co.uk
+C051,Megan Taylor,Individual,megan.taylor77@outlook.com
+C052,Jones Events,Event Planner,team@jonesevents.uk
+C053,"Carr, Singh and Hawkins",Corporate,events@carr.co.uk
+C054,Bernard Bryant,Individual,bernard.bryant42@yahoo.com
+C055,The Lee Club,Venue,gigs@leeclub.co.uk
+C056,Nicholson Weddings,Event Planner,hello@nicholsonweddings.uk
+C057,The Ball Pub,Venue,live@ballpub.co.uk
+C058,"Ward, Richardson and Wilson",Corporate,hr@ward.co.uk
+C059,Joseph Reid,Individual,joseph.reid98@gmail.com
+C060,The Andrew Club,Venue,bookings@andrewclub.co.uk
+C061,Sean Butler,Individual,sean.butler4@yahoo.com
+C062,Zoe Cox,Individual,zoe.cox58@yahoo.com
+C063,Keith Freeman,Individual,keith.freeman50@gmail.com
+C064,Dean Events,Event Planner,info@deanevents.uk
+C065,Davies-Taylor,Corporate,events@davies-taylor.co.uk
+C066,The Adrian Inn,Venue,gigs@adrianinn.co.uk
+C067,Dennis Begum,Individual,dennis.begum78@gmail.com
+C068,"Hall, Bishop and Wood",Corporate,events@hall.co.uk
+C069,The Nash Pub,Venue,music@nashpub.co.uk
+C070,The Palmer Club,Venue,bookings@palmerclub.co.uk
+C071,The Paula Tavern,Venue,live@paulatavern.co.uk
+C072,Wright Events,Event Planner,hello@wrightevents.uk
+C073,Raymond Turner,Individual,raymond.turner9@yahoo.com
+C074,Aimee Smith,Individual,aimee.smith95@hotmail.com
+C075,Paige Middleton,Individual,paige.middleton16@gmail.com
+C076,Walker Occasions,Event Planner,info@walkeroccasions.uk
+C077,Joanne Nolan,Individual,joanne.nolan31@yahoo.com
+C078,Shannon White,Individual,shannon.white37@yahoo.com
+C079,Samantha Price,Individual,samantha.price15@yahoo.com
+C080,The Julie Club,Venue,gigs@julieclub.co.uk
+C081,Jones Planners,Event Planner,contact@jonesplanners.uk
+C082,Smith Events,Event Planner,hello@smithevents.uk
+C083,Brandon Brown,Individual,brandon.brown32@outlook.com
+C084,Green LLC,Corporate,events@green.co.uk
+C085,"Hall, West and Holt",Corporate,events@hall.co.uk
+C086,Hughes Events,Event Planner,team@hughesevents.uk
+C087,The Nicholas Bar,Venue,gigs@nicholasbar.co.uk
+C088,Jacob West,Individual,jacob.west18@yahoo.com
+C089,Davis Planners,Event Planner,info@davisplanners.uk
+C090,Greenwood Occasions,Event Planner,contact@greenwoodoccasions.uk
+C091,Clarke Weddings,Event Planner,hello@clarkeweddings.uk
+C092,White PLC,Corporate,events@white.co.uk
+C093,Arthur Begum,Individual,arthur.begum34@outlook.com
+C094,The Ronald Academy,Venue,music@ronaldacademy.co.uk
+C095,The Ford Tavern,Venue,bookings@fordtavern.co.uk
+C096,The Danielle Tavern,Venue,manager@danielletavern.co.uk
+C097,Rees Planners,Event Planner,team@reesplanners.uk
+C098,Wayne Clarke,Individual,wayne.clarke85@outlook.com
+C099,The Jordan Academy,Venue,music@jordanacademy.co.uk
+C100,Nicole Phillips,Individual,nicole.phillips53@yahoo.com
+C101,Damien Nicholls,Individual,damien.nicholls11@gmail.com
+C102,Taylor Planners,Event Planner,team@taylorplanners.uk
+C103,The Weston Academy,Venue,bookings@westonacademy.co.uk
+C104,Brandon Jones,Individual,brandon.jones68@outlook.com
+C105,Sally White,Individual,sally.white30@gmail.com
+C106,Morris Events,Event Planner,hello@morrisevents.uk
+C107,Bell Weddings,Event Planner,team@bellweddings.uk
+C108,Josephine Wall,Individual,josephine.wall38@gmail.com
+C109,"Watkins, Grant and Baker",Corporate,hr@watkins.co.uk
+C110,June Walker,Individual,june.walker95@yahoo.com
+C111,Gavin Gordon,Individual,gavin.gordon91@yahoo.com
+C112,The Amelia Academy,Venue,manager@ameliaacademy.co.uk
+C113,Owen Cunningham,Individual,owen.cunningham22@outlook.com
+C114,The Kayleigh Tavern,Venue,gigs@kayleightavern.co.uk
+C115,Simon Thomas,Individual,simon.thomas56@yahoo.com
+C116,Kathryn Baker,Individual,kathryn.baker53@outlook.com
+C117,Douglas Hall,Individual,douglas.hall20@gmail.com
+C118,Sally Williams,Individual,sally.williams80@outlook.com
+C119,Roger Forster,Individual,roger.forster64@hotmail.com
+C120,Cole Events,Event Planner,hello@coleevents.uk
+C121,Dodd Ltd,Corporate,events@dodd.co.uk
+C122,Pritchard Inc,Corporate,social@pritchard.co.uk
+C123,The Gerald Pub,Venue,manager@geraldpub.co.uk
+C124,Eleanor Cole,Individual,eleanor.cole75@yahoo.com
+C125,The Ruth Inn,Venue,music@ruthinn.co.uk
+C126,The Geraldine Pub,Venue,bookings@geraldinepub.co.uk
+C127,The Smith Tavern,Venue,bookings@smithtavern.co.uk
+C128,Michelle McDonald,Individual,michelle.mcdonald90@yahoo.com
+C129,Joan Richardson,Individual,joan.richardson97@yahoo.com
+C130,The Preston Academy,Venue,music@prestonacademy.co.uk
+C131,Victor Brooks,Individual,victor.brooks96@gmail.com
+C132,Roberts Weddings,Event Planner,info@robertsweddings.uk
+C133,The Lynne Tavern,Venue,manager@lynnetavern.co.uk
+C134,Bethan Dodd,Individual,bethan.dodd55@hotmail.com
+C135,Taylor Planners,Event Planner,contact@taylorplanners.uk
+C136,The Marie Club,Venue,gigs@marieclub.co.uk
+C137,The Raymond Bar,Venue,gigs@raymondbar.co.uk
+C138,Lynda Hughes,Individual,lynda.hughes66@outlook.com
+C139,Jones Planners,Event Planner,team@jonesplanners.uk
+C140,Kelly Brooks,Individual,kelly.brooks2@hotmail.com
+C141,Wendy Butcher,Individual,wendy.butcher89@yahoo.com
+C142,The Baker Club,Venue,gigs@bakerclub.co.uk
+C143,Charles Smith,Individual,charles.smith37@hotmail.com
+C144,Dixon Weddings,Event Planner,team@dixonweddings.uk
+C145,Elliott Lees,Individual,elliott.lees40@gmail.com
+C146,The Geraldine Tavern,Venue,live@geraldinetavern.co.uk
+C147,Caroline Richardson,Individual,caroline.richardson69@gmail.com
+C148,The Sian Tavern,Venue,music@siantavern.co.uk
+C149,Khan-Carpenter,Corporate,events@khan-carpenter.co.uk
+C150,Tracey Adams,Individual,tracey.adams49@yahoo.com
+C151,"Cox, Hancock and Pearson",Corporate,hr@cox.co.uk
+C152,The Amy Tavern,Venue,bookings@amytavern.co.uk
+C153,Mohammed Wilson,Individual,mohammed.wilson49@gmail.com
+C154,Alice Kay,Individual,alice.kay59@outlook.com
+C155,Hicks-Khan,Corporate,hr@hicks-khan.co.uk
+C156,Ruth Green,Individual,ruth.green23@hotmail.com
+C157,Geraldine Webb,Individual,geraldine.webb30@outlook.com
+C158,The Janice Academy,Venue,live@janiceacademy.co.uk
+C159,Caroline Hill,Individual,caroline.hill49@hotmail.com
+C160,Rosemary Morris,Individual,rosemary.morris41@hotmail.com
+C161,The David Academy,Venue,manager@davidacademy.co.uk
+C162,Ben Roberts,Individual,ben.roberts27@yahoo.com
+C163,Ball-Lambert,Corporate,events@ball-lambert.co.uk
+C164,Tucker Events,Event Planner,info@tuckerevents.uk
+C165,The Shaw Inn,Venue,music@shawinn.co.uk
+C166,"Jones, Clark and Rogers",Corporate,social@jones.co.uk
+C167,Zoe Stephenson,Individual,zoe.stephenson61@gmail.com
+C168,Dunn Weddings,Event Planner,team@dunnweddings.uk
+C169,Wood-Jones,Corporate,admin@wood-jones.co.uk
+C170,Shannon Ashton,Individual,shannon.ashton17@gmail.com
+C171,Craig Ltd,Corporate,hr@craig.co.uk
+C172,Mary Carter,Individual,mary.carter78@gmail.com
+C173,Maureen Harrison,Individual,maureen.harrison71@hotmail.com
+C174,Hamilton Occasions,Event Planner,info@hamiltonoccasions.uk
+C175,Cox PLC,Corporate,hr@cox.co.uk
+C176,The Daniels Pub,Venue,gigs@danielspub.co.uk
+C177,Darren Richards,Individual,darren.richards38@gmail.com
+C178,The Carter Club,Venue,music@carterclub.co.uk
+C179,The Brenda Academy,Venue,bookings@brendaacademy.co.uk
+C180,Jonathan Alexander,Individual,jonathan.alexander15@yahoo.com
+C181,Thompson LLC,Corporate,events@thompson.co.uk
+C182,The Maureen Academy,Venue,music@maureenacademy.co.uk
+C183,Lawrence Hopkins,Individual,lawrence.hopkins24@gmail.com
+C184,The Dawn Bar,Venue,bookings@dawnbar.co.uk
+C185,Kieran Pickering,Individual,kieran.pickering63@outlook.com
+C186,Leonard Sanderson,Individual,leonard.sanderson44@yahoo.com
+C187,Hill-Holmes,Corporate,events@hill-holmes.co.uk
+C188,Dickinson Ltd,Corporate,events@dickinson.co.uk
+C189,Marilyn Knowles,Individual,marilyn.knowles87@yahoo.com
+C190,Alexandra Smart,Individual,alexandra.smart6@outlook.com
+C191,Alex Evans,Individual,alex.evans96@yahoo.com
+C192,Griffiths and Sons,Corporate,events@griffiths.co.uk
+C193,Michael Gibson,Individual,michael.gibson90@outlook.com
+C194,The Rhys Academy,Venue,bookings@rhysacademy.co.uk
+C195,Graeme Taylor,Individual,graeme.taylor2@gmail.com
+C196,Susan Herbert,Individual,susan.herbert54@hotmail.com
+C197,Palmer Occasions,Event Planner,team@palmeroccasions.uk
+C198,Lorraine Carpenter,Individual,lorraine.carpenter35@yahoo.com
+C199,Alan Lee,Individual,alan.lee99@yahoo.com
+C200,"Whittaker, Walker and Humphreys",Corporate,hr@whittaker.co.uk
+C201,Wheeler LLC,Corporate,admin@wheeler.co.uk
+C202,Abigail Pearson,Individual,abigail.pearson96@hotmail.com
+C203,"Rose, Harrison and Haynes",Corporate,admin@rose.co.uk
+C204,Lewis Rice,Individual,lewis.rice57@outlook.com
+C205,Bradley Smith,Individual,bradley.smith68@hotmail.com
+C206,Geoffrey Evans,Individual,geoffrey.evans36@yahoo.com
+C207,Wyatt Events,Event Planner,hello@wyattevents.uk
+C208,Stephanie Edwards,Individual,stephanie.edwards21@hotmail.com
+C209,Griffiths Events,Event Planner,info@griffithsevents.uk
+C210,Megan Osborne,Individual,megan.osborne12@hotmail.com
+C211,Rebecca Robinson,Individual,rebecca.robinson53@gmail.com
+C212,Marilyn Johnston,Individual,marilyn.johnston14@gmail.com
+C213,"Lee, Lee and Russell",Corporate,events@lee.co.uk
+C214,Patrick Weston,Individual,patrick.weston19@hotmail.com
+C215,The Field Bar,Venue,live@fieldbar.co.uk
+C216,Shaun Allen,Individual,shaun.allen7@outlook.com
+C217,Kieran Scott,Individual,kieran.scott35@yahoo.com
+C218,"Brown, Daniels and Williams",Corporate,events@brown.co.uk
+C219,Francesca Palmer,Individual,francesca.palmer14@yahoo.com
+C220,Joanna Wright,Individual,joanna.wright52@yahoo.com
+C221,Aimee Harrison,Individual,aimee.harrison7@yahoo.com
+C222,Lee PLC,Corporate,events@lee.co.uk
+C223,Garry Jones,Individual,garry.jones23@outlook.com
+C224,Francis-Martin,Corporate,social@francis-martin.co.uk
+C225,Keith Watson,Individual,keith.watson92@hotmail.com
+C226,Carl Ahmed,Individual,carl.ahmed86@hotmail.com
+C227,Katherine Day,Individual,katherine.day24@yahoo.com
+C228,Jeremy Riley,Individual,jeremy.riley19@gmail.com
+C229,Patrick Steele,Individual,patrick.steele29@yahoo.com
+C230,The Jenna Tavern,Venue,manager@jennatavern.co.uk
+C231,Jasmine Harrison,Individual,jasmine.harrison4@hotmail.com
+C232,Owen Cross,Individual,owen.cross49@outlook.com
+C233,Joseph Rowe,Individual,joseph.rowe99@gmail.com
+C234,The Joel Bar,Venue,bookings@joelbar.co.uk
+C235,Jonathan Jones,Individual,jonathan.jones51@gmail.com
+C236,Bates-Webb,Corporate,social@bates-webb.co.uk
+C237,Anna Smith,Individual,anna.smith17@hotmail.com
+C238,Annette Jones,Individual,annette.jones27@gmail.com
+C239,Rebecca Payne,Individual,rebecca.payne34@yahoo.com
+C240,Smith Planners,Event Planner,contact@smithplanners.uk
+C241,The Marsh Academy,Venue,music@marshacademy.co.uk
+C242,Bailey-Freeman,Corporate,hr@bailey-freeman.co.uk
+C243,Christian Green,Individual,christian.green53@gmail.com
+C244,The Hayley Inn,Venue,bookings@hayleyinn.co.uk
+C245,Laura Johnson,Individual,laura.johnson95@yahoo.com
+C246,The Owen Tavern,Venue,music@owentavern.co.uk
+C247,Whittaker-Jenkins,Corporate,hr@whittaker-jenkins.co.uk
+C248,The Shaw Pub,Venue,manager@shawpub.co.uk
+C249,Cameron Hughes,Individual,cameron.hughes11@outlook.com
+C250,The Tony Pub,Venue,gigs@tonypub.co.uk
+C251,Irene Conway,Individual,irene.conway50@outlook.com
+C252,The Murphy Club,Venue,manager@murphyclub.co.uk
+C253,Kay Weddings,Event Planner,hello@kayweddings.uk
+C254,The Annette Club,Venue,gigs@annetteclub.co.uk
+C255,The Sean Bar,Venue,music@seanbar.co.uk
+C256,Butcher Planners,Event Planner,contact@butcherplanners.uk
+C257,Sanders Occasions,Event Planner,info@sandersoccasions.uk
+C258,"Owen, Davies and Pearce",Corporate,admin@owen.co.uk
+C259,Bell-Roberts,Corporate,hr@bell-roberts.co.uk
+C260,Garry Hall,Individual,garry.hall58@yahoo.com
+C261,The Sharpe Academy,Venue,bookings@sharpeacademy.co.uk
+C262,Samantha Simpson,Individual,samantha.simpson32@hotmail.com
+C263,Harrison Occasions,Event Planner,hello@harrisonoccasions.uk
+C264,The Ward Inn,Venue,gigs@wardinn.co.uk
+C265,Trevor O'Brien,Individual,trevor.o'brien18@gmail.com
+C266,"Reynolds, Osborne and Booth",Corporate,events@reynolds.co.uk
+C267,Middleton Events,Event Planner,info@middletonevents.uk
+C268,Whitehead-Griffin,Corporate,admin@whitehead-griffin.co.uk
+C269,Gillian Miller,Individual,gillian.miller29@outlook.com
+C270,Walker Ltd,Corporate,events@walker.co.uk
+C271,Pearson Ltd,Corporate,hr@pearson.co.uk
+C272,Stevens Occasions,Event Planner,team@stevensoccasions.uk
+C273,The Alice Club,Venue,gigs@aliceclub.co.uk
+C274,Hopkins Events,Event Planner,hello@hopkinsevents.uk
+C275,The Eileen Bar,Venue,music@eileenbar.co.uk
+C276,The Ashleigh Bar,Venue,bookings@ashleighbar.co.uk
+C277,The Davies Club,Venue,manager@daviesclub.co.uk
+C278,Newton and Sons,Corporate,admin@newton.co.uk
+C279,Justin Ashton,Individual,justin.ashton36@outlook.com
+C280,The Webb Inn,Venue,manager@webbinn.co.uk
+C281,Davies Events,Event Planner,contact@daviesevents.uk
+C282,Reece Hughes,Individual,reece.hughes51@gmail.com
+C283,The Lane Academy,Venue,manager@laneacademy.co.uk
+C284,The Conor Pub,Venue,gigs@conorpub.co.uk
+C285,Nicola Evans,Individual,nicola.evans98@hotmail.com
+C286,Coates-Spencer,Corporate,events@coates-spencer.co.uk
+C287,Francesca Williamson,Individual,francesca.williamson93@hotmail.com
+C288,Lawson Events,Event Planner,info@lawsonevents.uk
+C289,Byrne Weddings,Event Planner,team@byrneweddings.uk
+C290,Roberts-Allan,Corporate,social@roberts-allan.co.uk
+C291,Marc Ward,Individual,marc.ward66@yahoo.com
+C292,Ford-Hall,Corporate,events@ford-hall.co.uk
+C293,The Kathryn Club,Venue,bookings@kathrynclub.co.uk
+C294,The Gerard Bar,Venue,gigs@gerardbar.co.uk
+C295,Amy Porter,Individual,amy.porter43@hotmail.com
+C296,The Louise Pub,Venue,bookings@louisepub.co.uk
+C297,The Doyle Club,Venue,bookings@doyleclub.co.uk
+C298,Toby Williams,Individual,toby.williams61@outlook.com
+C299,Preston Events,Event Planner,team@prestonevents.uk
+C300,Maurice Butcher,Individual,maurice.butcher65@yahoo.com

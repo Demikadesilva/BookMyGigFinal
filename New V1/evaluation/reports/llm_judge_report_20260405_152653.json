@@ -1,0 +1,2032 @@
+{
+  "generated_at": "2026-04-05T15:26:53.901986",
+  "total_records": 110,
+  "overall_avg_score": 9.228,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "table": "musicians",
+      "sample_index": 0,
+      "record_id": "M362",
+      "quality_score": 7.5,
+      "consistency_score": 6.5,
+      "correctness_score": 7.0,
+      "completeness_score": 8.0,
+      "overall_score": 7.25,
+      "issues": [
+        "Years_Experience is 0, which is unlikely for a professional DJ with a dedicated booking email and pricing.",
+        "Social_Links field is a boolean value instead of a list or URLs, reducing realism.",
+        "Genres field redundantly includes 'DJ' as a genre rather than a role."
+      ],
+      "suggestions": [
+        "Set Years_Experience to at least 1\u20132 years to reflect a plausible entry-level professional.",
+        "Replace Social_Links boolean with actual URLs or an empty list if none are available.",
+        "Refine Genres to more specific styles such as 'Electronic, House, Techno' for better data quality."
+      ],
+      "raw_response": "{\n  \"quality_score\": 7.5,\n  \"consistency_score\": 6.5,\n  \"correctness_score\": 7.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Years_Experience is 0, which is unlikely for a professional DJ with a dedicated booking email and pricing.\",\n    \"Social_Links field is a boolean value instead of a list or URLs, reducing realism.\",\n    \"Genres field redundantly includes 'DJ' as a genre rather than a role.\"\n  ],\n  \"suggestions\": [\n    \"Set Years_Experience to at least 1\u20132 years to reflect a plausible entry-level professional.\",\n    \"Replace Social_Links boolean with actual URLs or an empty list if none are available.\",\n    \"Refine Genres to more specific styles such as 'Electronic, House, Techno' for better data quality.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 1,
+      "record_id": "M074",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.5,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URL, which reduces data richness.",
+        "Minor lack of detail in social links prevents full completeness."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or handles for social media profiles.",
+        "Otherwise, maintain current structure as values are realistic and consistent for a UK solo musician."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URL, which reduces data richness.\",\n    \"Minor lack of detail in social links prevents full completeness.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or handles for social media profiles.\",\n    \"Otherwise, maintain current structure as values are realistic and consistent for a UK solo musician.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 2,
+      "record_id": "M375",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.5,
+      "completeness_score": 9.0,
+      "overall_score": 8.5,
+      "issues": [
+        "Genre 'Classical' is somewhat unusual for a group named 'The Electric Waves', which implies a modern or electronic style.",
+        "Social_Links field is a boolean rather than a list or URL set, reducing informational completeness."
+      ],
+      "suggestions": [
+        "Verify that the genre accurately reflects the act\u2019s musical style; consider updating to a more fitting genre if necessary.",
+        "Replace the Social_Links boolean with actual URLs or structured social media handles for better completeness and usability."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Genre 'Classical' is somewhat unusual for a group named 'The Electric Waves', which implies a modern or electronic style.\",\n    \"Social_Links field is a boolean rather than a list or URL set, reducing informational completeness.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the genre accurately reflects the act\u2019s musical style; consider updating to a more fitting genre if necessary.\",\n    \"Replace the Social_Links boolean with actual URLs or structured social media handles for better completeness and usability.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 3,
+      "record_id": "M156",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.12,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URLs, which reduces completeness and realism.",
+        "Minor ambiguity in genre mix (Acoustic, Country, Jazz) could be clarified for booking relevance."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or social media handles to improve completeness and realism.",
+        "Optionally refine genre list to reflect the band's primary style for clearer categorisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URLs, which reduces completeness and realism.\",\n    \"Minor ambiguity in genre mix (Acoustic, Country, Jazz) could be clarified for booking relevance.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or social media handles to improve completeness and realism.\",\n    \"Optionally refine genre list to reflect the band's primary style for clearer categorisation.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 4,
+      "record_id": "M105",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.12,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URLs, which reduces data richness.",
+        "Genres combination (Hip-Hop, R&B, Reggae) is plausible but slightly uncommon for a Nottingham-based band; could use verification."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or structured social media handles for completeness.",
+        "Optionally verify genre alignment with the band's branding or audience expectations."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URLs, which reduces data richness.\",\n    \"Genres combination (Hip-Hop, R&B, Reggae) is plausible but slightly uncommon for a Nottingham-based band; could use verification.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or structured social media handles for completeness.\",\n    \"Optionally verify genre alignment with the band's branding or audience expectations.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 5,
+      "record_id": "M395",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URL, which reduces completeness.",
+        "Genre combination of 'R&B' and 'Classical' is unusual for a single quartet, though not impossible."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.",
+        "Optionally clarify genre focus or describe crossover style to improve realism and consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URL, which reduces completeness.\",\n    \"Genre combination of 'R&B' and 'Classical' is unusual for a single quartet, though not impossible.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.\",\n    \"Optionally clarify genre focus or describe crossover style to improve realism and consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 6,
+      "record_id": "M378",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Social_Links field is a boolean rather than a list or URL, reducing completeness.",
+        "Base_Price lacks currency symbol or unit (e.g., GBP)."
+      ],
+      "suggestions": [
+        "Replace Social_Links boolean with actual URLs or social media handles for better data richness.",
+        "Specify currency for Base_Price (e.g., 1230 GBP) to improve clarity and international usability."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Social_Links field is a boolean rather than a list or URL, reducing completeness.\",\n    \"Base_Price lacks currency symbol or unit (e.g., GBP).\"\n  ],\n  \"suggestions\": [\n    \"Replace Social_Links boolean with actual URLs or social media handles for better data richness.\",\n    \"Specify currency for Base_Price (e.g., 1230 GBP) to improve clarity and international usability.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 7,
+      "record_id": "M125",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.88,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URL, reducing completeness.",
+        "Genres field could be more specific (e.g., 'Electronic' already implies DJ work)."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or handles for social media profiles.",
+        "Consider refining 'Genres' to more detailed subgenres such as 'House', 'Techno', or 'Drum & Bass' for better categorisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URL, reducing completeness.\",\n    \"Genres field could be more specific (e.g., 'Electronic' already implies DJ work).\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or handles for social media profiles.\",\n    \"Consider refining 'Genres' to more detailed subgenres such as 'House', 'Techno', or 'Drum & Bass' for better categorisation.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 8,
+      "record_id": "M069",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Social_Links field is a boolean rather than a list or URL, which reduces completeness.",
+        "Genres field repeats 'DJ' which is more of a role than a genre."
+      ],
+      "suggestions": [
+        "Replace Social_Links boolean with actual URLs or handles for social media profiles.",
+        "Refine Genres to more specific musical styles such as 'Electronic, House, Techno' for better categorisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Social_Links field is a boolean rather than a list or URL, which reduces completeness.\",\n    \"Genres field repeats 'DJ' which is more of a role than a genre.\"\n  ],\n  \"suggestions\": [\n    \"Replace Social_Links boolean with actual URLs or handles for social media profiles.\",\n    \"Refine Genres to more specific musical styles such as 'Electronic, House, Techno' for better categorisation.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 9,
+      "record_id": "M451",
+      "quality_score": 8.5,
+      "consistency_score": 9.0,
+      "correctness_score": 8.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.38,
+      "issues": [
+        "Genres field is too generic and duplicates the musician type; expected a list or more descriptive genre (e.g., 'House', 'Techno').",
+        "Social_Links field is a boolean rather than actual URLs or handles, reducing completeness."
+      ],
+      "suggestions": [
+        "Expand 'Genres' to include specific musical styles relevant to the DJ (e.g., 'House', 'Drum and Bass').",
+        "Replace 'Social_Links': true with actual social media URLs or structured links for better completeness and realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 8.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Genres field is too generic and duplicates the musician type; expected a list or more descriptive genre (e.g., 'House', 'Techno').\",\n    \"Social_Links field is a boolean rather than actual URLs or handles, reducing completeness.\"\n  ],\n  \"suggestions\": [\n    \"Expand 'Genres' to include specific musical styles relevant to the DJ (e.g., 'House', 'Drum and Bass').\",\n    \"Replace 'Social_Links': true with actual social media URLs or structured links for better completeness and realism.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 10,
+      "record_id": "M010",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.5,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URL, which reduces data richness.",
+        "Only one genre is listed; bands often perform across multiple related genres."
+      ],
+      "suggestions": [
+        "Replace the boolean 'Social_Links' with actual URLs or structured social media handles.",
+        "Consider adding additional genres if applicable to better represent the band's style."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URL, which reduces data richness.\",\n    \"Only one genre is listed; bands often perform across multiple related genres.\"\n  ],\n  \"suggestions\": [\n    \"Replace the boolean 'Social_Links' with actual URLs or structured social media handles.\",\n    \"Consider adding additional genres if applicable to better represent the band's style.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 11,
+      "record_id": "M195",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.05,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URLs, which reduces completeness.",
+        "Minor ambiguity in 'Musician_Type'\u2014'Trio' is fine but could specify instrumentation for clarity."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.",
+        "Optionally expand 'Musician_Type' to include more descriptive detail (e.g., 'Blues/Soul Trio')."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URLs, which reduces completeness.\",\n    \"Minor ambiguity in 'Musician_Type'\u2014'Trio' is fine but could specify instrumentation for clarity.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.\",\n    \"Optionally expand 'Musician_Type' to include more descriptive detail (e.g., 'Blues/Soul Trio').\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 12,
+      "record_id": "M407",
+      "quality_score": 9.0,
+      "consistency_score": 8.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.62,
+      "issues": [
+        "Social_Links field is a boolean rather than a list or URL, reducing completeness.",
+        "Genre 'Country' is somewhat uncommon for a Birmingham-based trio, slightly affecting consistency."
+      ],
+      "suggestions": [
+        "Replace Social_Links boolean with actual URLs or handles for social media profiles.",
+        "Consider verifying genre alignment with regional and band style information to improve realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 8.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Social_Links field is a boolean rather than a list or URL, reducing completeness.\",\n    \"Genre 'Country' is somewhat uncommon for a Birmingham-based trio, slightly affecting consistency.\"\n  ],\n  \"suggestions\": [\n    \"Replace Social_Links boolean with actual URLs or handles for social media profiles.\",\n    \"Consider verifying genre alignment with regional and band style information to improve realism.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 13,
+      "record_id": "M085",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.0,
+      "overall_score": 8.88,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URLs, reducing completeness.",
+        "Base price may be slightly low for a trio, though still plausible for a newer act."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.",
+        "Consider verifying that the base price aligns with market rates for a trio with 2 years of experience."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URLs, reducing completeness.\",\n    \"Base price may be slightly low for a trio, though still plausible for a newer act.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or social media handles to improve completeness.\",\n    \"Consider verifying that the base price aligns with market rates for a trio with 2 years of experience.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 14,
+      "record_id": "M372",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "The 'Social_Links' field is a boolean rather than a list or URL, reducing data richness.",
+        "Genre combination 'Electronic, Classical' is unusual but not impossible; may warrant verification."
+      ],
+      "suggestions": [
+        "Replace 'Social_Links': true with actual URLs or social media handles for completeness.",
+        "Confirm that the genre mix accurately reflects the act\u2019s style to ensure correct categorisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"The 'Social_Links' field is a boolean rather than a list or URL, reducing data richness.\",\n    \"Genre combination 'Electronic, Classical' is unusual but not impossible; may warrant verification.\"\n  ],\n  \"suggestions\": [\n    \"Replace 'Social_Links': true with actual URLs or social media handles for completeness.\",\n    \"Confirm that the genre mix accurately reflects the act\u2019s style to ensure correct categorisation.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 15,
+      "record_id": "M389",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Social_Links field is a boolean rather than a list or URL, reducing completeness.",
+        "Genres field could be formatted as an array for better data structure consistency."
+      ],
+      "suggestions": [
+        "Replace Social_Links boolean with actual URLs or structured social media handles.",
+        "Represent Genres as an array of strings (e.g., [\"Blues\", \"Pop\"]) for better schema clarity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Social_Links field is a boolean rather than a list or URL, reducing completeness.\",\n    \"Genres field could be formatted as an array for better data structure consistency.\"\n  ],\n  \"suggestions\": [\n    \"Replace Social_Links boolean with actual URLs or structured social media handles.\",\n    \"Represent Genres as an array of strings (e.g., [\\\"Blues\\\", \\\"Pop\\\"]) for better schema clarity.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 16,
+      "record_id": "M496",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.5,
+      "completeness_score": 9.0,
+      "overall_score": 8.5,
+      "issues": [
+        "Genre combination 'Electronic, Country' is unusual and may reduce realism for a Brighton-based band.",
+        "Social_Links field is a boolean rather than a list or URL set, limiting detail."
+      ],
+      "suggestions": [
+        "Provide actual social media URLs or handles instead of a boolean value for Social_Links.",
+        "Consider verifying or refining genre mix to ensure plausibility for target audience and booking context."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Genre combination 'Electronic, Country' is unusual and may reduce realism for a Brighton-based band.\",\n    \"Social_Links field is a boolean rather than a list or URL set, limiting detail.\"\n  ],\n  \"suggestions\": [\n    \"Provide actual social media URLs or handles instead of a boolean value for Social_Links.\",\n    \"Consider verifying or refining genre mix to ensure plausibility for target audience and booking context.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 17,
+      "record_id": "M031",
+      "quality_score": 8.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.62,
+      "issues": [
+        "The 'Genres' field is too generic and duplicates the musician type rather than specifying a musical style (e.g., 'House', 'EDM').",
+        "The 'Social_Links' field is a boolean rather than containing actual URLs or handles, reducing completeness."
+      ],
+      "suggestions": [
+        "Provide a more descriptive genre to reflect the DJ\u2019s musical style.",
+        "Replace the boolean 'Social_Links' value with actual social media URLs or structured links for better completeness and realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"The 'Genres' field is too generic and duplicates the musician type rather than specifying a musical style (e.g., 'House', 'EDM').\",\n    \"The 'Social_Links' field is a boolean rather than containing actual URLs or handles, reducing completeness.\"\n  ],\n  \"suggestions\": [\n    \"Provide a more descriptive genre to reflect the DJ\u2019s musical style.\",\n    \"Replace the boolean 'Social_Links' value with actual social media URLs or structured links for better completeness and realism.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 18,
+      "record_id": "M317",
+      "quality_score": 8.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.62,
+      "issues": [
+        "The 'Genres' field is too generic and duplicates the musician type rather than specifying a musical style (e.g. 'House', 'Techno').",
+        "The 'Social_Links' field is a boolean rather than a list or URLs, which reduces data richness."
+      ],
+      "suggestions": [
+        "Provide more specific genre information to improve searchability and realism.",
+        "Replace the boolean 'Social_Links' with actual URLs or structured social media handles."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"The 'Genres' field is too generic and duplicates the musician type rather than specifying a musical style (e.g. 'House', 'Techno').\",\n    \"The 'Social_Links' field is a boolean rather than a list or URLs, which reduces data richness.\"\n  ],\n  \"suggestions\": [\n    \"Provide more specific genre information to improve searchability and realism.\",\n    \"Replace the boolean 'Social_Links' with actual URLs or structured social media handles.\"\n  ]\n}"
+    },
+    {
+      "table": "musicians",
+      "sample_index": 19,
+      "record_id": "M409",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Social_Links field is a boolean rather than a list or URL, reducing completeness.",
+        "Base_Price slightly high for a classical quartet in Reading but still plausible."
+      ],
+      "suggestions": [
+        "Replace Social_Links boolean with actual URLs or structured social media handles.",
+        "Optionally verify pricing range against regional averages for classical quartets to ensure realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Social_Links field is a boolean rather than a list or URL, reducing completeness.\",\n    \"Base_Price slightly high for a classical quartet in Reading but still plausible.\"\n  ],\n  \"suggestions\": [\n    \"Replace Social_Links boolean with actual URLs or structured social media handles.\",\n    \"Optionally verify pricing range against regional averages for classical quartets to ensure realism.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 0,
+      "record_id": "C204",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.5,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or address for a venue.",
+        "Limited contextual detail about the venue (e.g. location, capacity) reduces completeness."
+      ],
+      "suggestions": [
+        "Add venue address and phone number to improve completeness and usability.",
+        "Include additional metadata such as city or region to enhance booking relevance."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or address for a venue.\",\n    \"Limited contextual detail about the venue (e.g. location, capacity) reduces completeness.\"\n  ],\n  \"suggestions\": [\n    \"Add venue address and phone number to improve completeness and usability.\",\n    \"Include additional metadata such as city or region to enhance booking relevance.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 1,
+      "record_id": "C267",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.62,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or address, which may be expected for corporate clients."
+      ],
+      "suggestions": [
+        "Add a contact phone number or physical address to improve completeness.",
+        "Ensure email domain is verified and active for corporate correspondence."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or address, which may be expected for corporate clients.\"\n  ],\n  \"suggestions\": [\n    \"Add a contact phone number or physical address to improve completeness.\",\n    \"Ensure email domain is verified and active for corporate correspondence.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 2,
+      "record_id": "C153",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.62,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or address for a corporate client.",
+        "Minor uncertainty whether the email domain is real but it appears plausible."
+      ],
+      "suggestions": [
+        "Add a contact phone number or physical address to improve completeness.",
+        "Verify that the email domain is valid and monitored for event enquiries."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or address for a corporate client.\",\n    \"Minor uncertainty whether the email domain is real but it appears plausible.\"\n  ],\n  \"suggestions\": [\n    \"Add a contact phone number or physical address to improve completeness.\",\n    \"Verify that the email domain is valid and monitored for event enquiries.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 3,
+      "record_id": "C010",
+      "quality_score": 8.0,
+      "consistency_score": 9.5,
+      "correctness_score": 8.0,
+      "completeness_score": 9.0,
+      "overall_score": 8.62,
+      "issues": [
+        "Email domain 'musicnet.uk.co.uk' appears unrealistic or malformed; typical UK domains use '.co.uk' or '.uk'.",
+        "No phone number or secondary contact method provided, which may limit completeness for a client record."
+      ],
+      "suggestions": [
+        "Correct the email to a plausible UK domain format such as 'noah.hall@musicnet.co.uk'.",
+        "Add an additional contact detail (e.g., phone number) to improve completeness and usability."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 8.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Email domain 'musicnet.uk.co.uk' appears unrealistic or malformed; typical UK domains use '.co.uk' or '.uk'.\",\n    \"No phone number or secondary contact method provided, which may limit completeness for a client record.\"\n  ],\n  \"suggestions\": [\n    \"Correct the email to a plausible UK domain format such as 'noah.hall@musicnet.co.uk'.\",\n    \"Add an additional contact detail (e.g., phone number) to improve completeness and usability.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 4,
+      "record_id": "C234",
+      "quality_score": 8.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 8.0,
+      "overall_score": 8.62,
+      "issues": [
+        "Email domain 'freemail.com.co.uk' is unusual and may not be valid for UK-based business.",
+        "Record lacks phone number or address, which are typically required contact details for a client."
+      ],
+      "suggestions": [
+        "Verify and possibly correct the email domain to a more standard UK format (e.g. '@freemail.co.uk' or '@gmail.com').",
+        "Add additional contact information such as phone number and business address to improve completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Email domain 'freemail.com.co.uk' is unusual and may not be valid for UK-based business.\",\n    \"Record lacks phone number or address, which are typically required contact details for a client.\"\n  ],\n  \"suggestions\": [\n    \"Verify and possibly correct the email domain to a more standard UK format (e.g. '@freemail.co.uk' or '@gmail.com').\",\n    \"Add additional contact information such as phone number and business address to improve completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 5,
+      "record_id": "C227",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.25,
+      "issues": [
+        "Record lacks location or phone contact details which may be expected for a corporate client.",
+        "No explicit verification of email domain alignment with company name (minor plausibility gap)."
+      ],
+      "suggestions": [
+        "Add a business address or region field to improve completeness and realism.",
+        "Confirm that the email domain corresponds to the Hartley Group\u2019s official domain for better data integrity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks location or phone contact details which may be expected for a corporate client.\",\n    \"No explicit verification of email domain alignment with company name (minor plausibility gap).\"\n  ],\n  \"suggestions\": [\n    \"Add a business address or region field to improve completeness and realism.\",\n    \"Confirm that the email domain corresponds to the Hartley Group\u2019s official domain for better data integrity.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 6,
+      "record_id": "C197",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.5,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or physical address for a venue.",
+        "Limited contextual detail (e.g. location or capacity) reduces completeness for a venue profile."
+      ],
+      "suggestions": [
+        "Add venue address and contact phone number to improve completeness and usability.",
+        "Include additional metadata such as capacity or region to enhance booking relevance."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or physical address for a venue.\",\n    \"Limited contextual detail (e.g. location or capacity) reduces completeness for a venue profile.\"\n  ],\n  \"suggestions\": [\n    \"Add venue address and contact phone number to improve completeness and usability.\",\n    \"Include additional metadata such as capacity or region to enhance booking relevance.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 7,
+      "record_id": "C110",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.5,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or address for a venue.",
+        "Client_Name could specify location (e.g., 'London Palladium') for clarity."
+      ],
+      "suggestions": [
+        "Add venue address and phone contact to improve completeness.",
+        "Include more specific venue identification to avoid ambiguity with similarly named venues."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or address for a venue.\",\n    \"Client_Name could specify location (e.g., 'London Palladium') for clarity.\"\n  ],\n  \"suggestions\": [\n    \"Add venue address and phone contact to improve completeness.\",\n    \"Include more specific venue identification to avoid ambiguity with similarly named venues.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 8,
+      "record_id": "C006",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.0,
+      "overall_score": 9.25,
+      "issues": [
+        "Record lacks phone number or physical address, which are typically required contact details for an event planner.",
+        "Email format is plausible but slightly unusual ('gmail.co.uk' is rare compared to 'gmail.com')."
+      ],
+      "suggestions": [
+        "Add a phone number and/or business address to improve completeness.",
+        "Verify that the email domain is correct and active for the client."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Record lacks phone number or physical address, which are typically required contact details for an event planner.\",\n    \"Email format is plausible but slightly unusual ('gmail.co.uk' is rare compared to 'gmail.com').\"\n  ],\n  \"suggestions\": [\n    \"Add a phone number and/or business address to improve completeness.\",\n    \"Verify that the email domain is correct and active for the client.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 9,
+      "record_id": "C176",
+      "quality_score": 8.0,
+      "consistency_score": 9.0,
+      "correctness_score": 7.5,
+      "completeness_score": 9.0,
+      "overall_score": 8.38,
+      "issues": [
+        "Email address contains a duplicated '.com' which makes it invalid.",
+        "Minor realism issue: event planners typically use a business domain rather than a freemail address."
+      ],
+      "suggestions": [
+        "Correct the email to a valid format, e.g. 'hugo.allen.events@freemail.com'.",
+        "Consider using a more professional domain to better reflect an event planning business."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 7.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Email address contains a duplicated '.com' which makes it invalid.\",\n    \"Minor realism issue: event planners typically use a business domain rather than a freemail address.\"\n  ],\n  \"suggestions\": [\n    \"Correct the email to a valid format, e.g. 'hugo.allen.events@freemail.com'.\",\n    \"Consider using a more professional domain to better reflect an event planning business.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 10,
+      "record_id": "C238",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.5,
+      "issues": [
+        "Record lacks optional but useful fields such as phone number or address, which may be expected for client contact completeness."
+      ],
+      "suggestions": [
+        "Add a phone number or business address to improve completeness.",
+        "Consider including a company registration or website field for professional event planners."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks optional but useful fields such as phone number or address, which may be expected for client contact completeness.\"\n  ],\n  \"suggestions\": [\n    \"Add a phone number or business address to improve completeness.\",\n    \"Consider including a company registration or website field for professional event planners.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 11,
+      "record_id": "C058",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.62,
+      "issues": [
+        "Record lacks additional contact details such as phone number or address, which may be expected for an event planner profile."
+      ],
+      "suggestions": [
+        "Add a phone number or business address to improve completeness.",
+        "Consider including a company website or social media link for richer client data."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\"Record lacks additional contact details such as phone number or address, which may be expected for an event planner profile.\"],\n  \"suggestions\": [\"Add a phone number or business address to improve completeness.\", \"Consider including a company website or social media link for richer client data.\"]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 12,
+      "record_id": "C219",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.12,
+      "issues": [
+        "Record lacks additional contact details such as phone number or address, which are typically expected for corporate clients.",
+        "No metadata about location or booking history limits completeness."
+      ],
+      "suggestions": [
+        "Add a phone number and possibly a registered business address to improve completeness.",
+        "Include optional fields like 'Preferred_Music_Genres' or 'Booking_Frequency' for richer client profiling."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Record lacks additional contact details such as phone number or address, which are typically expected for corporate clients.\",\n    \"No metadata about location or booking history limits completeness.\"\n  ],\n  \"suggestions\": [\n    \"Add a phone number and possibly a registered business address to improve completeness.\",\n    \"Include optional fields like 'Preferred_Music_Genres' or 'Booking_Frequency' for richer client profiling.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 13,
+      "record_id": "C046",
+      "quality_score": 9.0,
+      "consistency_score": 10.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.0,
+      "overall_score": 9.12,
+      "issues": [
+        "Email domain 'freemail.com.co.uk' is unusual and may be a formatting or plausibility issue.",
+        "Record lacks optional but useful fields such as phone number or location, which may affect completeness."
+      ],
+      "suggestions": [
+        "Verify that the email domain is valid and corresponds to a real UK-based provider.",
+        "Consider adding additional contact details (e.g., phone number, address) to improve completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Email domain 'freemail.com.co.uk' is unusual and may be a formatting or plausibility issue.\",\n    \"Record lacks optional but useful fields such as phone number or location, which may affect completeness.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the email domain is valid and corresponds to a real UK-based provider.\",\n    \"Consider adding additional contact details (e.g., phone number, address) to improve completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "clients",
+      "sample_index": 14,
+      "record_id": "C183",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 8.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Record lacks additional contact details such as phone number or address, which are typically required for booking verification."
+      ],
+      "suggestions": [
+        "Add a phone number or postal address to improve completeness.",
+        "Include optional metadata such as preferred genre or booking history to enrich the client profile."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 8.0,\n  \"issues\": [\n    \"Record lacks additional contact details such as phone number or address, which are typically required for booking verification.\"\n  ],\n  \"suggestions\": [\n    \"Add a phone number or postal address to improve completeness.\",\n    \"Include optional metadata such as preferred genre or booking history to enrich the client profile.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 0,
+      "record_id": "E697",
+      "quality_score": 9.0,
+      "consistency_score": 8.5,
+      "correctness_score": 9.0,
+      "completeness_score": 9.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Event type 'Bar Mitzvah' is uncommon in Belfast but still plausible.",
+        "Budget may be slightly high for a 150-person private event depending on entertainment scope."
+      ],
+      "suggestions": [
+        "Verify cultural appropriateness and venue availability for a Bar Mitzvah in Belfast.",
+        "Confirm that the budget aligns with local entertainment pricing for similar event sizes."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 8.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Event type 'Bar Mitzvah' is uncommon in Belfast but still plausible.\",\n    \"Budget may be slightly high for a 150-person private event depending on entertainment scope.\"\n  ],\n  \"suggestions\": [\n    \"Verify cultural appropriateness and venue availability for a Bar Mitzvah in Belfast.\",\n    \"Confirm that the budget aligns with local entertainment pricing for similar event sizes.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 1,
+      "record_id": "E668",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 9.5,
+      "overall_score": 9.25,
+      "issues": [
+        "Budget may be slightly low for a 54-person birthday event with live music in Belfast, depending on performer type.",
+        "Date_Time format is acceptable but could include timezone for full clarity."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with typical local rates for small live acts or DJs in Belfast.",
+        "Consider adding a timezone or explicit start/end times to improve scheduling precision."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Budget may be slightly low for a 54-person birthday event with live music in Belfast, depending on performer type.\",\n    \"Date_Time format is acceptable but could include timezone for full clarity.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with typical local rates for small live acts or DJs in Belfast.\",\n    \"Consider adding a timezone or explicit start/end times to improve scheduling precision.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 2,
+      "record_id": "E064",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Budget may be slightly low for a festival with over 500 attendees, depending on scale and artist type."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with expected artist fees and production costs for a festival of this size.",
+        "Consider adding more contextual fields such as venue name or duration to improve event realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget may be slightly low for a festival with over 500 attendees, depending on scale and artist type.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with expected artist fees and production costs for a festival of this size.\",\n    \"Consider adding more contextual fields such as venue name or duration to improve event realism.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 3,
+      "record_id": "E534",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Budget slightly high for a typical wedding but still plausible for a large event.",
+        "Expected_Pax of 525 is on the upper end for a wedding; may need confirmation."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with the scale and type of event (large wedding).",
+        "Confirm venue capacity and guest count to ensure logistical feasibility."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget slightly high for a typical wedding but still plausible for a large event.\",\n    \"Expected_Pax of 525 is on the upper end for a wedding; may need confirmation.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with the scale and type of event (large wedding).\",\n    \"Confirm venue capacity and guest count to ensure logistical feasibility.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 4,
+      "record_id": "E067",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Budget slightly high for a typical private party but still plausible.",
+        "Expected_Pax value is large for a private party; could indicate a corporate or large-scale private event."
+      ],
+      "suggestions": [
+        "Verify that the event type 'Private Party' aligns with the high guest count and budget; consider 'Corporate Celebration' or 'Large Private Event' if applicable.",
+        "Confirm that the date and time format matches platform standards (ISO 8601 preferred)."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget slightly high for a typical private party but still plausible.\",\n    \"Expected_Pax value is large for a private party; could indicate a corporate or large-scale private event.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the event type 'Private Party' aligns with the high guest count and budget; consider 'Corporate Celebration' or 'Large Private Event' if applicable.\",\n    \"Confirm that the date and time format matches platform standards (ISO 8601 preferred).\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 5,
+      "record_id": "E622",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Budget slightly high for a private party but still plausible for London.",
+        "No explicit currency symbol; assumed GBP."
+      ],
+      "suggestions": [
+        "Add currency indicator (e.g., 'Budget_GBP') for clarity.",
+        "Optionally include venue name or postcode to improve location specificity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget slightly high for a private party but still plausible for London.\",\n    \"No explicit currency symbol; assumed GBP.\"\n  ],\n  \"suggestions\": [\n    \"Add currency indicator (e.g., 'Budget_GBP') for clarity.\",\n    \"Optionally include venue name or postcode to improve location specificity.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 6,
+      "record_id": "E347",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.62,
+      "issues": [
+        "Minor uncertainty about whether the budget aligns perfectly with a mid-scale charity gala of 250 guests."
+      ],
+      "suggestions": [
+        "Verify that the budget range (\u00a39,850) matches typical entertainment and venue costs for a Belfast charity gala.",
+        "Optionally include additional contextual fields such as venue name or duration to improve event detail completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor uncertainty about whether the budget aligns perfectly with a mid-scale charity gala of 250 guests.\"],\n  \"suggestions\": [\"Verify that the budget range (\u00a39,850) matches typical entertainment and venue costs for a Belfast charity gala.\", \"Optionally include additional contextual fields such as venue name or duration to improve event detail completeness.\"]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 7,
+      "record_id": "E491",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 9.5,
+      "overall_score": 9.25,
+      "issues": [
+        "Budget value lacks explicit currency symbol, which could cause ambiguity in multi-region datasets.",
+        "No venue name or address provided, which may limit booking logistics."
+      ],
+      "suggestions": [
+        "Add currency formatting (e.g., GBP) to the Budget field for clarity.",
+        "Include venue details or postcode to improve event location specificity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Budget value lacks explicit currency symbol, which could cause ambiguity in multi-region datasets.\",\n    \"No venue name or address provided, which may limit booking logistics.\"\n  ],\n  \"suggestions\": [\n    \"Add currency formatting (e.g., GBP) to the Budget field for clarity.\",\n    \"Include venue details or postcode to improve event location specificity.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 8,
+      "record_id": "E761",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Budget may be slightly low for a full concert event with 95 attendees, depending on artist and venue costs."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with typical concert pricing in Cardiff for around 100 guests.",
+        "Consider specifying venue details or duration to improve realism and context."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget may be slightly low for a full concert event with 95 attendees, depending on artist and venue costs.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with typical concert pricing in Cardiff for around 100 guests.\",\n    \"Consider specifying venue details or duration to improve realism and context.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 9,
+      "record_id": "E457",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.75,
+      "issues": [
+        "Budget value could be slightly high for a mid-sized charity gala in Reading but still plausible."
+      ],
+      "suggestions": [
+        "Optionally include venue name or postcode to improve geographic specificity.",
+        "Verify that the budget aligns with typical entertainment and venue costs for a 300-person charity gala."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget value could be slightly high for a mid-sized charity gala in Reading but still plausible.\"\n  ],\n  \"suggestions\": [\n    \"Optionally include venue name or postcode to improve geographic specificity.\",\n    \"Verify that the budget aligns with typical entertainment and venue costs for a 300-person charity gala.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 10,
+      "record_id": "E066",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Budget of \u00a3950 may be slightly low for a 248-person pub gig, depending on artist and equipment costs."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with expected attendance and event type.",
+        "Consider adding optional fields such as venue name or duration for richer context."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget of \u00a3950 may be slightly low for a 248-person pub gig, depending on artist and equipment costs.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with expected attendance and event type.\",\n    \"Consider adding optional fields such as venue name or duration for richer context.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 11,
+      "record_id": "E287",
+      "quality_score": 9.2,
+      "consistency_score": 9.5,
+      "correctness_score": 9.3,
+      "completeness_score": 9.0,
+      "overall_score": 9.25,
+      "issues": [
+        "Date format is acceptable but lacks explicit timezone information.",
+        "Budget field could specify currency (e.g., GBP) for clarity."
+      ],
+      "suggestions": [
+        "Add timezone or confirm local time to avoid scheduling confusion.",
+        "Include currency symbol or code to ensure clarity for international users."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Date format is acceptable but lacks explicit timezone information.\",\n    \"Budget field could specify currency (e.g., GBP) for clarity.\"\n  ],\n  \"suggestions\": [\n    \"Add timezone or confirm local time to avoid scheduling confusion.\",\n    \"Include currency symbol or code to ensure clarity for international users.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 12,
+      "record_id": "E636",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Budget may be slightly high for a typical pub gig, though still plausible for a large crowd.",
+        "Expected_Pax of 482 is on the upper end for a pub venue and might indicate a larger event space."
+      ],
+      "suggestions": [
+        "Verify that the venue in Reading can accommodate nearly 500 attendees for a pub-style gig.",
+        "Confirm that the budget aligns with the scale and type of event; consider adjusting event type to 'Large Pub Event' or 'Venue Gig' if appropriate."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget may be slightly high for a typical pub gig, though still plausible for a large crowd.\",\n    \"Expected_Pax of 482 is on the upper end for a pub venue and might indicate a larger event space.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the venue in Reading can accommodate nearly 500 attendees for a pub-style gig.\",\n    \"Confirm that the budget aligns with the scale and type of event; consider adjusting event type to 'Large Pub Event' or 'Venue Gig' if appropriate.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 13,
+      "record_id": "E068",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 9.5,
+      "overall_score": 9.25,
+      "issues": [
+        "No explicit currency symbol provided for budget, which could cause ambiguity.",
+        "Event description lacks venue details or postcode, limiting geographic precision."
+      ],
+      "suggestions": [
+        "Specify currency explicitly (e.g., GBP) to ensure clarity for UK-based bookings.",
+        "Add venue name or postcode to improve location accuracy and logistical planning."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"No explicit currency symbol provided for budget, which could cause ambiguity.\",\n    \"Event description lacks venue details or postcode, limiting geographic precision.\"\n  ],\n  \"suggestions\": [\n    \"Specify currency explicitly (e.g., GBP) to ensure clarity for UK-based bookings.\",\n    \"Add venue name or postcode to improve location accuracy and logistical planning.\"\n  ]\n}"
+    },
+    {
+      "table": "events",
+      "sample_index": 14,
+      "record_id": "E328",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Budget of \u00a33300 seems slightly low for a festival with nearly 400 attendees, which may indicate underestimation."
+      ],
+      "suggestions": [
+        "Verify that the budget aligns with typical costs for a festival of this size in Southampton.",
+        "Consider adding optional descriptive fields such as venue name or duration to improve event context."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Budget of \u00a33300 seems slightly low for a festival with nearly 400 attendees, which may indicate underestimation.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the budget aligns with typical costs for a festival of this size in Southampton.\",\n    \"Consider adding optional descriptive fields such as venue name or duration to improve event context.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 0,
+      "record_id": "B111",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 9.0,
+      "overall_score": 9.25,
+      "issues": [
+        "Price_Charged seems slightly high for a 3-hour booking unless it involves a premium or well-known musician.",
+        "No currency symbol or explicit unit for Price_Charged (assumed GBP)."
+      ],
+      "suggestions": [
+        "Confirm that the price aligns with the musician\u2019s experience level and event type to ensure realism.",
+        "Include explicit currency (e.g., 'Price_Charged_GBP') or a currency field for clarity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Price_Charged seems slightly high for a 3-hour booking unless it involves a premium or well-known musician.\",\n    \"No currency symbol or explicit unit for Price_Charged (assumed GBP).\"\n  ],\n  \"suggestions\": [\n    \"Confirm that the price aligns with the musician\u2019s experience level and event type to ensure realism.\",\n    \"Include explicit currency (e.g., 'Price_Charged_GBP') or a currency field for clarity.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 1,
+      "record_id": "B420",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.5,
+      "completeness_score": 9.5,
+      "overall_score": 8.62,
+      "issues": [
+        "Price_Charged value (\u00a36350) seems unusually high for a 4-hour booking unless it involves a top-tier performer or large-scale event.",
+        "No explicit currency symbol or unit provided, which could cause ambiguity."
+      ],
+      "suggestions": [
+        "Verify that the price aligns with the musician\u2019s profile and event scale; adjust if unrealistic for typical UK bookings.",
+        "Include currency units (e.g., GBP) to improve clarity and data standardisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.5,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged value (\u00a36350) seems unusually high for a 4-hour booking unless it involves a top-tier performer or large-scale event.\",\n    \"No explicit currency symbol or unit provided, which could cause ambiguity.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price aligns with the musician\u2019s profile and event scale; adjust if unrealistic for typical UK bookings.\",\n    \"Include currency units (e.g., GBP) to improve clarity and data standardisation.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 2,
+      "record_id": "B566",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Price of \u00a32520 for a 2-hour booking seems high unless it is a premium or corporate event.",
+        "No explicit currency symbol or unit for price; assumed GBP."
+      ],
+      "suggestions": [
+        "Clarify the pricing context or include a currency field to confirm GBP.",
+        "Optionally include event type or location to justify premium pricing."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Price of \u00a32520 for a 2-hour booking seems high unless it is a premium or corporate event.\",\n    \"No explicit currency symbol or unit for price; assumed GBP.\"\n  ],\n  \"suggestions\": [\n    \"Clarify the pricing context or include a currency field to confirm GBP.\",\n    \"Optionally include event type or location to justify premium pricing.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 3,
+      "record_id": "B078",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.0,
+      "completeness_score": 9.0,
+      "overall_score": 8.38,
+      "issues": [
+        "Price_Charged value (\u00a311,740) seems unusually high for a 4-hour booking, possibly unrealistic for a typical UK musician event.",
+        "No currency unit specified; unclear if value is in GBP or another currency."
+      ],
+      "suggestions": [
+        "Verify the pricing scale and ensure it aligns with typical UK market rates for similar duration and musician type.",
+        "Add explicit currency information (e.g., 'Price_Charged_GBP') to improve clarity and data quality."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Price_Charged value (\u00a311,740) seems unusually high for a 4-hour booking, possibly unrealistic for a typical UK musician event.\",\n    \"No currency unit specified; unclear if value is in GBP or another currency.\"\n  ],\n  \"suggestions\": [\n    \"Verify the pricing scale and ensure it aligns with typical UK market rates for similar duration and musician type.\",\n    \"Add explicit currency information (e.g., 'Price_Charged_GBP') to improve clarity and data quality.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 4,
+      "record_id": "B182",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 9.5,
+      "overall_score": 9.25,
+      "issues": [
+        "Price_Charged appears high for a 6-hour booking unless the musician is a top-tier performer.",
+        "No explicit currency symbol or unit specified for Price_Charged."
+      ],
+      "suggestions": [
+        "Confirm that the price aligns with the musician\u2019s experience level and event type to ensure realism.",
+        "Include currency (e.g., GBP) in the Price_Charged field for clarity and standardisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged appears high for a 6-hour booking unless the musician is a top-tier performer.\",\n    \"No explicit currency symbol or unit specified for Price_Charged.\"\n  ],\n  \"suggestions\": [\n    \"Confirm that the price aligns with the musician\u2019s experience level and event type to ensure realism.\",\n    \"Include currency (e.g., GBP) in the Price_Charged field for clarity and standardisation.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 5,
+      "record_id": "B285",
+      "quality_score": 8.0,
+      "consistency_score": 6.5,
+      "correctness_score": 6.0,
+      "completeness_score": 9.0,
+      "overall_score": 7.38,
+      "issues": [
+        "Price of \u00a31670 for a 1-hour booking seems unusually high for a UK musician, suggesting possible data entry or scaling error.",
+        "Low rating (2) may not align with such a high price unless justified by context (e.g., premium artist but poor performance)."
+      ],
+      "suggestions": [
+        "Verify pricing scale and ensure it reflects realistic market rates for the duration and type of event.",
+        "Consider adding contextual fields such as event type or musician genre to better assess rating\u2013price consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.0,\n  \"consistency_score\": 6.5,\n  \"correctness_score\": 6.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Price of \u00a31670 for a 1-hour booking seems unusually high for a UK musician, suggesting possible data entry or scaling error.\",\n    \"Low rating (2) may not align with such a high price unless justified by context (e.g., premium artist but poor performance).\"\n  ],\n  \"suggestions\": [\n    \"Verify pricing scale and ensure it reflects realistic market rates for the duration and type of event.\",\n    \"Consider adding contextual fields such as event type or musician genre to better assess rating\u2013price consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 6,
+      "record_id": "B011",
+      "quality_score": 7.5,
+      "consistency_score": 7.0,
+      "correctness_score": 7.5,
+      "completeness_score": 9.5,
+      "overall_score": 7.88,
+      "issues": [
+        "Price_Charged value (\u00a317,870) is unusually high for a 4-hour booking, even for top-tier UK musicians.",
+        "No currency unit specified, which could cause ambiguity.",
+        "No contextual link to event type or musician profile to justify premium pricing."
+      ],
+      "suggestions": [
+        "Verify that the price is in the correct currency and within a realistic range for the UK market (e.g., \u00a3400\u2013\u00a34000 typical).",
+        "Add contextual fields such as event type or musician genre to better justify pricing and rating.",
+        "Include currency symbol or standardise monetary fields to GBP for clarity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 7.5,\n  \"consistency_score\": 7.0,\n  \"correctness_score\": 7.5,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged value (\u00a317,870) is unusually high for a 4-hour booking, even for top-tier UK musicians.\",\n    \"No currency unit specified, which could cause ambiguity.\",\n    \"No contextual link to event type or musician profile to justify premium pricing.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price is in the correct currency and within a realistic range for the UK market (e.g., \u00a3400\u2013\u00a34000 typical).\",\n    \"Add contextual fields such as event type or musician genre to better justify pricing and rating.\",\n    \"Include currency symbol or standardise monetary fields to GBP for clarity.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 7,
+      "record_id": "B470",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.5,
+      "completeness_score": 9.5,
+      "overall_score": 8.62,
+      "issues": [
+        "Price_Charged of 6970 seems unusually high for a 5-hour booking in the UK unless it is a top-tier act or large event.",
+        "No currency specified for Price_Charged, which could cause ambiguity."
+      ],
+      "suggestions": [
+        "Verify that the price aligns with the musician\u2019s profile and event type; adjust if unrealistic.",
+        "Add explicit currency (e.g., GBP) to improve clarity and data standardisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.5,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged of 6970 seems unusually high for a 5-hour booking in the UK unless it is a top-tier act or large event.\",\n    \"No currency specified for Price_Charged, which could cause ambiguity.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price aligns with the musician\u2019s profile and event type; adjust if unrealistic.\",\n    \"Add explicit currency (e.g., GBP) to improve clarity and data standardisation.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 8,
+      "record_id": "B079",
+      "quality_score": 7.5,
+      "consistency_score": 7.0,
+      "correctness_score": 7.5,
+      "completeness_score": 9.0,
+      "overall_score": 7.75,
+      "issues": [
+        "Price_Charged value (\u00a39010) appears unrealistically high for a typical UK music booking of 3 hours.",
+        "No currency symbol or unit specified for Price_Charged, which may cause ambiguity."
+      ],
+      "suggestions": [
+        "Verify pricing scale and adjust to a more plausible range (e.g., \u00a3300\u2013\u00a31500 for a 3-hour performance).",
+        "Include explicit currency formatting (e.g., 'GBP') to improve clarity and data standardisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 7.5,\n  \"consistency_score\": 7.0,\n  \"correctness_score\": 7.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Price_Charged value (\u00a39010) appears unrealistically high for a typical UK music booking of 3 hours.\",\n    \"No currency symbol or unit specified for Price_Charged, which may cause ambiguity.\"\n  ],\n  \"suggestions\": [\n    \"Verify pricing scale and adjust to a more plausible range (e.g., \u00a3300\u2013\u00a31500 for a 3-hour performance).\",\n    \"Include explicit currency formatting (e.g., 'GBP') to improve clarity and data standardisation.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 9,
+      "record_id": "B350",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 8.5,
+      "overall_score": 9.05,
+      "issues": [
+        "No explicit currency or unit for Price_Charged; assumed GBP but not stated.",
+        "No textual feedback or review field to confirm that Rating of 5 aligns with sentiment."
+      ],
+      "suggestions": [
+        "Add a currency indicator (e.g., 'Price_Charged_GBP') to improve clarity and realism.",
+        "Include a short review or feedback text to validate the Rating and enhance semantic completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"No explicit currency or unit for Price_Charged; assumed GBP but not stated.\",\n    \"No textual feedback or review field to confirm that Rating of 5 aligns with sentiment.\"\n  ],\n  \"suggestions\": [\n    \"Add a currency indicator (e.g., 'Price_Charged_GBP') to improve clarity and realism.\",\n    \"Include a short review or feedback text to validate the Rating and enhance semantic completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 10,
+      "record_id": "B056",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Price of \u00a34040 for a 2-hour booking seems unusually high for a typical UK musician unless it is a premium act or large event.",
+        "No explicit currency or unit for price, though implied GBP."
+      ],
+      "suggestions": [
+        "Verify that the price aligns with the musician\u2019s profile and event scale to ensure plausibility.",
+        "Include explicit currency (e.g., 'GBP') to avoid ambiguity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Price of \u00a34040 for a 2-hour booking seems unusually high for a typical UK musician unless it is a premium act or large event.\",\n    \"No explicit currency or unit for price, though implied GBP.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price aligns with the musician\u2019s profile and event scale to ensure plausibility.\",\n    \"Include explicit currency (e.g., 'GBP') to avoid ambiguity.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 11,
+      "record_id": "B119",
+      "quality_score": 7.5,
+      "consistency_score": 7.0,
+      "correctness_score": 7.5,
+      "completeness_score": 9.0,
+      "overall_score": 7.75,
+      "issues": [
+        "Price_Charged value (\u00a321,570) appears unrealistically high for a single 6-hour musician booking in the UK.",
+        "No currency symbol or unit specified for Price_Charged, which may cause ambiguity.",
+        "Rating of 3 suggests moderate satisfaction but lacks supporting review text or context."
+      ],
+      "suggestions": [
+        "Verify pricing scale and ensure it aligns with typical UK musician rates (e.g., hundreds to low thousands per event).",
+        "Add explicit currency field or symbol to improve clarity.",
+        "Include review or feedback text to justify the rating and improve semantic completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 7.5,\n  \"consistency_score\": 7.0,\n  \"correctness_score\": 7.5,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"Price_Charged value (\u00a321,570) appears unrealistically high for a single 6-hour musician booking in the UK.\",\n    \"No currency symbol or unit specified for Price_Charged, which may cause ambiguity.\",\n    \"Rating of 3 suggests moderate satisfaction but lacks supporting review text or context.\"\n  ],\n  \"suggestions\": [\n    \"Verify pricing scale and ensure it aligns with typical UK musician rates (e.g., hundreds to low thousands per event).\",\n    \"Add explicit currency field or symbol to improve clarity.\",\n    \"Include review or feedback text to justify the rating and improve semantic completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 12,
+      "record_id": "B110",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "No currency or unit specified for Price_Charged, though likely GBP.",
+        "No explicit confirmation that duration unit is hours.",
+        "Missing contextual fields such as location or event type which may be expected in a full booking record."
+      ],
+      "suggestions": [
+        "Add currency symbol or field (e.g. 'Price_Charged_GBP') to clarify monetary value.",
+        "Specify duration unit explicitly (e.g. 'Duration_hours').",
+        "Include optional contextual fields like venue or event type to improve completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"No currency or unit specified for Price_Charged, though likely GBP.\",\n    \"No explicit confirmation that duration unit is hours.\",\n    \"Missing contextual fields such as location or event type which may be expected in a full booking record.\"\n  ],\n  \"suggestions\": [\n    \"Add currency symbol or field (e.g. 'Price_Charged_GBP') to clarify monetary value.\",\n    \"Specify duration unit explicitly (e.g. 'Duration_hours').\",\n    \"Include optional contextual fields like venue or event type to improve completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 13,
+      "record_id": "B589",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 8.5,
+      "overall_score": 8.88,
+      "issues": [
+        "No currency or unit specified for Price_Charged, though likely GBP.",
+        "No explicit confirmation that duration unit is hours.",
+        "No contextual link to event type or location to validate price appropriateness."
+      ],
+      "suggestions": [
+        "Add currency symbol or field (e.g., 'Price_Charged_GBP') to clarify monetary value.",
+        "Specify duration unit explicitly (e.g., 'Duration_hours').",
+        "Include event type or venue size to better assess price realism and consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"No currency or unit specified for Price_Charged, though likely GBP.\",\n    \"No explicit confirmation that duration unit is hours.\",\n    \"No contextual link to event type or location to validate price appropriateness.\"\n  ],\n  \"suggestions\": [\n    \"Add currency symbol or field (e.g., 'Price_Charged_GBP') to clarify monetary value.\",\n    \"Specify duration unit explicitly (e.g., 'Duration_hours').\",\n    \"Include event type or venue size to better assess price realism and consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 14,
+      "record_id": "B370",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.25,
+      "issues": [
+        "Price_Charged appears slightly high for a 3-hour booking unless the musician is premium or travel costs included.",
+        "No explicit currency symbol or unit provided for Price_Charged."
+      ],
+      "suggestions": [
+        "Clarify whether Price_Charged is in GBP and include currency formatting (e.g., \u00a32430).",
+        "Optionally add context fields such as venue or genre to confirm price realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Price_Charged appears slightly high for a 3-hour booking unless the musician is premium or travel costs included.\",\n    \"No explicit currency symbol or unit provided for Price_Charged.\"\n  ],\n  \"suggestions\": [\n    \"Clarify whether Price_Charged is in GBP and include currency formatting (e.g., \u00a32430).\",\n    \"Optionally add context fields such as venue or genre to confirm price realism.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 15,
+      "record_id": "B235",
+      "quality_score": 8.5,
+      "consistency_score": 6.5,
+      "correctness_score": 6.0,
+      "completeness_score": 9.5,
+      "overall_score": 7.62,
+      "issues": [
+        "Rating of 2 suggests poor satisfaction, but the high price (\u00a31980 for 3 hours) implies a premium musician\u2014possible mismatch between cost and satisfaction.",
+        "No explicit currency field; assumed GBP but not confirmed."
+      ],
+      "suggestions": [
+        "Verify that the rating accurately reflects client feedback for such a high-priced booking.",
+        "Include explicit currency or pricing context to ensure clarity and realism for UK platform data."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 6.5,\n  \"correctness_score\": 6.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Rating of 2 suggests poor satisfaction, but the high price (\u00a31980 for 3 hours) implies a premium musician\u2014possible mismatch between cost and satisfaction.\",\n    \"No explicit currency field; assumed GBP but not confirmed.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the rating accurately reflects client feedback for such a high-priced booking.\",\n    \"Include explicit currency or pricing context to ensure clarity and realism for UK platform data.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 16,
+      "record_id": "B031",
+      "quality_score": 8.5,
+      "consistency_score": 8.0,
+      "correctness_score": 8.0,
+      "completeness_score": 9.5,
+      "overall_score": 8.5,
+      "issues": [
+        "Price_Charged value (\u00a316,780) appears unusually high for a 3-hour booking, even for premium acts.",
+        "No currency unit specified; unclear if price is in GBP or another currency."
+      ],
+      "suggestions": [
+        "Verify that the price reflects realistic UK market rates for a 3-hour musician booking (typically hundreds to a few thousand pounds).",
+        "Add explicit currency information (e.g., 'Price_Charged_GBP') to improve clarity and data quality."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.5,\n  \"consistency_score\": 8.0,\n  \"correctness_score\": 8.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged value (\u00a316,780) appears unusually high for a 3-hour booking, even for premium acts.\",\n    \"No currency unit specified; unclear if price is in GBP or another currency.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price reflects realistic UK market rates for a 3-hour musician booking (typically hundreds to a few thousand pounds).\",\n    \"Add explicit currency information (e.g., 'Price_Charged_GBP') to improve clarity and data quality.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 17,
+      "record_id": "B213",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 9.0,
+      "overall_score": 9.25,
+      "issues": [
+        "No currency or unit specified for Price_Charged, though likely GBP.",
+        "No explicit confirmation that Rating scale is 1\u20135, assumed but not stated."
+      ],
+      "suggestions": [
+        "Add a currency field or specify 'Price_Charged_GBP' to clarify monetary units.",
+        "Include a 'Review_Text' or 'Feedback' field to support the high rating and improve semantic completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 9.0,\n  \"issues\": [\n    \"No currency or unit specified for Price_Charged, though likely GBP.\",\n    \"No explicit confirmation that Rating scale is 1\u20135, assumed but not stated.\"\n  ],\n  \"suggestions\": [\n    \"Add a currency field or specify 'Price_Charged_GBP' to clarify monetary units.\",\n    \"Include a 'Review_Text' or 'Feedback' field to support the high rating and improve semantic completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 18,
+      "record_id": "B185",
+      "quality_score": 9.0,
+      "consistency_score": 8.5,
+      "correctness_score": 9.0,
+      "completeness_score": 9.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Price_Charged appears high for a 5-hour booking unless it involves a top-tier performer or large-scale event.",
+        "No explicit currency symbol or unit provided for Price_Charged, which could cause ambiguity."
+      ],
+      "suggestions": [
+        "Verify that the price aligns with the musician\u2019s experience level and event type to ensure realistic pricing.",
+        "Include currency (e.g., GBP) in the Price_Charged field for clarity and standardisation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 8.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 9.5,\n  \"issues\": [\n    \"Price_Charged appears high for a 5-hour booking unless it involves a top-tier performer or large-scale event.\",\n    \"No explicit currency symbol or unit provided for Price_Charged, which could cause ambiguity.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price aligns with the musician\u2019s experience level and event type to ensure realistic pricing.\",\n    \"Include currency (e.g., GBP) in the Price_Charged field for clarity and standardisation.\"\n  ]\n}"
+    },
+    {
+      "table": "bookings",
+      "sample_index": 19,
+      "record_id": "B087",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 8.5,
+      "overall_score": 9.0,
+      "issues": [
+        "Price_Charged value (\u00a35290) seems unusually high for a 4-hour booking unless it involves a top-tier act or large event.",
+        "No currency symbol or explicit unit for Price_Charged; unclear if in GBP.",
+        "No textual feedback or review content to support the perfect rating."
+      ],
+      "suggestions": [
+        "Verify that the price aligns with the musician\u2019s profile and event type; adjust if unrealistic.",
+        "Add explicit currency or standardise pricing format (e.g., GBP).",
+        "Include optional review text or event type to provide context for the rating and price."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 8.5,\n  \"issues\": [\n    \"Price_Charged value (\u00a35290) seems unusually high for a 4-hour booking unless it involves a top-tier act or large event.\",\n    \"No currency symbol or explicit unit for Price_Charged; unclear if in GBP.\",\n    \"No textual feedback or review content to support the perfect rating.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the price aligns with the musician\u2019s profile and event type; adjust if unrealistic.\",\n    \"Add explicit currency or standardise pricing format (e.g., GBP).\",\n    \"Include optional review text or event type to provide context for the rating and price.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 0,
+      "record_id": "R111",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "The date '2026-03-25' is slightly futuristic relative to current data timelines, which may indicate synthetic generation."
+      ],
+      "suggestions": [
+        "Consider aligning 'Created_At' with plausible current or recent booking activity dates to enhance realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"The date '2026-03-25' is slightly futuristic relative to current data timelines, which may indicate synthetic generation.\"],\n  \"suggestions\": [\"Consider aligning 'Created_At' with plausible current or recent booking activity dates to enhance realism.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 1,
+      "record_id": "R420",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor formatting consideration: date could include time for full timestamp precision."
+      ],
+      "suggestions": [
+        "Include full datetime (e.g., ISO 8601 format) for Created_At to improve audit traceability."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor formatting consideration: date could include time for full timestamp precision.\"],\n  \"suggestions\": [\"Include full datetime (e.g., ISO 8601 format) for Created_At to improve audit traceability.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 2,
+      "record_id": "R566",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor future date (2026) may be slightly ahead of current dataset timeframe, depending on system date."
+      ],
+      "suggestions": [
+        "Verify that the Created_At date aligns with the platform\u2019s operational timeline to ensure temporal consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor future date (2026) may be slightly ahead of current dataset timeframe, depending on system date.\"],\n  \"suggestions\": [\"Verify that the Created_At date aligns with the platform\u2019s operational timeline to ensure temporal consistency.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 3,
+      "record_id": "R078",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Minor mismatch between slightly critical comment about setup time and relatively high rating could indicate small sentiment-rating inconsistency."
+      ],
+      "suggestions": [
+        "Consider clarifying whether the setup time issue significantly affected satisfaction to justify the 4-star rating.",
+        "Otherwise, maintain consistent tone between textual sentiment and numeric rating."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Minor mismatch between slightly critical comment about setup time and relatively high rating could indicate small sentiment-rating inconsistency.\"\n  ],\n  \"suggestions\": [\n    \"Consider clarifying whether the setup time issue significantly affected satisfaction to justify the 4-star rating.\",\n    \"Otherwise, maintain consistent tone between textual sentiment and numeric rating.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 4,
+      "record_id": "R182",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 5,
+      "record_id": "R285",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.9,
+      "issues": [
+        "Minor stylistic issue: missing punctuation after 'Below expectations' could slightly reduce text quality."
+      ],
+      "suggestions": [
+        "Consider minor grammatical polishing for professionalism, e.g., add a period after 'Below expectations'."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10,\n  \"correctness_score\": 10,\n  \"completeness_score\": 10,\n  \"issues\": [\"Minor stylistic issue: missing punctuation after 'Below expectations' could slightly reduce text quality.\"],\n  \"suggestions\": [\"Consider minor grammatical polishing for professionalism, e.g., add a period after 'Below expectations'.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 6,
+      "record_id": "R011",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 7,
+      "record_id": "R470",
+      "quality_score": 9.5,
+      "consistency_score": 8.5,
+      "correctness_score": 8.0,
+      "completeness_score": 10.0,
+      "overall_score": 8.8,
+      "issues": [
+        "Review text is highly positive but rating is only 4, which may indicate slight sentiment mismatch.",
+        "Minor inconsistency between praise level and numeric rating."
+      ],
+      "suggestions": [
+        "Consider adjusting rating to 5 to better align with the strongly positive sentiment expressed.",
+        "Ensure rating guidelines are clearly defined so reviewers apply consistent scoring relative to sentiment."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 8.5,\n  \"correctness_score\": 8.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Review text is highly positive but rating is only 4, which may indicate slight sentiment mismatch.\",\n    \"Minor inconsistency between praise level and numeric rating.\"\n  ],\n  \"suggestions\": [\n    \"Consider adjusting rating to 5 to better align with the strongly positive sentiment expressed.\",\n    \"Ensure rating guidelines are clearly defined so reviewers apply consistent scoring relative to sentiment.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 8,
+      "record_id": "R079",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.3,
+      "issues": [
+        "Review text is highly positive but rating is 4 rather than 5, showing slight sentiment mismatch."
+      ],
+      "suggestions": [
+        "Consider adjusting rating to 5 to better align with the very positive review sentiment.",
+        "Alternatively, include a minor critique in the text to justify a 4-star rating."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Review text is highly positive but rating is 4 rather than 5, showing slight sentiment mismatch.\"\n  ],\n  \"suggestions\": [\n    \"Consider adjusting rating to 5 to better align with the very positive review sentiment.\",\n    \"Alternatively, include a minor critique in the text to justify a 4-star rating.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 9,
+      "record_id": "R350",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor stylistic punctuation ('Wow. Just wow.') could be slightly informal for a business dataset but not problematic."
+      ],
+      "suggestions": [
+        "Ensure review text formatting follows platform style guidelines (e.g., avoid excessive punctuation)."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor stylistic punctuation ('Wow. Just wow.') could be slightly informal for a business dataset but not problematic.\"],\n  \"suggestions\": [\"Ensure review text formatting follows platform style guidelines (e.g., avoid excessive punctuation).\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 10,
+      "record_id": "R056",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 11,
+      "record_id": "R119",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Review text sentiment is mildly positive but mixed; rating of 3 suggests average satisfaction, which aligns but could be slightly low for the tone.",
+        "No minor formatting issues, but could include reviewer name or title for richer context."
+      ],
+      "suggestions": [
+        "Consider clarifying sentiment alignment by adjusting rating to 3.5\u20134 if the experience was more positive, or softening positive phrasing if 3 is intended.",
+        "Add optional metadata such as reviewer alias or location to enhance completeness for analytics."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Review text sentiment is mildly positive but mixed; rating of 3 suggests average satisfaction, which aligns but could be slightly low for the tone.\",\n    \"No minor formatting issues, but could include reviewer name or title for richer context.\"\n  ],\n  \"suggestions\": [\n    \"Consider clarifying sentiment alignment by adjusting rating to 3.5\u20134 if the experience was more positive, or softening positive phrasing if 3 is intended.\",\n    \"Add optional metadata such as reviewer alias or location to enhance completeness for analytics.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 12,
+      "record_id": "R110",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor potential formatting check: ensure date format aligns with platform standard (ISO 8601)."
+      ],
+      "suggestions": [
+        "Confirm date format consistency across dataset (YYYY-MM-DD).",
+        "No major issues; maintain similar high-quality review examples."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor potential formatting check: ensure date format aligns with platform standard (ISO 8601).\"],\n  \"suggestions\": [\"Confirm date format consistency across dataset (YYYY-MM-DD).\", \"No major issues; maintain similar high-quality review examples.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 13,
+      "record_id": "R589",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Slight mismatch between very positive review text and rating of 4 (could arguably be a 5)."
+      ],
+      "suggestions": [
+        "Consider adjusting rating to 5 to better align with the strongly positive sentiment.",
+        "Otherwise, maintain current structure and formatting as it is realistic and complete."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Slight mismatch between very positive review text and rating of 4 (could arguably be a 5).\"\n  ],\n  \"suggestions\": [\n    \"Consider adjusting rating to 5 to better align with the strongly positive sentiment.\",\n    \"Otherwise, maintain current structure and formatting as it is realistic and complete.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 14,
+      "record_id": "R370",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Minor mismatch between slightly critical comment and high rating could suggest a small consistency issue."
+      ],
+      "suggestions": [
+        "Consider clarifying whether the small technical issue should slightly lower the rating or if the overall experience justifies the 4-star score.",
+        "Ensure review text sentiment analysis aligns closely with numeric rating for training consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Minor mismatch between slightly critical comment and high rating could suggest a small consistency issue.\"\n  ],\n  \"suggestions\": [\n    \"Consider clarifying whether the small technical issue should slightly lower the rating or if the overall experience justifies the 4-star score.\",\n    \"Ensure review text sentiment analysis aligns closely with numeric rating for training consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 15,
+      "record_id": "R235",
+      "quality_score": 9.5,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.9,
+      "issues": [
+        "Minor future date (2026) may be slightly ahead of current dataset timeframe."
+      ],
+      "suggestions": [
+        "Verify that the Created_At date aligns with the dataset's temporal scope; otherwise, record is strong and internally consistent."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 10,\n  \"correctness_score\": 10,\n  \"completeness_score\": 10,\n  \"issues\": [\"Minor future date (2026) may be slightly ahead of current dataset timeframe.\"],\n  \"suggestions\": [\"Verify that the Created_At date aligns with the dataset's temporal scope; otherwise, record is strong and internally consistent.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 16,
+      "record_id": "R031",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 17,
+      "record_id": "R213",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.8,
+      "issues": [
+        "Minor potential mismatch between '10/10' in text and rating scale of 1\u20135; could cause slight confusion."
+      ],
+      "suggestions": [
+        "Clarify rating scale alignment\u2014either adjust numeric rating to 10 if scale allows, or modify review text to reflect 5/5 for consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Minor potential mismatch between '10/10' in text and rating scale of 1\u20135; could cause slight confusion.\"\n  ],\n  \"suggestions\": [\n    \"Clarify rating scale alignment\u2014either adjust numeric rating to 10 if scale allows, or modify review text to reflect 5/5 for consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 18,
+      "record_id": "R185",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor future date (2025-10-06) may be slightly ahead of current dataset timeframe."
+      ],
+      "suggestions": [
+        "Verify that the Created_At date aligns with the booking timeline to ensure temporal consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor future date (2025-10-06) may be slightly ahead of current dataset timeframe.\"],\n  \"suggestions\": [\"Verify that the Created_At date aligns with the booking timeline to ensure temporal consistency.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 19,
+      "record_id": "R087",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 9.8,
+      "overall_score": 9.92,
+      "issues": [
+        "Date is slightly futuristic (2026) which may be outside current dataset timeframe."
+      ],
+      "suggestions": [
+        "Verify that future dates are intentional and align with dataset generation rules.",
+        "Otherwise, record is excellent and can serve as a high-quality example of positive review data."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 9.8,\n  \"issues\": [\"Date is slightly futuristic (2026) which may be outside current dataset timeframe.\"],\n  \"suggestions\": [\"Verify that future dates are intentional and align with dataset generation rules.\", \"Otherwise, record is excellent and can serve as a high-quality example of positive review data.\"]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 20,
+      "record_id": "R003",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Rating of 4 is slightly lower than the strongly positive sentiment expressed in the review text, which might indicate minor inconsistency."
+      ],
+      "suggestions": [
+        "Consider adjusting the rating to 5 to better align with the highly positive tone of the review.",
+        "Ensure rating guidelines are clearly communicated to reviewers to maintain sentiment\u2013rating consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Rating of 4 is slightly lower than the strongly positive sentiment expressed in the review text, which might indicate minor inconsistency.\"\n  ],\n  \"suggestions\": [\n    \"Consider adjusting the rating to 5 to better align with the highly positive tone of the review.\",\n    \"Ensure rating guidelines are clearly communicated to reviewers to maintain sentiment\u2013rating consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 21,
+      "record_id": "R588",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 22,
+      "record_id": "R536",
+      "quality_score": 10.0,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 10.0,
+      "issues": [],
+      "suggestions": [],
+      "raw_response": "{\n  \"quality_score\": 10.0,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [],\n  \"suggestions\": []\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 23,
+      "record_id": "R597",
+      "quality_score": 9.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.4,
+      "issues": [
+        "Slight ambiguity in sentiment strength relative to numeric rating; text could suggest a 3 or 4 rather than clearly a 3.",
+        "Minor uncertainty about whether 'Average overall' aligns perfectly with a mid-scale rating."
+      ],
+      "suggestions": [
+        "Clarify sentiment in the review text to more clearly match the numeric rating (e.g., explicitly mention satisfaction level).",
+        "Ensure sentiment analysis calibration aligns 'average' and 'inconsistent energy' with a 3-star rating in the platform\u2019s scale."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Slight ambiguity in sentiment strength relative to numeric rating; text could suggest a 3 or 4 rather than clearly a 3.\",\n    \"Minor uncertainty about whether 'Average overall' aligns perfectly with a mid-scale rating.\"\n  ],\n  \"suggestions\": [\n    \"Clarify sentiment in the review text to more clearly match the numeric rating (e.g., explicitly mention satisfaction level).\",\n    \"Ensure sentiment analysis calibration aligns 'average' and 'inconsistent energy' with a 3-star rating in the platform\u2019s scale.\"\n  ]\n}"
+    },
+    {
+      "table": "reviews",
+      "sample_index": 24,
+      "record_id": "R369",
+      "quality_score": 9.8,
+      "consistency_score": 10.0,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.96,
+      "issues": [
+        "Minor future date (2026) may be outside current dataset timeframe."
+      ],
+      "suggestions": [
+        "Verify that future-dated reviews are permitted within dataset scope; otherwise adjust Created_At to a plausible past or current date."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.8,\n  \"consistency_score\": 10.0,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Minor future date (2026) may be outside current dataset timeframe.\"],\n  \"suggestions\": [\"Verify that future-dated reviews are permitted within dataset scope; otherwise adjust Created_At to a plausible past or current date.\"]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 0,
+      "record_id": "M305",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Likes-to-followers ratio is somewhat high but still plausible for a musician account.",
+        "Date_Collected is slightly in the future relative to current knowledge cutoff, which may reduce realism."
+      ],
+      "suggestions": [
+        "Ensure the collection date aligns with the dataset\u2019s temporal scope (e.g., not beyond current date).",
+        "Optionally include engagement rate or post count to further validate social metrics consistency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Likes-to-followers ratio is somewhat high but still plausible for a musician account.\",\n    \"Date_Collected is slightly in the future relative to current knowledge cutoff, which may reduce realism.\"\n  ],\n  \"suggestions\": [\n    \"Ensure the collection date aligns with the dataset\u2019s temporal scope (e.g., not beyond current date).\",\n    \"Optionally include engagement rate or post count to further validate social metrics consistency.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 1,
+      "record_id": "M222",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Likes count seems slightly low relative to total views, which may indicate engagement ratio inconsistency."
+      ],
+      "suggestions": [
+        "Verify engagement metrics (likes vs. views) to ensure realistic ratios for TikTok.",
+        "Consider adding additional context fields such as 'Posts' or 'Average Engagement Rate' for richer analysis."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Likes count seems slightly low relative to total views, which may indicate engagement ratio inconsistency.\"\n  ],\n  \"suggestions\": [\n    \"Verify engagement metrics (likes vs. views) to ensure realistic ratios for TikTok.\",\n    \"Consider adding additional context fields such as 'Posts' or 'Average Engagement Rate' for richer analysis.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 2,
+      "record_id": "M299",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Date_Collected is slightly in the future relative to current knowledge cutoff (2024-06), which may reduce realism.",
+        "Follower-to-view ratio is high but still plausible; minor realism concern."
+      ],
+      "suggestions": [
+        "Adjust Date_Collected to a realistic recent date within known timeframe (e.g., 2024).",
+        "Optionally include engagement rate or post count to enhance realism and analytical completeness."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Date_Collected is slightly in the future relative to current knowledge cutoff (2024-06), which may reduce realism.\",\n    \"Follower-to-view ratio is high but still plausible; minor realism concern.\"\n  ],\n  \"suggestions\": [\n    \"Adjust Date_Collected to a realistic recent date within known timeframe (e.g., 2024).\",\n    \"Optionally include engagement rate or post count to enhance realism and analytical completeness.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 3,
+      "record_id": "M301",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may indicate a synthetic or projected value."
+      ],
+      "suggestions": [
+        "Adjust Date_Collected to a realistic past or current date within the dataset\u2019s timeframe.",
+        "Optionally include engagement metrics such as comments or shares for richer social media insight."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may indicate a synthetic or projected value.\"\n  ],\n  \"suggestions\": [\n    \"Adjust Date_Collected to a realistic past or current date within the dataset\u2019s timeframe.\",\n    \"Optionally include engagement metrics such as comments or shares for richer social media insight.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 4,
+      "record_id": "M359",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may reduce realism.",
+        "Follower-to-like ratio is plausible but slightly low for TikTok; could indicate underperformance or data rounding."
+      ],
+      "suggestions": [
+        "Adjust Date_Collected to a realistic past or current date within the dataset\u2019s timeframe.",
+        "Optionally verify engagement ratios (likes and views per follower) to ensure they align with typical TikTok metrics."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may reduce realism.\",\n    \"Follower-to-like ratio is plausible but slightly low for TikTok; could indicate underperformance or data rounding.\"\n  ],\n  \"suggestions\": [\n    \"Adjust Date_Collected to a realistic past or current date within the dataset\u2019s timeframe.\",\n    \"Optionally verify engagement ratios (likes and views per follower) to ensure they align with typical TikTok metrics.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 5,
+      "record_id": "M431",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Follower count and view count ratio slightly high for Instagram; could indicate boosted reach or paid promotion."
+      ],
+      "suggestions": [
+        "Verify engagement metrics against typical ratios for similar follower counts (e.g., views per follower).",
+        "Confirm that the date format aligns with platform standards (ISO 8601 is acceptable)."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Follower count and view count ratio slightly high for Instagram; could indicate boosted reach or paid promotion.\"\n  ],\n  \"suggestions\": [\n    \"Verify engagement metrics against typical ratios for similar follower counts (e.g., views per follower).\",\n    \"Confirm that the date format aligns with platform standards (ISO 8601 is acceptable).\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 6,
+      "record_id": "M047",
+      "quality_score": 9.5,
+      "consistency_score": 9.0,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Likes count is more than double the follower count, which is somewhat unusual though not impossible.",
+        "Date_Collected is in the future relative to current knowledge cutoff (2024-06)."
+      ],
+      "suggestions": [
+        "Verify that the engagement metrics (likes vs followers) reflect realistic ratios for Instagram.",
+        "Adjust the Date_Collected to a plausible past or current date within the dataset\u2019s timeframe."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Likes count is more than double the follower count, which is somewhat unusual though not impossible.\",\n    \"Date_Collected is in the future relative to current knowledge cutoff (2024-06).\"\n  ],\n  \"suggestions\": [\n    \"Verify that the engagement metrics (likes vs followers) reflect realistic ratios for Instagram.\",\n    \"Adjust the Date_Collected to a plausible past or current date within the dataset\u2019s timeframe.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 7,
+      "record_id": "M174",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may indicate a synthetic or erroneous timestamp.",
+        "Follower-to-view ratio slightly high but still plausible for YouTube; minor realism concern."
+      ],
+      "suggestions": [
+        "Adjust Date_Collected to a realistic past or current date within the dataset\u2019s operational timeframe.",
+        "Optionally include engagement metrics such as comments or average watch time to enhance realism."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Date_Collected is in the future relative to current knowledge cutoff (2024-06), which may indicate a synthetic or erroneous timestamp.\",\n    \"Follower-to-view ratio slightly high but still plausible for YouTube; minor realism concern.\"\n  ],\n  \"suggestions\": [\n    \"Adjust Date_Collected to a realistic past or current date within the dataset\u2019s operational timeframe.\",\n    \"Optionally include engagement metrics such as comments or average watch time to enhance realism.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 8,
+      "record_id": "M010",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.75,
+      "issues": [
+        "Slightly low follower-to-view ratio may be atypical but still plausible."
+      ],
+      "suggestions": [
+        "Optionally include engagement rate or posting frequency to further validate consistency between followers, likes, and views."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\"Slightly low follower-to-view ratio may be atypical but still plausible.\"],\n  \"suggestions\": [\"Optionally include engagement rate or posting frequency to further validate consistency between followers, likes, and views.\"]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 9,
+      "record_id": "M048",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Slightly unusual ratio of likes to followers for YouTube; typically views greatly exceed likes and followers.",
+        "Future date (2026-03-01) may indicate synthetic or projected data rather than an actual collection date."
+      ],
+      "suggestions": [
+        "Verify that the collection date is not set in the future relative to dataset creation.",
+        "Review engagement ratios to ensure they align with typical YouTube metrics (e.g., views >> likes \u2248 followers)."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Slightly unusual ratio of likes to followers for YouTube; typically views greatly exceed likes and followers.\",\n    \"Future date (2026-03-01) may indicate synthetic or projected data rather than an actual collection date.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the collection date is not set in the future relative to dataset creation.\",\n    \"Review engagement ratios to ensure they align with typical YouTube metrics (e.g., views >> likes \u2248 followers).\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 10,
+      "record_id": "M337",
+      "quality_score": 9.2,
+      "consistency_score": 9.0,
+      "correctness_score": 9.3,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Follower count slightly low relative to total views, may indicate viral content or inconsistent engagement metrics."
+      ],
+      "suggestions": [
+        "Verify engagement ratios (likes-to-views, followers-to-views) to ensure they align with typical YouTube musician profiles.",
+        "Confirm that the collection date is valid and within expected reporting periods for the dataset."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.2,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.3,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Follower count slightly low relative to total views, may indicate viral content or inconsistent engagement metrics.\"\n  ],\n  \"suggestions\": [\n    \"Verify engagement ratios (likes-to-views, followers-to-views) to ensure they align with typical YouTube musician profiles.\",\n    \"Confirm that the collection date is valid and within expected reporting periods for the dataset.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 11,
+      "record_id": "M098",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.5,
+      "completeness_score": 10.0,
+      "overall_score": 9.5,
+      "issues": [
+        "Likes-to-followers ratio is slightly low for TikTok, which may indicate underperformance or data entry rounding.",
+        "No indication of time zone or collection method for Date_Collected, which could affect audit traceability."
+      ],
+      "suggestions": [
+        "Verify engagement metrics against platform norms to confirm plausibility.",
+        "Include metadata such as collection source or time zone for improved audit transparency."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.5,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Likes-to-followers ratio is slightly low for TikTok, which may indicate underperformance or data entry rounding.\",\n    \"No indication of time zone or collection method for Date_Collected, which could affect audit traceability.\"\n  ],\n  \"suggestions\": [\n    \"Verify engagement metrics against platform norms to confirm plausibility.\",\n    \"Include metadata such as collection source or time zone for improved audit transparency.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 12,
+      "record_id": "M134",
+      "quality_score": 9.0,
+      "consistency_score": 9.5,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.38,
+      "issues": [
+        "Date_Collected is slightly in the future relative to current knowledge cutoff (2024-06), which may reduce realism.",
+        "Follower-to-like ratio could be checked for plausibility; likes seem high compared to followers but still possible for TikTok."
+      ],
+      "suggestions": [
+        "Adjust Date_Collected to a realistic recent date within known data range (e.g., 2024).",
+        "Optionally include engagement rate or additional metrics (e.g., comments) for richer completeness and validation."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.0,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Date_Collected is slightly in the future relative to current knowledge cutoff (2024-06), which may reduce realism.\",\n    \"Follower-to-like ratio could be checked for plausibility; likes seem high compared to followers but still possible for TikTok.\"\n  ],\n  \"suggestions\": [\n    \"Adjust Date_Collected to a realistic recent date within known data range (e.g., 2024).\",\n    \"Optionally include engagement rate or additional metrics (e.g., comments) for richer completeness and validation.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 13,
+      "record_id": "M351",
+      "quality_score": 9.5,
+      "consistency_score": 9.5,
+      "correctness_score": 10.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.75,
+      "issues": [
+        "Follower-to-like ratio slightly high but still plausible for YouTube engagement."
+      ],
+      "suggestions": [
+        "Consider adding additional engagement metrics such as comments or shares for richer analysis.",
+        "Verify that the data collection date aligns with the platform\u2019s reporting period."
+      ],
+      "raw_response": "{\n  \"quality_score\": 9.5,\n  \"consistency_score\": 9.5,\n  \"correctness_score\": 10.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Follower-to-like ratio slightly high but still plausible for YouTube engagement.\"\n  ],\n  \"suggestions\": [\n    \"Consider adding additional engagement metrics such as comments or shares for richer analysis.\",\n    \"Verify that the data collection date aligns with the platform\u2019s reporting period.\"\n  ]\n}"
+    },
+    {
+      "table": "social_media_metrics",
+      "sample_index": 14,
+      "record_id": "M239",
+      "quality_score": 8.0,
+      "consistency_score": 9.0,
+      "correctness_score": 9.0,
+      "completeness_score": 10.0,
+      "overall_score": 9.0,
+      "issues": [
+        "Follower and engagement counts are unusually low for a musician on YouTube, which may indicate a test or inactive account.",
+        "No indication of whether these metrics represent lifetime totals or a specific period, which affects interpretability."
+      ],
+      "suggestions": [
+        "Verify that the low follower and view counts are realistic for the musician\u2019s career stage; if not, adjust to plausible values.",
+        "Add a field clarifying whether metrics are cumulative or time-bound (e.g., monthly views) to improve data clarity."
+      ],
+      "raw_response": "{\n  \"quality_score\": 8.0,\n  \"consistency_score\": 9.0,\n  \"correctness_score\": 9.0,\n  \"completeness_score\": 10.0,\n  \"issues\": [\n    \"Follower and engagement counts are unusually low for a musician on YouTube, which may indicate a test or inactive account.\",\n    \"No indication of whether these metrics represent lifetime totals or a specific period, which affects interpretability.\"\n  ],\n  \"suggestions\": [\n    \"Verify that the low follower and view counts are realistic for the musician\u2019s career stage; if not, adjust to plausible values.\",\n    \"Add a field clarifying whether metrics are cumulative or time-bound (e.g., monthly views) to improve data clarity.\"\n  ]\n}"
+    }
+  ]
+}

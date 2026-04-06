@@ -1,0 +1,169 @@
+{
+  "generated_at": "2026-04-03T14:15:52.588542",
+  "reports": {
+    "sentiment": {
+      "accuracy": 0.875,
+      "precision": 0.701,
+      "recall": 0.6287,
+      "f1_score": 0.659,
+      "confusion_matrix": [
+        [
+          95,
+          0,
+          3
+        ],
+        [
+          7,
+          5,
+          0
+        ],
+        [
+          1,
+          4,
+          5
+        ]
+      ],
+      "labels": [
+        "POSITIVE",
+        "NEUTRAL",
+        "NEGATIVE"
+      ],
+      "classification_report": {
+        "POSITIVE": {
+          "precision": 0.9223300970873787,
+          "recall": 0.9693877551020408,
+          "f1-score": 0.945273631840796,
+          "support": 98.0
+        },
+        "NEUTRAL": {
+          "precision": 0.5555555555555556,
+          "recall": 0.4166666666666667,
+          "f1-score": 0.47619047619047616,
+          "support": 12.0
+        },
+        "NEGATIVE": {
+          "precision": 0.625,
+          "recall": 0.5,
+          "f1-score": 0.5555555555555556,
+          "support": 10.0
+        },
+        "accuracy": 0.875,
+        "macro avg": {
+          "precision": 0.7009618842143114,
+          "recall": 0.6286848072562358,
+          "f1-score": 0.6590065545289426,
+          "support": 120.0
+        },
+        "weighted avg": {
+          "precision": 0.8608751348435816,
+          "recall": 0.875,
+          "f1-score": 0.8658888099186606,
+          "support": 120.0
+        }
+      },
+      "test_size": 120
+    },
+    "anomaly": {
+      "total_reviews": 600,
+      "flagged_anomalies": 48,
+      "normal_reviews": 552,
+      "flagged_pct": 8.0,
+      "avg_anomaly_score": 0.1298,
+      "anom_score_mean": -0.0343,
+      "normal_score_mean": 0.144,
+      "vs_synthetic_gt": {
+        "precision": 0.4583,
+        "recall": 0.5946,
+        "f1": 0.5176,
+        "roc_auc": 0.9582
+      }
+    },
+    "recommendation": {
+      "k": 10,
+      "evaluated_clients": 100,
+      "precision_at_k": 0.04,
+      "recall_at_k": 0.4,
+      "ndcg_at_k": 4.5436,
+      "map": 0.3138,
+      "catalog_coverage": 0.192
+    },
+    "pricing": {
+      "test_size": 120,
+      "models": {
+        "Ridge Regression": {
+          "RMSE": 2228.43,
+          "MAE": 1754.03,
+          "R2": 0.7807,
+          "MAPE": 62.23
+        },
+        "LightGBM": {
+          "RMSE": 2156.76,
+          "MAE": 1601.55,
+          "R2": 0.7946,
+          "MAPE": 32.04
+        }
+      }
+    },
+    "validation": {
+      "generated_at": "2026-04-03T14:09:05.978990",
+      "overall_score": 100.0,
+      "total_errors": 0,
+      "total_warnings": 0,
+      "tables": [
+        {
+          "table_name": "musicians",
+          "row_count": 500,
+          "column_count": 9,
+          "score": 100.0,
+          "issues": []
+        },
+        {
+          "table_name": "clients",
+          "row_count": 300,
+          "column_count": 4,
+          "score": 100.0,
+          "issues": []
+        },
+        {
+          "table_name": "events",
+          "row_count": 800,
+          "column_count": 7,
+          "score": 100.0,
+          "issues": []
+        },
+        {
+          "table_name": "bookings",
+          "row_count": 600,
+          "column_count": 8,
+          "score": 100.0,
+          "issues": []
+        },
+        {
+          "table_name": "reviews",
+          "row_count": 600,
+          "column_count": 5,
+          "score": 100.0,
+          "issues": []
+        },
+        {
+          "table_name": "social_media_metrics",
+          "row_count": 1500,
+          "column_count": 6,
+          "score": 100.0,
+          "issues": []
+        }
+      ]
+    },
+    "llm_judge": {}
+  },
+  "headline_metrics": {
+    "sentiment_accuracy": 0.875,
+    "sentiment_f1": 0.659,
+    "anomaly_flagged_pct": 8.0,
+    "rec_ndcg_at_10": 4.5436,
+    "rec_precision_at_10": 0.04,
+    "pricing_rmse_lgb": 2156.76,
+    "pricing_r2_lgb": 0.7946,
+    "data_quality_score": 100.0
+  }
+}

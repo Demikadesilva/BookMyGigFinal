@@ -1,0 +1,301 @@
+"Musician_ID","Musician_Name","Musician_Type","Musician_Contact","Location","Genres","Years_Experience","Base_Price","Social_Links"
+M001,The Midnight Echoes,Band,booking@midnightechoes.co.uk,London,"Indie, Rock",5,450,True
+M002,DJ Spark,DJ,sparkbeats@freemail.com,Manchester,DJ,0,100,False
+M003,Clara Bowden,Solo,clara.bowden.music@webmail.co.uk,Glasgow,"Folk, Acoustic",12,300,True
+M004,Brass & Copper,Band,hello@brassandcopper.com,Bristol,"Jazz, Soul",8,800,True
+M005,Liam Davies,Solo,liamdaviesguitar@gouk.com,Birmingham,"Pop, Rock",2,150,True
+M006,The Velvet Strings,Quartet,events@velvetstrings.co.uk,Edinburgh,Classical,15,1200,True
+M007,Neon Lights,Band,management@neonlightsband.com,Liverpool,"Pop, Electronic",4,600,True
+M008,DJ Apex,DJ,djapex_official@musicnet.uk,Leeds,"DJ, Electronic",7,350,True
+M009,Sarah & Tom,Duo,sarahtommusic@live.co.uk,London,"Indie, Pop",1,200,False
+M010,Arthur Pendelton,Solo,arthurpiano@keys.com,Manchester,Classical,20,500,True
+M011,Rhythm Society,Band,gigs@rhythmsociety.co.uk,Glasgow,"R&B, Soul",6,750,True
+M012,Echo Valley,Duo,contact@echovalley.uk,Brighton,"Folk, Indie",3,250,True
+M013,DJ Horizon,DJ,horizon.beats@clubnet.com,Cardiff,DJ,0,120,False
+M014,The Riff Makers,Band,theriffmakers@rockmail.com,Bristol,"Rock, Blues",10,500,True
+M015,Elena Rostova,Solo,erostova.soprano@opera.co.uk,London,Classical,18,1500,True
+M016,Groove Syndicate,Band,info@groovesyndicate.uk,Birmingham,"Funk, Pop",5,650,True
+M017,Acoustic Journey,Solo,ajourney.music@soundmail.com,Edinburgh,Acoustic,0,100,True
+M018,Electric Pulse,Duo,epulse.booking@synth.com,Manchester,"Electronic, Indie",4,300,True
+M019,The Jazz Cats,Trio,meow@jazzcats.co.uk,London,"Jazz, Swing",14,900,True
+M020,DJ NiteOwl,DJ,niteowl@djpool.uk,Liverpool,DJ,2,200,False
+M021,Crimson Sky,Band,crimsonskyrock@heavymetal.co.uk,Glasgow,Rock,11,700,True
+M022,Oliver Twist,Solo,oliver.sings@vocals.com,Leeds,"Pop, R&B",1,150,True
+M023,Symphony Winds,Quartet,winds@symphonywinds.uk,Bristol,Classical,8,1100,True
+M024,The Blue Notes,Duo,bluenotes@bluesbrothers.com,Cardiff,Blues,16,400,True
+M025,DJ Static,DJ,static.noise@underground.uk,London,"DJ, Techno",9,450,True
+M026,Ruby & The Gems,Band,ruby.gems@motown.co.uk,Birmingham,"Soul, Pop",7,850,True
+M027,Gareth Bale,Solo,gareth.b.music@cymru.com,Cardiff,"Acoustic, Folk",0,100,False
+M028,London Philharmonic Ensemble,Band,bookings@lpe.co.uk,London,Classical,20,2000,True
+M029,Neon Nostalgia,Duo,neon80s@retro.com,Manchester,"Pop, Electronic",5,350,True
+M030,DJ Quantum,DJ,quantum.mix@edm.uk,Glasgow,DJ,3,250,True
+M031,The Rusty Strings,Band,rustystrings@bluegrass.com,Edinburgh,"Country, Folk",12,600,True
+M032,Maya Lin,Solo,mayalin.cello@strings.co.uk,London,Classical,6,400,True
+M033,Urban Echo,Trio,urbanecho@streetbeat.uk,Liverpool,"Hip-Hop, R&B",4,500,True
+M034,The Indie Kids,Band,indiekids@garageband.com,Leeds,"Indie, Punk",2,300,True
+M035,DJ Lumina,DJ,lumina.sounds@trance.uk,Bristol,"DJ, Electronic",1,150,True
+M036,Smooth Operators,Duo,smooth@yachtrock.co.uk,Brighton,"Jazz, Pop",19,750,True
+M037,Celtic Roots,Band,celticroots@trad.co.uk,Glasgow,Folk,15,800,True
+M038,Sammy Davis III,Solo,sd3@crooner.com,London,"Jazz, Soul",10,600,True
+M039,Electric Avenue,Band,info@electricavenue.uk,Manchester,"Rock, Pop",8,700,True
+M040,DJ Cipher,DJ,cipher.beats@cryptic.com,Birmingham,DJ,0,100,False
+M041,The Riverbank Choir,Band,choir@riverbank.co.uk,Cardiff,Classical,5,1000,True
+M042,Aria & Leo,Duo,arialeo@harmonies.com,Edinburgh,"Acoustic, Pop",3,280,True
+M043,Nightshift,Band,nightshift@coverband.uk,London,"Pop, Rock",7,550,True
+M044,DJ Zenith,DJ,zenith@topcharts.com,Leeds,DJ,14,800,True
+M045,Fiona Macleod,Solo,fiona.harp@highlands.co.uk,Glasgow,"Classical, Folk",11,450,True
+M046,The Brass Monkeys,Trio,brassmonkeys@horns.com,Liverpool,"Jazz, Funk",6,500,True
+M047,Sonic Boom,Band,sonicboom@altrock.uk,Bristol,"Indie, Rock",4,450,True
+M048,DJ Equinox,DJ,equinox@solstice.com,Brighton,DJ,0,120,False
+M049,Penny Lane,Solo,penny.lane@busker.co.uk,Manchester,"Pop, Acoustic",2,150,True
+M050,The Grand Finale,Band,grandfinale@events.uk,London,"Pop, Classical",17,1500,True
+M051,The Silver Keys,Band,contact@silverkeys.uk,Sheffield,"Indie, Pop",3,400,True
+M052,DJ Vortex,DJ,vortex@clubscene.co.uk,Newcastle,"DJ, Drum & Bass",8,350,True
+M053,Lily Vance,Solo,lily.vance@acoustic.net,London,Folk,1,150,True
+M054,Brass Tacks,Quartet,info@brasstacks.co.uk,Bristol,"Jazz, Swing",12,850,True
+M055,Tom & Jerry,Duo,tjmusic@gigs.com,Manchester,"Acoustic, Pop",0,100,False
+M056,The Royal Strings,Band,royalstrings@events.uk,Edinburgh,Classical,20,1800,True
+M057,Midnight Run,Band,midnightrun@rock.co.uk,Glasgow,"Rock, Blues",7,500,True
+M058,DJ Pulse,DJ,pulse@edm.com,London,"DJ, House",2,200,True
+M059,Chloe Singer,Solo,chloe.sings@vocals.uk,Leeds,"Pop, R&B",4,250,True
+M060,Northern Lights,Trio,northern@folkband.co.uk,Newcastle,"Folk, Indie",9,600,True
+M061,The High Rollers,Band,highrollers@funk.com,Liverpool,"Funk, Soul",11,800,True
+M062,Acoustic Shadows,Duo,shadows@acoustic.uk,Birmingham,"Acoustic, Rock",5,350,True
+M063,DJ Nova,DJ,nova@underground.co.uk,Manchester,DJ,0,120,False
+M064,Symphony Strings,Quartet,symphony@classical.com,London,Classical,16,1300,True
+M065,The Garage Boys,Band,garageboys@punk.uk,Glasgow,"Rock, Punk",2,250,True
+M066,Emma Rose,Solo,emmarose@harp.co.uk,Edinburgh,Classical,8,450,True
+M067,Neon Dreams,Duo,neondreams@synthpop.com,Bristol,"Electronic, Pop",6,400,True
+M068,DJ Catalyst,DJ,catalyst@beats.uk,Leeds,"DJ, Techno",14,700,True
+M069,The Soul Providers,Band,soulproviders@motown.uk,London,"Soul, R&B",18,1200,True
+M070,Benny & The Jets,Band,bennyjets@tribute.co.uk,Cardiff,"Pop, Rock",10,750,True
+M071,Oliver Vance,Solo,oliverv@piano.com,Brighton,"Jazz, Pop",3,200,True
+M072,Celtic Winds,Trio,celticwinds@trad.uk,Belfast,Folk,15,900,True
+M073,DJ Kinetik,DJ,kinetik@dance.co.uk,Liverpool,"DJ, Trance",1,150,False
+M074,The Vanguard,Band,vanguard@indie.com,Manchester,"Indie, Alternative",5,550,True
+M075,Sophia Loren,Solo,sophia.opera@vocals.uk,London,Classical,12,1000,True
+M076,Rhythm & Rhyme,Duo,rhythmandrhyme@hiphop.co.uk,Birmingham,"Hip-Hop, Pop",4,300,True
+M077,The Bluegrass Boys,Band,bluegrass@country.uk,Glasgow,"Country, Folk",9,650,True
+M078,DJ Enigma,DJ,enigma@club.com,Edinburgh,DJ,0,100,False
+M079,Jazz Infusion,Trio,jazzinfusion@smooth.uk,Bristol,"Jazz, Fusion",11,850,True
+M080,The Rocketeers,Band,rocketeers@rockabilly.co.uk,Leeds,"Rock, Pop",7,600,True
+M081,Mia Wallace,Solo,mia.wallace@soul.uk,Manchester,"Soul, R&B",2,180,True
+M082,The Chamber Players,Quartet,chamber@classical.co.uk,London,Classical,19,1600,True
+M083,Electric Skies,Duo,electricskies@synth.uk,Brighton,"Electronic, Indie",5,400,True
+M084,DJ Apex II,DJ,apex2@remix.com,Cardiff,DJ,3,250,True
+M085,The Funkadelics,Band,funkadelics@groove.uk,Liverpool,"Funk, Pop",8,700,True
+M086,Liam & Noel,Duo,liamnoel@acoustic.co.uk,Manchester,"Acoustic, Rock",0,150,False
+M087,The Gospel Voices,Band,gospel@choir.uk,London,"Soul, Gospel",14,1100,True
+M088,DJ Shadowfax,DJ,shadowfax@dnb.co.uk,Bristol,"DJ, Drum & Bass",6,450,True
+M089,Grace Kelly,Solo,grace.cello@strings.com,Edinburgh,Classical,10,600,True
+M090,The Modfathers,Band,modfathers@indie.uk,Glasgow,"Indie, Rock",13,800,True
+M091,Urban Beat,Trio,urbanbeat@street.co.uk,Birmingham,"Hip-Hop, R&B",4,450,True
+M092,The Country Roads,Band,countryroads@folk.uk,Newcastle,"Country, Folk",7,500,True
+M093,DJ Zenith II,DJ,zenith2@house.com,Leeds,DJ,1,120,True
+M094,Symphonic Brass,Quartet,symphonicbrass@horns.uk,London,Classical,17,1400,True
+M095,The Retrotones,Band,retrotones@vintage.co.uk,Brighton,"Jazz, Pop",9,650,True
+M096,Ava Smith,Solo,ava.smith@pop.uk,Cardiff,"Pop, Acoustic",2,150,True
+M097,The Deep Blues,Trio,deepblues@blues.com,Liverpool,"Blues, Rock",11,750,True
+M098,DJ Subwoofer,DJ,subwoofer@bass.co.uk,Manchester,DJ,0,100,False
+M099,The Choir Boys,Band,choirboys@vocals.uk,Edinburgh,Classical,5,500,True
+M100,Neon Lights II,Duo,neonlights2@electro.com,London,"Electronic, Pop",3,300,True
+"M101","Callum Williams","Solo","booking@callumwilliams.co.uk","Brighton","R&B, Rock","16","720","True"
+"M102","DJ Joyce","DJ","booking@djjoyce.co.uk","Belfast","DJ","9","450","True"
+"M103","Rachael & Mary","Duo","booking@rachaelmary.co.uk","Liverpool","Pop","17","1070","True"
+"M104","Jacob Woodward","Solo","booking@jacobwoodward.co.uk","Belfast","DJ, Blues","6","290","True"
+"M105","Jasmine & Leslie","Duo","booking@jasmineleslie.co.uk","Bristol","Electronic","12","890","True"
+"M106","DJ Kathryn","DJ","booking@djkathryn.co.uk","Bristol","DJ","11","410","True"
+"M107","The Harum Strings","Band","booking@theharumstrings.co.uk","Brighton","Jazz, Folk","0","108","False"
+"M108","The Quaerat Project","Quartet","booking@thequaeratproject.co.uk","Bristol","Classical","11","1320","True"
+"M109","Harry Lee","Solo","booking@harrylee.co.uk","Liverpool","Jazz, Acoustic","15","610","False"
+"M110","The Ea Band","Band","booking@theeaband.co.uk","Cardiff","Classical, Rock","13","1540","True"
+"M111","Abigail & Alexander","Duo","booking@abigailalexander.co.uk","Newcastle","Blues, Hip-Hop","1","210","True"
+"M112","The Minus Echoes","Band","booking@theminusechoes.co.uk","Leeds","Jazz","13","1450","True"
+"M113","DJ Max","DJ","booking@djmax.co.uk","Birmingham","DJ","19","770","True"
+"M114","The Autem Strings","Band","booking@theautemstrings.co.uk","Newcastle","Folk, Classical","14","1640","False"
+"M115","Lydia & Jason","Duo","booking@lydiajason.co.uk","Glasgow","Rock, Indie","11","840","True"
+"M116","Mr Stanley Mills","Solo","booking@mrstanleymills.co.uk","Manchester","Jazz, Acoustic","3","250","True"
+"M117","The Repellendus Boys","Band","booking@therepellendusboys.co.uk","Cardiff","R&B, Classical","12","1350","True"
+"M118","DJ Geraldine","DJ","booking@djgeraldine.co.uk","Cardiff","DJ, Electronic","17","700","True"
+"M119","The Asperiores Band","Trio","booking@theasperioresband.co.uk","Cardiff","DJ, Acoustic","16","1750","True"
+"M120","DJ Jordan","DJ","booking@djjordan.co.uk","Sheffield","DJ","14","570","False"
+"M121","DJ Elliott","DJ","booking@djelliott.co.uk","Glasgow","DJ","16","700","True"
+"M122","DJ Tony","DJ","booking@djtony.co.uk","Brighton","DJ","7","430","True"
+"M123","The Repellat Cats","Quartet","booking@therepellatcats.co.uk","Liverpool","Classical, Rock","1","220","True"
+"M124","The Iste Strings","Quartet","booking@theistestrings.co.uk","Belfast","Classical","19","2000","True"
+"M125","The Nesciunt Band","Trio","booking@thenesciuntband.co.uk","Edinburgh","Jazz, Country","9","1010","True"
+"M126","Scott Walker","Solo","booking@scottwalker.co.uk","Bristol","Blues, Soul","19","660","False"
+"M127","The Assumenda Band","Quartet","booking@theassumendaband.co.uk","London","Classical","8","970","True"
+"M128","Elliot & Tony","Duo","booking@elliottony.co.uk","Manchester","Soul, Hip-Hop","7","520","True"
+"M129","The Modi Echoes","Trio","booking@themodiechoes.co.uk","Manchester","Pop","9","1080","True"
+"M130","The Deleniti Band","Quartet","booking@thedelenitiband.co.uk","Cardiff","Acoustic, Classical","19","2000","True"
+"M131","The Perferendis Boys","Quartet","booking@theperferendisboys.co.uk","Leeds","Classical","14","1610","True"
+"M132","DJ Lisa","DJ","booking@djlisa.co.uk","Birmingham","DJ","20","810","True"
+"M133","DJ Dominic","DJ","booking@djdominic.co.uk","Liverpool","DJ, Electronic","5","230","True"
+"M134","The Placeat Project","Trio","booking@theplaceatproject.co.uk","Liverpool","Rock, Classical","5","640","True"
+"M135","Francesca & Timothy","Duo","booking@francescatimothy.co.uk","Birmingham","Hip-Hop, Jazz","0","149","False"
+"M136","The Natus Strings","Band","booking@thenatusstrings.co.uk","Cardiff","Jazz","3","500","True"
+"M137","The Quidem Strings","Trio","booking@thequidemstrings.co.uk","London","Pop","4","620","True"
+"M138","The Praesentium Boys","Trio","booking@thepraesentiumboys.co.uk","Brighton","Rock, Country","0","100","False"
+"M139","The Esse Strings","Trio","booking@theessestrings.co.uk","Cardiff","Jazz","14","1650","True"
+"M140","The Voluptatem Echoes","Band","booking@thevoluptatemechoes.co.uk","London","Blues","11","1320","True"
+"M141","Dennis & Joshua","Duo","booking@dennisjoshua.co.uk","Bristol","Rock, Folk","0","111","False"
+"M142","Christine Thomas","Solo","booking@christinethomas.co.uk","Manchester","Acoustic, Blues","7","340","True"
+"M143","Mr Danny Hammond","Solo","booking@mrdannyhammond.co.uk","London","Country","3","270","False"
+"M144","Callum & Frances","Duo","booking@callumfrances.co.uk","Newcastle","Hip-Hop","3","430","True"
+"M145","The Mollitia Echoes","Trio","booking@themollitiaechoes.co.uk","Newcastle","Indie, DJ","1","160","True"
+"M146","The Distinctio Cats","Quartet","booking@thedistinctiocats.co.uk","Glasgow","Soul, Hip-Hop","5","600","True"
+"M147","The Blanditiis Cats","Band","booking@theblanditiiscats.co.uk","Cardiff","Blues","0","134","False"
+"M148","The Atque Echoes","Band","booking@theatqueechoes.co.uk","London","Hip-Hop, Acoustic","6","840","True"
+"M149","Josephine Watkins","Solo","booking@josephinewatkins.co.uk","Leeds","DJ","17","730","True"
+"M150","The Reiciendis Boys","Trio","booking@thereiciendisboys.co.uk","Leeds","Classical","7","830","True"
+"M151","Carly Parker","Solo","booking@carlyparker.co.uk","Glasgow","Country, DJ","7","270","True"
+"M152","DJ Reece","DJ","booking@djreece.co.uk","Cardiff","DJ","13","460","True"
+"M153","The Asperiores Echoes","Band","booking@theasperioresechoes.co.uk","Newcastle","Rock, Electronic","15","1660","True"
+"M154","Joseph & Sarah","Duo","booking@josephsarah.co.uk","Cardiff","Blues, Country","7","490","False"
+"M155","The Consequatur Boys","Trio","booking@theconsequaturboys.co.uk","Sheffield","DJ","7","860","False"
+"M156","Hollie & Sandra","Duo","booking@holliesandra.co.uk","Birmingham","Blues, Acoustic","17","1190","True"
+"M157","Mrs Amy Anderson","Solo","booking@mrsamyanderson.co.uk","London","Indie, Rock","14","560","True"
+"M158","The Asperiores Cats","Trio","booking@theasperiorescats.co.uk","Birmingham","Hip-Hop, Indie","4","520","True"
+"M159","The Atque Band","Trio","booking@theatqueband.co.uk","Glasgow","Soul","8","1030","True"
+"M160","The Quibusdam Echoes","Trio","booking@thequibusdamechoes.co.uk","Belfast","Jazz, Soul","15","1680","True"
+"M161","DJ Carolyn","DJ","booking@djcarolyn.co.uk","Edinburgh","DJ","20","740","True"
+"M162","DJ Jennifer","DJ","booking@djjennifer.co.uk","Belfast","DJ, Electronic","0","111","False"
+"M163","Olivia & Wayne","Duo","booking@oliviawayne.co.uk","Newcastle","Folk","1","220","True"
+"M164","DJ Frances","DJ","booking@djfrances.co.uk","London","DJ, Electronic","1","150","True"
+"M165","The Assumenda Band","Trio","booking@theassumendaband.co.uk","Leeds","Classical","3","430","True"
+"M166","The Dolor Band","Band","booking@thedolorband.co.uk","Newcastle","R&B, Folk","16","1880","False"
+"M167","Victoria Parkinson-Martin","Solo","booking@victoriaparkinson-martin.co.uk","Leeds","Rock, Pop","17","610","True"
+"M168","The Vero Strings","Band","booking@theverostrings.co.uk","Leeds","Country, Rock","8","970","True"
+"M169","DJ Denise","DJ","booking@djdenise.co.uk","Sheffield","DJ","17","700","True"
+"M170","Maria Hewitt","Solo","booking@mariahewitt.co.uk","Brighton","Folk, Indie","7","270","True"
+"M171","The Nulla Echoes","Band","booking@thenullaechoes.co.uk","Sheffield","DJ","19","2000","True"
+"M172","The Minima Boys","Trio","booking@theminimaboys.co.uk","Belfast","R&B, Acoustic","4","510","True"
+"M173","Raymond Wilson","Solo","booking@raymondwilson.co.uk","Edinburgh","Folk, Classical","17","720","True"
+"M174","Chloe Jones","Solo","booking@chloejones.co.uk","Bristol","DJ","3","240","True"
+"M175","Caroline Rahman","Solo","booking@carolinerahman.co.uk","Birmingham","Rock","19","780","True"
+"M176","DJ Carl","DJ","booking@djcarl.co.uk","Glasgow","DJ, Electronic","18","720","False"
+"M177","Mark Hewitt","Solo","booking@markhewitt.co.uk","Birmingham","R&B, Rock","19","770","True"
+"M178","The Perspiciatis Boys","Band","booking@theperspiciatisboys.co.uk","Leeds","Acoustic, Electronic","10","1250","False"
+"M179","The Quo Band","Band","booking@thequoband.co.uk","Edinburgh","Pop, Acoustic","2","360","False"
+"M180","Charlie & Graham","Duo","booking@charliegraham.co.uk","Liverpool","Jazz","13","920","True"
+"M181","The Nulla Boys","Trio","booking@thenullaboys.co.uk","Bristol","Jazz","17","1970","True"
+"M182","Harriet Shaw","Solo","booking@harrietshaw.co.uk","Cardiff","Blues","0","139","False"
+"M183","The Cumque Band","Band","booking@thecumqueband.co.uk","Bristol","Folk, DJ","13","1450","True"
+"M184","The Aut Cats","Trio","booking@theautcats.co.uk","Bristol","Rock","3","400","True"
+"M185","The Aperiam Strings","Band","booking@theaperiamstrings.co.uk","Leeds","Soul, Rock","0","105","False"
+"M186","Glenn & Stephen","Duo","booking@glennstephen.co.uk","London","Hip-Hop, DJ","16","1200","False"
+"M187","Charlie & Ruth","Duo","booking@charlieruth.co.uk","Sheffield","Soul, Acoustic","7","590","True"
+"M188","Mohamed Simpson-Hudson","Solo","booking@mohamedsimpson-hudson.co.uk","Cardiff","Soul, Country","9","490","True"
+"M189","Brett & Michael","Duo","booking@brettmichael.co.uk","Brighton","Pop","8","650","True"
+"M190","DJ Patrick","DJ","booking@djpatrick.co.uk","Brighton","DJ, Electronic","5","380","True"
+"M191","The Sint Echoes","Band","booking@thesintechoes.co.uk","Cardiff","Soul, Classical","10","1150","True"
+"M192","The Sequi Band","Trio","booking@thesequiband.co.uk","Manchester","Acoustic","6","780","True"
+"M193","Jordan & Kirsty","Duo","booking@jordankirsty.co.uk","Birmingham","Acoustic","20","1260","True"
+"M194","The Commodi Band","Band","booking@thecommodiband.co.uk","Edinburgh","Pop","12","1510","True"
+"M195","The Eveniet Band","Trio","booking@theevenietband.co.uk","Birmingham","Folk, Jazz","13","1510","True"
+"M196","The Possimus Strings","Trio","booking@thepossimusstrings.co.uk","Belfast","Soul","1","280","False"
+"M197","Marilyn & Wayne","Duo","booking@marilynwayne.co.uk","Leeds","Electronic, R&B","5","540","True"
+"M198","The Asperiores Strings","Quartet","booking@theasperioresstrings.co.uk","Bristol","Classical","15","1790","False"
+"M199","The Architecto Echoes","Quartet","booking@thearchitectoechoes.co.uk","Edinburgh","Classical","19","2000","True"
+"M200","Alexander Hill","Solo","booking@alexanderhill.co.uk","Manchester","Hip-Hop, Soul","0","142","False"
+"M201","The Modi Echoes","Trio","booking@themodiechoes.co.uk","Birmingham","Soul","15","1810","True"
+"M202","The Officiis Echoes","Band","booking@theofficiisechoes.co.uk","Edinburgh","Pop","15","1780","False"
+"M203","Georgia White-Palmer","Solo","booking@georgiawhite-palmer.co.uk","Birmingham","Jazz","9","410","True"
+"M204","Stephen & Kirsty","Duo","booking@stephenkirsty.co.uk","Cardiff","Country, Hip-Hop","1","130","True"
+"M205","The Voluptate Echoes","Trio","booking@thevoluptateechoes.co.uk","Leeds","Classical","19","2000","True"
+"M206","Kirsty Carter","Solo","booking@kirstycarter.co.uk","Leeds","Folk","11","560","True"
+"M207","Charlotte & Scott","Duo","booking@charlottescott.co.uk","Leeds","Hip-Hop, Acoustic","6","550","True"
+"M208","The Earum Band","Trio","booking@theearumband.co.uk","Brighton","R&B, Rock","16","1910","True"
+"M209","The Expedita Band","Quartet","booking@theexpeditaband.co.uk","Newcastle","Classical","10","1210","True"
+"M210","The Quas Strings","Band","booking@thequasstrings.co.uk","Leeds","DJ, R&B","16","1750","True"
+"M211","The Veritatis Band","Quartet","booking@theveritatisband.co.uk","Liverpool","Classical","10","1300","True"
+"M212","The Accusamus Echoes","Trio","booking@theaccusamusechoes.co.uk","Bristol","DJ, Jazz","15","1710","True"
+"M213","The Culpa Project","Trio","booking@theculpaproject.co.uk","London","DJ, Rock","0","148","False"
+"M214","Charles & Oliver","Duo","booking@charlesoliver.co.uk","Liverpool","Classical","20","1300","True"
+"M215","Tina & Frederick","Duo","booking@tinafrederick.co.uk","Brighton","Hip-Hop, Indie","10","690","True"
+"M216","The Tenetur Boys","Band","booking@theteneturboys.co.uk","Bristol","Soul","19","2000","True"
+"M217","Cheryl & Jacqueline","Duo","booking@cheryljacqueline.co.uk","Brighton","Acoustic","17","1180","True"
+"M218","Thomas & Annette","Duo","booking@thomasannette.co.uk","Newcastle","Classical, Electronic","7","560","False"
+"M219","The Voluptates Echoes","Trio","booking@thevoluptatesechoes.co.uk","Bristol","Jazz, Indie","7","880","True"
+"M220","Ms Suzanne Cunningham","Solo","booking@mssuzannecunningham.co.uk","Glasgow","Folk, Jazz","0","131","False"
+"M221","Sylvia & Andrew","Duo","booking@sylviaandrew.co.uk","Glasgow","Country, Rock","9","660","True"
+"M222","Sylvia Smith-Clements","Solo","booking@sylviasmith-clements.co.uk","Newcastle","Classical, Electronic","12","540","True"
+"M223","June Lewis-Fraser","Solo","booking@junelewis-fraser.co.uk","Brighton","Pop","20","810","True"
+"M224","Ronald Morris","Solo","booking@ronaldmorris.co.uk","Manchester","R&B, Rock","10","400","False"
+"M225","DJ Lawrence","DJ","booking@djlawrence.co.uk","Newcastle","DJ","11","530","True"
+"M226","Miss Zoe Smith","Solo","booking@misszoesmith.co.uk","Sheffield","Hip-Hop, Electronic","0","128","False"
+"M227","Jeffrey Holmes","Solo","booking@jeffreyholmes.co.uk","Edinburgh","Pop, Acoustic","13","630","True"
+"M228","The Repellat Strings","Quartet","booking@therepellatstrings.co.uk","Edinburgh","Classical","7","940","True"
+"M229","The Tempore Echoes","Trio","booking@thetemporeechoes.co.uk","Bristol","Electronic, Soul","2","280","True"
+"M230","The Ex Project","Trio","booking@theexproject.co.uk","Sheffield","R&B","5","620","True"
+"M231","The Illum Project","Quartet","booking@theillumproject.co.uk","Manchester","Classical","0","114","False"
+"M232","The Officiis Band","Band","booking@theofficiisband.co.uk","Liverpool","Rock, R&B","6","770","True"
+"M233","The Eveniet Project","Band","booking@theevenietproject.co.uk","Cardiff","Rock","0","140","False"
+"M234","The Odit Project","Trio","booking@theoditproject.co.uk","Glasgow","DJ, Folk","15","1790","True"
+"M235","The Beatae Cats","Band","booking@thebeataecats.co.uk","London","DJ","19","2000","True"
+"M236","The Numquam Band","Trio","booking@thenumquamband.co.uk","Cardiff","Blues","0","116","False"
+"M237","The Amet Strings","Trio","booking@theametstrings.co.uk","Bristol","Rock, Acoustic","16","1780","False"
+"M238","The Officiis Strings","Band","booking@theofficiisstrings.co.uk","Birmingham","Classical, Country","6","880","True"
+"M239","The Officiis Boys","Trio","booking@theofficiisboys.co.uk","Edinburgh","Country","8","910","True"
+"M240","Mrs Hannah Brown","Solo","booking@mrshannahbrown.co.uk","Sheffield","DJ, Electronic","13","480","True"
+"M241","Mr Nathan Shah","Solo","booking@mrnathanshah.co.uk","Bristol","Pop, Soul","8","430","True"
+"M242","DJ Jenna","DJ","booking@djjenna.co.uk","Manchester","DJ, Electronic","19","680","True"
+"M243","The Odio Strings","Trio","booking@theodiostrings.co.uk","Edinburgh","Acoustic, R&B","10","1210","True"
+"M244","The Corrupti Project","Quartet","booking@thecorruptiproject.co.uk","Newcastle","Acoustic","17","1940","False"
+"M245","DJ Sarah","DJ","booking@djsarah.co.uk","Manchester","DJ","16","570","True"
+"M246","Natalie & Neil","Duo","booking@natalieneil.co.uk","Belfast","Electronic, Classical","19","1190","True"
+"M247","DJ Samuel","DJ","booking@djsamuel.co.uk","Edinburgh","DJ","18","670","True"
+"M248","Joyce & Fiona","Duo","booking@joycefiona.co.uk","Newcastle","Acoustic, Blues","1","120","True"
+"M249","Ryan & Paige","Duo","booking@ryanpaige.co.uk","Birmingham","Country, Pop","18","1290","True"
+"M250","The Corrupti Echoes","Quartet","booking@thecorruptiechoes.co.uk","Newcastle","Classical","10","1300","True"
+"M251","DJ Olivia","DJ","booking@djolivia.co.uk","Manchester","DJ","12","530","True"
+"M252","The Magni Band","Quartet","booking@themagniband.co.uk","Glasgow","DJ, Blues","0","146","False"
+"M253","The Aut Strings","Quartet","booking@theautstrings.co.uk","London","Classical","9","1070","True"
+"M254","DJ Charlotte","DJ","booking@djcharlotte.co.uk","Belfast","DJ","12","460","True"
+"M255","The Quod Project","Trio","booking@thequodproject.co.uk","Cardiff","Rock","1","320","True"
+"M256","Luke Humphries","Solo","booking@lukehumphries.co.uk","Brighton","Hip-Hop, Acoustic","20","810","True"
+"M257","DJ Mandy","DJ","booking@djmandy.co.uk","Brighton","DJ, Electronic","13","580","True"
+"M258","Harry & Sarah","Duo","booking@harrysarah.co.uk","Belfast","Blues","11","770","True"
+"M259","Billy & Lydia","Duo","booking@billylydia.co.uk","Belfast","Rock","9","730","True"
+"M260","The Quisquam Strings","Quartet","booking@thequisquamstrings.co.uk","Sheffield","DJ, Jazz","19","2000","True"
+"M261","The Optio Boys","Trio","booking@theoptioboys.co.uk","Edinburgh","R&B","14","1700","True"
+"M262","The Cupiditate Strings","Trio","booking@thecupiditatestrings.co.uk","Cardiff","R&B","2","300","True"
+"M263","The Deleniti Band","Band","booking@thedelenitiband.co.uk","Bristol","Country, Pop","15","1670","True"
+"M264","The Fugiat Echoes","Quartet","booking@thefugiatechoes.co.uk","London","DJ, Hip-Hop","1","260","True"
+"M265","DJ Kim","DJ","booking@djkim.co.uk","Cardiff","DJ","0","137","False"
+"M266","DJ Maria","DJ","booking@djmaria.co.uk","Glasgow","DJ, Electronic","18","760","True"
+"M267","Jamie Dyer-Harris","Solo","booking@jamiedyer-harris.co.uk","Brighton","Pop, Blues","14","610","True"
+"M268","Olivia & Joel","Duo","booking@oliviajoel.co.uk","Sheffield","Indie, Country","5","460","True"
+"M269","The Nam Project","Trio","booking@thenamproject.co.uk","London","Indie","1","340","True"
+"M270","DJ Olivia","DJ","booking@djolivia.co.uk","Edinburgh","DJ, Electronic","18","650","True"
+"M271","DJ Diana","DJ","booking@djdiana.co.uk","Bristol","DJ, Electronic","19","780","False"
+"M272","The Tempora Strings","Quartet","booking@thetemporastrings.co.uk","Leeds","Classical","4","610","True"
+"M273","The Nihil Cats","Quartet","booking@thenihilcats.co.uk","Brighton","Classical","20","2000","True"
+"M274","DJ Sandra","DJ","booking@djsandra.co.uk","London","DJ","11","500","True"
+"M275","Antony & Gillian","Duo","booking@antonygillian.co.uk","Liverpool","Indie, Pop","6","490","True"
+"M276","The Magnam Boys","Quartet","booking@themagnamboys.co.uk","London","Classical","18","1970","True"
+"M277","DJ Frank","DJ","booking@djfrank.co.uk","Belfast","DJ, Electronic","17","610","True"
+"M278","The Autem Project","Band","booking@theautemproject.co.uk","Manchester","Country","6","860","True"
+"M279","Vanessa & Edward","Duo","booking@vanessaedward.co.uk","Bristol","Pop","0","137","False"
+"M280","Lorraine & Georgina","Duo","booking@lorrainegeorgina.co.uk","Liverpool","Classical, Folk","0","119","False"
+"M281","The Odit Strings","Band","booking@theoditstrings.co.uk","Manchester","Indie, Soul","4","470","True"
+"M282","Irene Roberts-Higgins","Solo","booking@ireneroberts-higgins.co.uk","Cardiff","Blues","15","670","True"
+"M283","Duncan Williams","Solo","booking@duncanwilliams.co.uk","Cardiff","Hip-Hop, Soul","5","230","True"
+"M284","The Ducimus Echoes","Band","booking@theducimusechoes.co.uk","Edinburgh","R&B","0","130","False"
+"M285","The Sequi Boys","Quartet","booking@thesequiboys.co.uk","Bristol","Classical","1","270","True"
+"M286","The Optio Echoes","Trio","booking@theoptioechoes.co.uk","Glasgow","Country","18","2000","True"
+"M287","The Magnam Strings","Band","booking@themagnamstrings.co.uk","Manchester","Jazz","0","108","False"
+"M288","Jodie & Douglas","Duo","booking@jodiedouglas.co.uk","Manchester","Electronic","5","460","True"
+"M289","The Nobis Cats","Band","booking@thenobiscats.co.uk","Leeds","R&B","16","1870","True"
+"M290","The Impedit Cats","Quartet","booking@theimpeditcats.co.uk","Glasgow","Rock","12","1380","True"
+"M291","The Voluptatum Project","Quartet","booking@thevoluptatumproject.co.uk","Manchester","Classical","9","1080","True"
+"M292","The Ea Band","Trio","booking@theeaband.co.uk","Belfast","Indie","13","1520","True"
+"M293","Dr Marilyn Wells","Solo","booking@drmarilynwells.co.uk","Birmingham","Pop, Classical","11","450","True"
+"M294","The Ratione Strings","Quartet","booking@therationestrings.co.uk","Manchester","Country, Blues","13","1470","False"
+"M295","The Sunt Cats","Trio","booking@thesuntcats.co.uk","Liverpool","Rock, Hip-Hop","0","139","False"
+"M296","DJ Matthew","DJ","booking@djmatthew.co.uk","Belfast","DJ, Electronic","11","420","True"
+"M297","The Facere Band","Band","booking@thefacereband.co.uk","Liverpool","Classical","16","1900","True"
+"M298","The Pariatur Cats","Trio","booking@thepariaturcats.co.uk","Newcastle","Jazz, DJ","7","820","True"
+"M299","DJ Alison","DJ","booking@djalison.co.uk","London","DJ, Electronic","18","620","True"
+"M300","The Minima Echoes","Band","booking@theminimaechoes.co.uk","Brighton","R&B","13","1520","True"

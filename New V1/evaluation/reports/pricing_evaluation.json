@@ -1,0 +1,17 @@
+{
+  "test_size": 120,
+  "models": {
+    "Ridge Regression": {
+      "RMSE": 2228.43,
+      "MAE": 1754.03,
+      "R2": 0.7807,
+      "MAPE": 62.23
+    },
+    "LightGBM": {
+      "RMSE": 2156.76,
+      "MAE": 1601.55,
+      "R2": 0.7946,
+      "MAPE": 32.04
+    }
+  }
+}
