@@ -59,12 +59,19 @@ def get_recommendations(
     top_n: int = Query(10, ge=1, le=50),
 ):
     ml = MLService.get_instance()
-    return ml.get_recommendations(
-        client_id=client_id,
-        genres=genres,
-        location=location,
-        top_n=top_n,
-    )
+    try:
+        return ml.get_recommendations(
+            client_id=client_id,
+            genres=genres,
+            location=location,
+            top_n=top_n,
+        )
+    except Exception as e:
+        import traceback
+        print(f"ERROR: AI Recommendations failed: {e}")
+        traceback.print_exc()
+        from fastapi import HTTPException
+        raise HTTPException(status_code=500, detail=f"AI Recommendation Engine unavailable: {str(e)}")
 
 
 # ─── DEMAND FORECAST ─────────────────────────────────────────────────────────

@@ -17,7 +17,17 @@ from config import (
     DEMAND_MODEL_PATH,
     SENTIMENT_MODEL_PATH,
     RAW_DATA_DIR,
+    PROJECT_ROOT,
 )
+
+import importlib.util
+
+# Load the HybridRecommender class from its file directly to avoid path conflicts
+MODELS_DIR = PROJECT_ROOT / "New V1" / "models"
+spec = importlib.util.spec_from_file_location("recommendation_model", str(MODELS_DIR / "recommendation_model.py"))
+rec_mod = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(rec_mod)
+HybridRecommender = rec_mod.HybridRecommender
 
 
 class MLService:
@@ -35,12 +45,7 @@ class MLService:
         self._anomaly_model = None
         self._anomaly_scaler = None
 
-        self._recommender_tfidf = None
-        self._recommender_tfidf_mat = None
-        self._recommender_svd = None
-        self._recommender_user_item = None
-        self._recommender_cf_preds = None
-        self._recommender_musicians = None
+        self._recommender = None
         self._recommender_config = None
 
         self._demand_model = None
@@ -231,17 +236,11 @@ class MLService:
     # ═══════════════════════════════════════════════════════════════════════════
 
     def _load_recommendation(self):
-        if self._recommender_tfidf is not None:
+        if self._recommender is not None:
             return
         p = RECOMMENDATION_MODEL_PATH
-        self._recommender_config = joblib.load(p / "recommender_config.joblib")
-        self._recommender_tfidf = joblib.load(p / "tfidf_vectorizer.joblib")
-        self._recommender_tfidf_mat = joblib.load(p / "tfidf_matrix.joblib")
-        self._recommender_svd = joblib.load(p / "svd_model.joblib")
-        self._recommender_user_item = joblib.load(p / "user_item_matrix.joblib")
-        self._recommender_cf_preds = joblib.load(p / "cf_predictions.joblib")
-        self._recommender_musicians = joblib.load(p / "musicians_index.joblib")
-        print("[ML] Recommendation model loaded ✓")
+        self._recommender = HybridRecommender.load(p)
+        print("[ML] Recommendation model loaded (V1 Hybrid) [OK]")
 
     def get_recommendations(
         self,
@@ -252,57 +251,23 @@ class MLService:
     ) -> list[dict]:
         """Get recommended musicians for a client."""
         self._load_recommendation()
-
-        cfg = self._recommender_config
-        alpha_max = cfg.get("alpha_max", 0.7)
-        beta = cfg.get("beta", 0.2)
-
-        from sklearn.metrics.pairwise import cosine_similarity
-
-        musicians = self._recommender_musicians
-
-        # CBF scores
-        query_text = f"{genres or ''} {location or ''}".strip() or "pop"
-        query_vec = self._recommender_tfidf.transform([query_text])
-        cbf = cosine_similarity(query_vec, self._recommender_tfidf_mat).flatten()
-        cbf_series = pd.Series(cbf, index=musicians.index)
-
-        # CF scores
-        alpha = 0.0
-        cf_norm = pd.Series(0.0, index=musicians.index)
-        if client_id and self._recommender_user_item is not None and client_id in self._recommender_user_item.index:
-            rated = (self._recommender_user_item.loc[client_id] > 0).sum()
-            alpha = min(rated / 10, alpha_max)
-            if alpha > 0:
-                cf_raw = self._recommender_cf_preds.loc[client_id].reindex(musicians.index).fillna(0)
-                cf_norm = (cf_raw - cf_raw.min()) / (cf_raw.max() - cf_raw.min() + 1e-8)
-
-        hybrid = alpha * cf_norm + (1 - alpha) * cbf_series
-
-        # Sentiment boost
-        sent = musicians.get("avg_sentiment", pd.Series(0.5, index=musicians.index))
-        hybrid = hybrid * (1 + beta * sent.reindex(musicians.index).fillna(0.5))
-
-        result = pd.DataFrame({
-            "Musician_ID": hybrid.index,
-            "final_score": hybrid.values,
-            "cbf_score": cbf_series.values,
-            "cf_score": cf_norm.values,
-            "sentiment_boost": sent.reindex(hybrid.index).fillna(0.5).values,
-        })
-
-        # Merge musician details
-        musician_details = musicians[["Musician_Name", "Musician_Type", "Genres", "Location", "Base_Price"]].reset_index()
-        result = result.merge(musician_details, on="Musician_ID", how="left")
-        result = result.sort_values("final_score", ascending=False).head(top_n).reset_index(drop=True)
-
-        return result.rename(columns={
+        
+        # Call the dedicated recommendation method from the model class
+        recs_df = self._recommender.recommend(
+            client_id=client_id,
+            genres=genres,
+            location=location
+        )
+        
+        # Map to the keys expected by the frontend
+        return recs_df.head(top_n).rename(columns={
             "Musician_ID": "musician_id",
-            "Musician_Name": "musician_name",
-            "Musician_Type": "musician_type",
+            "Musician_Name": "name",
+            "Musician_Type": "type",
             "Genres": "genres",
             "Location": "location",
             "Base_Price": "base_price",
+            # final_score, cbf_score, sentiment_boost are already in recs_df
         }).to_dict(orient="records")
 
     # ═══════════════════════════════════════════════════════════════════════════
